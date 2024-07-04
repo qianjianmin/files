@@ -203,7 +203,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 8.219.124.227,2082,FALSE,SIN,Asia Pacific,Singapore,75 ms,11670 kB/s
 152.70.155.147,2082,FALSE,LAX,North America,Los Angeles,238 ms,10189 kB/s
 8.219.161.129,2082,FALSE,SIN,Asia Pacific,Singapore,73 ms,10022 kB/s
-47.242.202.230,2082,FALSE,HKG,Asia Pacific,Hong Kong,62 ms,8934 kB/s
 8.219.240.160,2082,FALSE,SIN,Asia Pacific,Singapore,76 ms,7550 kB/s
 8.219.240.160,2082,FALSE,SIN,Asia Pacific,Singapore,71 ms,4622 kB/s
 8.222.137.192,2083,TRUE,SIN,Asia Pacific,Singapore,63 ms,29428 kB/s
@@ -270,8 +269,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 152.70.155.147,2083,TRUE,LAX,North America,Los Angeles,231 ms,10708 kB/s
 8.219.114.201,2083,TRUE,SIN,Asia Pacific,Singapore,74 ms,10195 kB/s
 152.70.155.147,2083,TRUE,LAX,North America,Los Angeles,238 ms,9467 kB/s
-47.242.202.230,2083,TRUE,HKG,Asia Pacific,Hong Kong,70 ms,5335 kB/s
-47.242.202.230,2083,TRUE,HKG,Asia Pacific,Hong Kong,58 ms,4873 kB/s
 8.219.240.160,2083,TRUE,SIN,Asia Pacific,Singapore,73 ms,3289 kB/s
 8.219.60.54,2083,TRUE,SIN,Asia Pacific,Singapore,68 ms,630 kB/s
 8.219.111.147,2083,TRUE,SIN,Asia Pacific,Singapore,71 ms,0 kB/s
@@ -347,8 +344,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 152.70.155.147,2086,FALSE,LAX,North America,Los Angeles,231 ms,11257 kB/s
 152.70.155.147,2086,FALSE,LAX,North America,Los Angeles,232 ms,9353 kB/s
 8.219.240.160,2086,FALSE,SIN,Asia Pacific,Singapore,80 ms,5394 kB/s
-47.242.202.230,2086,FALSE,HKG,Asia Pacific,Hong Kong,68 ms,4414 kB/s
-47.242.202.230,2086,FALSE,HKG,Asia Pacific,Hong Kong,59 ms,3650 kB/s
 8.219.240.160,2086,FALSE,SIN,Asia Pacific,Singapore,70 ms,2063 kB/s
 8.219.51.211,2087,TRUE,SIN,Asia Pacific,Singapore,74 ms,28535 kB/s
 8.219.50.180,2087,TRUE,SIN,Asia Pacific,Singapore,71 ms,28142 kB/s
@@ -417,9 +412,7 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 8.219.106.156,2087,TRUE,SIN,Asia Pacific,Singapore,68 ms,11291 kB/s
 8.222.193.65,2087,TRUE,SIN,Asia Pacific,Singapore,65 ms,11198 kB/s
 152.70.155.147,2087,TRUE,LAX,North America,Los Angeles,232 ms,9613 kB/s
-47.242.202.230,2087,TRUE,HKG,Asia Pacific,Hong Kong,61 ms,8337 kB/s
 152.70.155.147,2087,TRUE,LAX,North America,Los Angeles,231 ms,8227 kB/s
-47.242.202.230,2087,TRUE,HKG,Asia Pacific,Hong Kong,64 ms,7292 kB/s
 8.219.240.160,2087,TRUE,SIN,Asia Pacific,Singapore,76 ms,7213 kB/s
 8.219.60.54,2087,TRUE,SIN,Asia Pacific,Singapore,72 ms,4172 kB/s
 8.219.106.156,2087,TRUE,SIN,Asia Pacific,Singapore,75 ms,0 kB/s
@@ -496,8 +489,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 152.70.155.147,2095,FALSE,LAX,North America,Los Angeles,231 ms,11394 kB/s
 152.70.155.147,2095,FALSE,LAX,North America,Los Angeles,234 ms,10859 kB/s
 8.219.237.250,2095,FALSE,SIN,Asia Pacific,Singapore,70 ms,7077 kB/s
-47.242.202.230,2095,FALSE,HKG,Asia Pacific,Hong Kong,63 ms,6085 kB/s
-47.242.202.230,2095,FALSE,HKG,Asia Pacific,Hong Kong,60 ms,0 kB/s
 8.222.193.65,2096,TRUE,SIN,Asia Pacific,Singapore,71 ms,29402 kB/s
 8.222.208.38,2096,TRUE,SIN,Asia Pacific,Singapore,79 ms,28312 kB/s
 8.219.0.162,2096,TRUE,SIN,Asia Pacific,Singapore,71 ms,28105 kB/s
@@ -558,8 +549,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 152.70.155.147,2096,TRUE,LAX,North America,Los Angeles,231 ms,10067 kB/s
 152.70.155.147,2096,TRUE,LAX,North America,Los Angeles,233 ms,9813 kB/s
 8.219.200.145,2096,TRUE,SIN,Asia Pacific,Singapore,74 ms,8347 kB/s
-47.242.202.230,2096,TRUE,HKG,Asia Pacific,Hong Kong,64 ms,5509 kB/s
-47.242.202.230,2096,TRUE,HKG,Asia Pacific,Hong Kong,62 ms,4744 kB/s
 8.219.240.160,2096,TRUE,SIN,Asia Pacific,Singapore,81 ms,0 kB/s
 47.74.4.97,443,TRUE,NRT,Asia Pacific,Tokyo,33 ms,31641 kB/s
 8.219.174.142,443,TRUE,SIN,Asia Pacific,Singapore,71 ms,30907 kB/s
@@ -591,7 +580,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 130.162.140.215,443,TRUE,NRT,Asia Pacific,Tokyo,65 ms,18672 kB/s
 43.153.103.203,443,TRUE,SJC,North America,San Jose,136 ms,18585 kB/s
 8.222.193.65,443,TRUE,SIN,Asia Pacific,Singapore,66 ms,18322 kB/s
-146.56.146.67,443,TRUE,HKG,Asia Pacific,Hong Kong,89 ms,17650 kB/s
 8.222.208.38,443,TRUE,SIN,Asia Pacific,Singapore,71 ms,17481 kB/s
 8.219.126.240,443,TRUE,SIN,Asia Pacific,Singapore,74 ms,17159 kB/s
 64.110.88.46,443,TRUE,ICN,Asia Pacific,Seoul,88 ms,17159 kB/s
@@ -743,7 +731,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 129.159.84.71,443,TRUE,IAD,North America,Ashburn,229 ms,273 kB/s
 144.24.83.117,443,TRUE,ICN,Asia Pacific,Seoul,50 ms,188 kB/s
 144.24.83.117,443,TRUE,ICN,Asia Pacific,Seoul,55 ms,188 kB/s
-47.242.202.230,443,TRUE,HKG,Asia Pacific,Hong Kong,61 ms,0 kB/s
 34.148.187.247,443,TRUE,ATL,North America,Atlanta,222 ms,0 kB/s
 8.219.111.147,443,TRUE,SIN,Asia Pacific,Singapore,69 ms,0 kB/s
 168.138.162.187,443,TRUE,SIN,Asia Pacific,Singapore,255 ms,0 kB/s
@@ -931,8 +918,6 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 8.219.124.227,8080,FALSE,SIN,Asia Pacific,Singapore,72 ms,11547 kB/s
 152.70.155.147,8080,FALSE,LAX,North America,Los Angeles,242 ms,11371 kB/s
 152.70.155.147,8080,FALSE,LAX,North America,Los Angeles,233 ms,11188 kB/s
-47.242.202.230,8080,FALSE,HKG,Asia Pacific,Hong Kong,67 ms,9772 kB/s
-47.242.202.230,8080,FALSE,HKG,Asia Pacific,Hong Kong,59 ms,6038 kB/s
 8.219.240.160,8080,FALSE,SIN,Asia Pacific,Singapore,80 ms,3657 kB/s
 8.219.51.211,8080,FALSE,SIN,Asia Pacific,Singapore,70 ms,0 kB/s
 8.219.111.147,8080,FALSE,SIN,Asia Pacific,Singapore,71 ms,0 kB/s
@@ -972,9 +957,7 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 8.219.237.250,8443,TRUE,SIN,Asia Pacific,Singapore,79 ms,12603 kB/s
 152.70.155.147,8443,TRUE,LAX,North America,Los Angeles,235 ms,10598 kB/s
 152.70.155.147,8443,TRUE,LAX,North America,Los Angeles,233 ms,9947 kB/s
-47.242.202.230,8443,TRUE,HKG,Asia Pacific,Hong Kong,58 ms,7865 kB/s
 107.172.98.6,8443,TRUE,SJC,North America,San Jose,153 ms,5835 kB/s
-47.242.202.230,8443,TRUE,HKG,Asia Pacific,Hong Kong,71 ms,5819 kB/s
 158.101.11.22,8443,TRUE,LAX,North America,Los Angeles,242 ms,3812 kB/s
 107.172.98.6,8443,TRUE,SJC,North America,San Jose,152 ms,3799 kB/s
 8.219.240.160,8443,TRUE,SIN,Asia Pacific,Singapore,73 ms,2781 kB/s
@@ -1054,6 +1037,4 @@ IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
 8.219.174.142,8880,FALSE,SIN,Asia Pacific,Singapore,72 ms,11705 kB/s
 152.70.155.147,8880,FALSE,LAX,North America,Los Angeles,237 ms,11197 kB/s
 8.219.42.72,8880,FALSE,SIN,Asia Pacific,Singapore,77 ms,10959 kB/s
-47.242.202.230,8880,FALSE,HKG,Asia Pacific,Hong Kong,65 ms,6713 kB/s
-47.242.202.230,8880,FALSE,HKG,Asia Pacific,Hong Kong,58 ms,6683 kB/s
 8.219.240.160,8880,FALSE,SIN,Asia Pacific,Singapore,73 ms,4104 kB/s
