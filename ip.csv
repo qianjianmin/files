@@ -1,99 +1,36 @@
 IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
-104.18.145.232,2053,true,SJC,North America,San Jose,136 ms,20594 kB/s
-104.17.152.95,2053,true,SJC,North America,San Jose,137 ms,20491 kB/s
-104.17.172.73,2053,true,SJC,North America,San Jose,138 ms,20451 kB/s
-104.18.135.64,2053,true,SJC,North America,San Jose,134 ms,20418 kB/s
-104.18.158.182,2053,true,SJC,North America,San Jose,143 ms,20395 kB/s
-104.18.102.49,2053,true,SJC,North America,San Jose,141 ms,20047 kB/s
-104.18.136.64,2053,true,SJC,North America,San Jose,138 ms,19866 kB/s
-104.16.111.248,2053,true,SJC,North America,San Jose,132 ms,19777 kB/s
-104.16.4.19,2053,true,SJC,North America,San Jose,139 ms,19762 kB/s
-104.17.242.179,2053,true,SJC,North America,San Jose,133 ms,19749 kB/s
-104.19.251.53,2053,true,SJC,North America,San Jose,137 ms,19726 kB/s
-104.18.188.21,2053,true,SJC,North America,San Jose,139 ms,19718 kB/s
-104.18.178.187,2053,true,SJC,North America,San Jose,138 ms,19684 kB/s
-104.18.65.64,2053,true,SJC,North America,San Jose,132 ms,19681 kB/s
-104.19.213.242,2053,true,SJC,North America,San Jose,133 ms,19657 kB/s
-104.18.73.132,2053,true,SJC,North America,San Jose,134 ms,19653 kB/s
-104.18.67.54,2053,true,SJC,North America,San Jose,139 ms,19552 kB/s
-104.19.228.214,2053,true,SJC,North America,San Jose,140 ms,19507 kB/s
-104.18.235.177,2053,true,SJC,North America,San Jose,150 ms,19436 kB/s
-104.17.241.13,2053,true,SJC,North America,San Jose,144 ms,19366 kB/s
-104.16.16.202,2053,true,SJC,North America,San Jose,133 ms,19366 kB/s
-104.16.53.151,2053,true,SJC,North America,San Jose,139 ms,19297 kB/s
-104.16.7.56,2053,true,SJC,North America,San Jose,138 ms,19242 kB/s
-104.19.186.33,2053,true,SJC,North America,San Jose,138 ms,19220 kB/s
-198.41.209.162,2053,true,SJC,North America,San Jose,138 ms,19119 kB/s
-104.17.214.98,2053,true,SJC,North America,San Jose,141 ms,19110 kB/s
-104.18.180.134,2053,true,SJC,North America,San Jose,144 ms,19109 kB/s
-104.18.239.130,2053,true,SJC,North America,San Jose,137 ms,19083 kB/s
-104.17.207.87,2053,true,SJC,North America,San Jose,138 ms,19074 kB/s
-104.18.69.69,2053,true,SJC,North America,San Jose,141 ms,18979 kB/s
-104.17.243.94,2053,true,SJC,North America,San Jose,140 ms,18974 kB/s
-104.17.181.122,2053,true,SJC,North America,San Jose,139 ms,18953 kB/s
-188.114.96.46,2053,true,SJC,North America,San Jose,146 ms,18939 kB/s
-104.16.21.110,2053,true,SJC,North America,San Jose,135 ms,18764 kB/s
-104.18.195.251,2053,true,SJC,North America,San Jose,154 ms,18724 kB/s
-104.18.224.1,2053,true,SJC,North America,San Jose,142 ms,17557 kB/s
-104.18.117.50,2053,true,SJC,North America,San Jose,141 ms,16831 kB/s
-104.18.141.42,2053,true,SJC,North America,San Jose,130 ms,16679 kB/s
-104.18.111.177,2053,true,SJC,North America,San Jose,137 ms,16416 kB/s
-104.16.36.216,2053,true,SJC,North America,San Jose,146 ms,633 kB/s
-104.19.176.183,2053,true,SJC,North America,San Jose,149 ms,0 kB/s
-104.17.170.18,2053,true,SJC,North America,San Jose,144 ms,0 kB/s
-104.16.18.223,2053,true,SJC,North America,San Jose,151 ms,0 kB/s
-104.19.221.51,2053,true,SJC,North America,San Jose,148 ms,0 kB/s
-104.18.132.247,2053,true,SJC,North America,San Jose,144 ms,0 kB/s
-104.19.175.74,2053,true,SJC,North America,San Jose,149 ms,0 kB/s
-104.17.198.206,2053,true,SJC,North America,San Jose,140 ms,0 kB/s
-104.18.229.213,2053,true,SJC,North America,San Jose,151 ms,0 kB/s
-104.16.97.205,2053,true,SJC,North America,San Jose,140 ms,0 kB/s
-104.18.223.148,2053,true,SJC,North America,San Jose,143 ms,0 kB/s
-104.21.232.214,2053,true,SJC,North America,San Jose,144 ms,0 kB/s
-104.16.33.102,2053,true,SJC,North America,San Jose,142 ms,0 kB/s
-104.16.110.85,2053,true,SJC,North America,San Jose,150 ms,0 kB/s
-104.17.205.186,2053,true,SJC,North America,San Jose,152 ms,0 kB/s
-104.16.66.40,2053,true,SJC,North America,San Jose,150 ms,0 kB/s
-104.16.84.80,2053,true,SJC,North America,San Jose,147 ms,0 kB/s
-104.16.2.229,2053,true,SJC,North America,San Jose,142 ms,0 kB/s
-104.16.9.239,2053,true,SJC,North America,San Jose,152 ms,0 kB/s
-104.16.112.60,2053,true,SJC,North America,San Jose,153 ms,0 kB/s
-104.16.99.60,2053,true,SJC,North America,San Jose,157 ms,0 kB/s
-104.16.61.3,2053,true,SJC,North America,San Jose,157 ms,0 kB/s
-104.17.217.45,2053,true,SJC,North America,San Jose,145 ms,0 kB/s
-104.18.252.107,2053,true,SJC,North America,San Jose,147 ms,0 kB/s
-104.17.232.155,2053,true,SJC,North America,San Jose,146 ms,0 kB/s
-104.17.219.229,2053,true,SJC,North America,San Jose,145 ms,0 kB/s
-104.19.252.166,2053,true,SJC,North America,San Jose,139 ms,0 kB/s
-104.16.59.219,2053,true,SJC,North America,San Jose,138 ms,0 kB/s
-104.16.41.252,2053,true,SJC,North America,San Jose,145 ms,0 kB/s
-104.16.88.85,2053,true,SJC,North America,San Jose,146 ms,0 kB/s
-104.18.127.134,2053,true,SJC,North America,San Jose,139 ms,0 kB/s
-104.16.65.96,2053,true,SJC,North America,San Jose,150 ms,0 kB/s
-104.17.201.81,2053,true,SJC,North America,San Jose,148 ms,0 kB/s
-104.18.166.52,2053,true,SJC,North America,San Jose,142 ms,0 kB/s
-104.17.220.208,2053,true,SJC,North America,San Jose,145 ms,0 kB/s
-104.18.254.136,2053,true,SJC,North America,San Jose,147 ms,0 kB/s
-104.17.193.120,2053,true,SJC,North America,San Jose,143 ms,0 kB/s
-104.16.37.170,2053,true,SJC,North America,San Jose,144 ms,0 kB/s
-104.19.182.115,2053,true,SJC,North America,San Jose,148 ms,0 kB/s
-104.17.186.85,2053,true,SJC,North America,San Jose,148 ms,0 kB/s
-104.16.32.109,2053,true,SJC,North America,San Jose,155 ms,0 kB/s
-104.18.155.31,2053,true,SJC,North America,San Jose,147 ms,0 kB/s
-104.16.90.82,2053,true,SJC,North America,San Jose,157 ms,0 kB/s
-104.16.51.78,2053,true,SJC,North America,San Jose,179 ms,0 kB/s
-104.16.80.116,2053,true,SJC,North America,San Jose,158 ms,0 kB/s
-104.17.236.208,2053,true,SJC,North America,San Jose,179 ms,0 kB/s
-104.17.184.50,2053,true,SJC,North America,San Jose,150 ms,0 kB/s
-104.16.104.211,2053,true,SJC,North America,San Jose,152 ms,0 kB/s
-104.16.42.249,2053,true,SJC,North America,San Jose,151 ms,0 kB/s
-104.16.81.28,2053,true,SJC,North America,San Jose,152 ms,0 kB/s
-104.16.72.72,2053,true,SJC,North America,San Jose,154 ms,0 kB/s
-104.16.76.253,2053,true,SJC,North America,San Jose,154 ms,0 kB/s
-104.16.77.45,2053,true,SJC,North America,San Jose,156 ms,0 kB/s
-104.16.69.99,2053,true,SJC,North America,San Jose,151 ms,0 kB/s
-104.17.233.104,2053,true,SJC,North America,San Jose,154 ms,0 kB/s
-104.16.107.28,2053,true,SJC,North America,San Jose,155 ms,0 kB/s
-104.16.108.11,2053,true,SJC,North America,San Jose,157 ms,0 kB/s
-104.16.49.230,2053,true,SJC,North America,San Jose,155 ms,0 kB/s
-104.19.177.78,2053,true,SJC,North America,San Jose,135 ms,0 kB/s
+192.9.246.112,8443,true,SJC,North America,San Jose,176 ms,10066 kB/s
+144.24.240.193,8443,true,MXP,Europe,Milan,190 ms,10034 kB/s
+141.145.205.115,8443,true,CDG,Europe,Paris,176 ms,9947 kB/s
+152.70.123.225,8443,true,SJC,North America,San Jose,178 ms,9433 kB/s
+132.145.54.84,8443,true,LHR,Europe,London,208 ms,9321 kB/s
+158.101.11.22,8443,true,LAX,North America,Los Angeles,192 ms,8950 kB/s
+152.67.232.185,8443,true,SJC,North America,San Jose,203 ms,8908 kB/s
+143.47.243.144,8443,true,LHR,Europe,London,177 ms,8859 kB/s
+152.67.78.164,8443,true,MXP,Europe,Milan,216 ms,8461 kB/s
+141.147.92.143,8443,true,LHR,Europe,London,184 ms,8288 kB/s
+141.148.229.231,8443,true,AMS,Europe,Amsterdam,238 ms,8010 kB/s
+144.24.169.81,8443,true,FRA,Europe,Frankfurt,240 ms,7914 kB/s
+192.9.137.193,8443,true,SJC,North America,San Jose,197 ms,7794 kB/s
+150.230.20.156,8443,true,AMS,Europe,Amsterdam,249 ms,7681 kB/s
+193.123.61.142,8443,true,AMS,Europe,Amsterdam,245 ms,7674 kB/s
+158.101.175.51,8443,true,FRA,Europe,Frankfurt,252 ms,7629 kB/s
+144.24.173.250,8443,true,FRA,Europe,Frankfurt,261 ms,7417 kB/s
+144.24.161.142,8443,true,FRA,Europe,Frankfurt,261 ms,7296 kB/s
+158.101.169.13,8443,true,FRA,Europe,Frankfurt,266 ms,7221 kB/s
+129.159.120.244,8443,true,IAD,North America,Ashburn,251 ms,7211 kB/s
+130.61.109.6,8443,true,FRA,Europe,Frankfurt,246 ms,7167 kB/s
+141.147.47.32,8443,true,FRA,Europe,Frankfurt,263 ms,7059 kB/s
+152.70.59.90,8443,true,AMS,Europe,Amsterdam,248 ms,7016 kB/s
+130.61.107.238,8443,true,FRA,Europe,Frankfurt,254 ms,6811 kB/s
+204.216.105.106,8443,true,YYZ,North America,Toronto,244 ms,6743 kB/s
+130.61.203.115,8443,true,FRA,Europe,Frankfurt,271 ms,6549 kB/s
+129.159.83.88,8443,true,IAD,North America,Ashburn,266 ms,5839 kB/s
+150.136.241.40,8443,true,IAD,North America,Ashburn,270 ms,5220 kB/s
+138.2.36.157,8443,true,KIX,Asia Pacific,Osaka,319 ms,5167 kB/s
+141.147.61.116,8443,true,FRA,Europe,Frankfurt,265 ms,4981 kB/s
+152.69.199.70,8443,true,KIX,Asia Pacific,Osaka,314 ms,4878 kB/s
+129.154.254.254,8443,true,BOM,Asia Pacific,Mumbai,325 ms,4123 kB/s
+158.101.215.45,8443,true,AMS,Europe,Amsterdam,263 ms,2593 kB/s
+132.226.163.224,8443,true,GRU,South America,S?o Paulo,352 ms,2080 kB/s
+132.145.127.203,8443,true,NRT,Asia Pacific,Tokyo,169 ms,88 kB/s
