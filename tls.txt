@@ -1,6 +1,6 @@
-www.digitalocean.com:2053
-www.digitalocean.com:2083
-www.digitalocean.com:2087
-www.digitalocean.com:2096
-www.digitalocean.com:443
-www.digitalocean.com:8443
+www.digitalocean.com:2053#官方域名
+www.digitalocean.com:2083#官方域名
+www.digitalocean.com:2087#官方域名
+www.digitalocean.com:2096#官方域名
+www.digitalocean.com:443#官方域名
+www.digitalocean.com:8443#官方域名
