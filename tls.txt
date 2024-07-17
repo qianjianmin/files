@@ -1,6 +1,6 @@
-ip1.qjm01.dynv6.net:2053#官方
-ip1.qjm01.dynv6.net:2083#官方
-ip1.qjm01.dynv6.net:2087#官方
-ip1.qjm01.dynv6.net:2096#官方
-ip1.qjm01.dynv6.net:443#官方
-ip1.qjm01.dynv6.net:8443#官方
+www.iakeys.com:2053#官方
+www.iakeys.com:2083#官方
+www.iakeys.com:2087#官方
+www.iakeys.com:2096#官方
+www.iakeys.com:443#官方
+www.iakeys.com:8443#官方
