@@ -1,6 +1,6 @@
-www.iakeys.com:2053#官方
-www.iakeys.com:2083#官方
-www.iakeys.com:2087#官方
-www.iakeys.com:2096#官方
-www.iakeys.com:443#官方
-www.iakeys.com:8443#官方
+www.gov.se:2053#官方
+www.gov.se:2083#官方
+www.gov.se:2087#官方
+www.gov.se:2096#官方
+www.gov.se:443#官方
+www.gov.se:8443#官方
