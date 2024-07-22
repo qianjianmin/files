@@ -1,2 +1,2 @@
 ﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
-2a06:98c1:3104:0000:abc7:4978,443,true,LAX,North America,Los Angeles,222 ms,13342 kB/s
+[2a06:98c1:3104:0000:abc7:4978],443,true,LAX,North America,Los Angeles,222 ms,13342 kB/s
