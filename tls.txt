@@ -1,6 +1,0 @@
-cf.jianmin.eu.org:2053#cf官方
-cf.jianmin.eu.org:2083#cf官方
-cf.jianmin.eu.org:2087#cf官方
-cf.jianmin.eu.org:2096#cf官方
-cf.jianmin.eu.org:443#cf官方
-cf.jianmin.eu.org:8443#cf官方
