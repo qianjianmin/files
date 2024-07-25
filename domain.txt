@@ -1,0 +1,6 @@
+www.digitalocean.com:2053#DO
+www.digitalocean.com:2083#DO
+www.digitalocean.com:2087#DO
+www.digitalocean.com:2096#DO
+www.digitalocean.com:443#DO
+www.digitalocean.com:8443#DO
