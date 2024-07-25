@@ -1,31 +1,42 @@
-IP地址,端口,TLS,数据中心,地区,城市,TCP延迟(ms),速度(MB/s)
-66.235.200.253,443,TRUE,LAX,North America,Los Angeles,220,12.79 
-23.227.60.140,443,TRUE,LAX,North America,Los Angeles,223,12.65 
-66.235.200.132,2087,TRUE,LAX,North America,Los Angeles,189,12.38 
-23.227.60.4,2096,TRUE,LAX,North America,Los Angeles,231,11.96 
-185.146.173.132,2083,TRUE,LAX,North America,Los Angeles,217,11.94 
-23.227.60.200,2096,TRUE,LAX,North America,Los Angeles,229,11.83 
-23.227.60.253,8443,TRUE,LAX,North America,Los Angeles,205,11.82 
-23.227.60.106,2083,TRUE,LAX,North America,Los Angeles,232,11.78 
-23.227.60.211,2096,TRUE,LAX,North America,Los Angeles,206,11.70 
-23.227.60.14,443,TRUE,LAX,North America,Los Angeles,237,11.65 
-23.227.60.98,2087,TRUE,LAX,North America,Los Angeles,221,11.65 
-185.146.173.109,2096,TRUE,LAX,North America,Los Angeles,222,11.61 
-185.146.173.217,2087,TRUE,LAX,North America,Los Angeles,222,11.54 
-66.235.200.223,2083,TRUE,LAX,North America,Los Angeles,224,11.52 
-23.227.60.153,443,TRUE,LAX,North America,Los Angeles,243,11.50 
-23.227.60.70,2087,TRUE,LAX,North America,Los Angeles,224,11.33 
-185.146.173.122,2053,TRUE,LAX,North America,Los Angeles,193,11.32 
-23.227.60.177,2083,TRUE,LAX,North America,Los Angeles,224,11.25 
-66.235.200.244,2053,TRUE,LAX,North America,Los Angeles,234,11.06 
-66.235.200.110,8443,TRUE,LAX,North America,Los Angeles,235,11.03 
-23.227.60.30,2053,TRUE,LAX,North America,Los Angeles,207,11.00 
-23.227.60.132,2087,TRUE,LAX,North America,Los Angeles,221,10.89 
-23.227.60.123,2053,TRUE,LAX,North America,Los Angeles,233,10.75 
-23.227.60.182,2083,TRUE,LAX,North America,Los Angeles,233,10.72 
-23.227.60.164,2053,TRUE,LAX,North America,Los Angeles,238,10.68 
-66.235.200.80,2096,TRUE,LAX,North America,Los Angeles,251,10.64 
-23.227.60.198,8443,TRUE,LAX,North America,Los Angeles,216,10.42 
-185.146.173.94,443,TRUE,LAX,North America,Los Angeles,222,10.34 
-23.227.60.126,8443,TRUE,LAX,North America,Los Angeles,215,9.96 
-185.146.173.233,8443,TRUE,LAX,North America,Los Angeles,226,9.84 
+IP地址,端口,TLS,数据中心,地区,城市,TCP延迟(ms),速度(MB/s),
+47.243.90.180,2096,TRUE,HKG,Asia Pacific,Hong Kong,67,29.15 ,
+8.219.144.168,443,TRUE,SIN,Asia Pacific,Singapore,75,24.59 ,
+8.222.204.128,443,TRUE,SIN,Asia Pacific,Singapore,66,24.58 ,
+8.219.159.151,443,TRUE,SIN,Asia Pacific,Singapore,69,24.10 ,
+144.24.80.56,443,TRUE,NRT,Asia Pacific,Tokyo,64,22.54 ,
+140.238.15.251,443,TRUE,ICN,Asia Pacific,Seoul,82,22.20 ,
+140.238.12.52,8443,TRUE,NRT,Asia Pacific,Tokyo,88,20.23 ,
+47.243.90.180,2053,TRUE,HKG,Asia Pacific,Hong Kong,63,19.31 ,
+64.110.86.92,2053,TRUE,ICN,Asia Pacific,Seoul,88,18.38 ,
+138.2.114.58,443,TRUE,NRT,Asia Pacific,Tokyo,71,18.37 ,
+64.110.86.92,2083,TRUE,NRT,Asia Pacific,Tokyo,99,17.91 ,
+158.180.68.56,443,TRUE,NRT,Asia Pacific,Tokyo,82,17.00 ,
+168.138.165.174,443,TRUE,SIN,Asia Pacific,Singapore,151,12.19 ,
+192.9.159.65,443,TRUE,SJC,North America,San Jose,166,11.36 ,
+158.101.86.85,443,TRUE,NRT,Asia Pacific,Tokyo,159,10.83 ,
+192.9.246.112,8443,TRUE,SJC,North America,San Jose,187,9.75 ,
+192.9.132.79,443,TRUE,SJC,North America,San Jose,189,9.43 ,
+155.248.202.141,443,TRUE,SJC,North America,San Jose,186,9.35 ,
+152.70.123.225,8443,TRUE,SJC,North America,San Jose,206,8.80 ,
+140.238.40.67,443,TRUE,NRT,Asia Pacific,Tokyo,165,8.71 ,
+132.226.230.177,443,TRUE,SIN,Asia Pacific,Singapore,138,8.41 ,
+144.24.78.162,443,TRUE,ICN,Asia Pacific,Seoul,64,8.26 ,
+47.253.86.6,443,TRUE,IAD,North America,Ashburn,228,8.07 ,
+150.230.221.148,443,TRUE,NRT,Asia Pacific,Tokyo,153,7.46 ,
+138.2.18.184,443,TRUE,NRT,Asia Pacific,Tokyo,166,7.12 ,
+138.3.222.33,443,TRUE,NRT,Asia Pacific,Tokyo,173,6.57 ,
+47.90.141.204,443,TRUE,LAX,North America,Los Angeles,247,6.46 ,
+47.243.90.180,2083,TRUE,HKG,Asia Pacific,Hong Kong,48,6.38 ,
+158.180.70.117,443,TRUE,SIN,Asia Pacific,Singapore,148,5.92 ,
+47.253.105.131,443,TRUE,IAD,North America,Ashburn,237,5.31 ,
+129.146.137.89,2096,TRUE,LAX,North America,Los Angeles,225,5.24 ,
+129.146.46.164,443,TRUE,LAX,North America,Los Angeles,256,4.81 ,
+47.243.90.180,8443,TRUE,HKG,Asia Pacific,Hong Kong,60,4.50 ,
+129.146.111.62,443,TRUE,LAX,North America,Los Angeles,267,4.19 ,
+8.218.228.152,2053,TRUE,HKG,Asia Pacific,Hong Kong,48,3.69 ,
+138.2.36.157,8443,TRUE,KIX,Asia Pacific,Osaka,314,3.00 ,
+129.146.248.140,443,TRUE,LAX,North America,Los Angeles,207,2.41 ,
+168.138.185.234,443,TRUE,SIN,Asia Pacific,Singapore,313,2.31 ,
+129.150.50.63,443,TRUE,SIN,Asia Pacific,Singapore,325,2.20 ,
+146.56.44.85,443,TRUE,NRT,Asia Pacific,Tokyo,75,2.13 ,
+150.136.241.40,443,TRUE,IAD,North America,Ashburn,264,1.91 ,
