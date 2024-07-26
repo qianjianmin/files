@@ -1,47 +1,277 @@
 IP地址,端口,TLS,数据中心,地区,城市,TCP延迟(ms),速度(MB/s)
-185.148.107.130,443,TRUE,LAX,North America,Los Angeles,187,15.02 
-185.146.173.45,8443,TRUE,LAX,North America,Los Angeles,200,14.39 
-45.8.211.38,8443,TRUE,LAX,North America,Los Angeles,182,14.28 
-45.142.120.181,8443,TRUE,LAX,North America,Los Angeles,190,14.18 
-45.80.111.109,8443,TRUE,LAX,North America,Los Angeles,183,14.18 
-216.24.57.248,8443,TRUE,LAX,North America,Los Angeles,195,14.00 
-188.42.88.61,8443,TRUE,LAX,North America,Los Angeles,191,13.86 
-194.87.58.141,8443,TRUE,LAX,North America,Los Angeles,200,13.68 
-185.148.105.240,8443,TRUE,LAX,North America,Los Angeles,194,13.61 
-154.85.99.3,8443,TRUE,LAX,North America,Los Angeles,197,13.59 
-185.133.35.159,8443,TRUE,LAX,North America,Los Angeles,194,13.44 
-45.159.216.122,8443,TRUE,LAX,North America,Los Angeles,189,13.40 
-45.159.217.44,8443,TRUE,LAX,North America,Los Angeles,197,13.21 
-159.112.235.43,8443,TRUE,LAX,North America,Los Angeles,191,13.04 
-185.135.9.179,8443,TRUE,LAX,North America,Los Angeles,207,12.95 
-193.227.99.240,8443,TRUE,LAX,North America,Los Angeles,209,12.82 
-194.36.55.88,8443,TRUE,LAX,North America,Los Angeles,194,12.79 
-192.0.63.116,8443,TRUE,LAX,North America,Los Angeles,205,12.57 
-147.78.140.84,8443,TRUE,LAX,North America,Los Angeles,191,12.41 
-45.133.247.235,8443,TRUE,LAX,North America,Los Angeles,201,12.34 
-199.181.197.171,2096,TRUE,LAX,North America,Los Angeles,197,11.55 
-216.24.57.215,2096,TRUE,LAX,North America,Los Angeles,216,11.23 
-205.233.181.223,2096,TRUE,LAX,North America,Los Angeles,225,10.94 
-212.183.88.110,2096,TRUE,LAX,North America,Los Angeles,202,10.90 
-103.184.44.84,2087,TRUE,LAX,North America,Los Angeles,196,14.21 
-154.85.99.182,2087,TRUE,LAX,North America,Los Angeles,213,13.25 
-159.112.235.131,2087,TRUE,LAX,North America,Los Angeles,203,13.03 
-89.116.250.2,2087,TRUE,LAX,North America,Los Angeles,204,12.95 
-45.94.169.165,2087,TRUE,LAX,North America,Los Angeles,203,10.20 
-45.80.111.185,2087,TRUE,LAX,North America,Los Angeles,194,9.71 
-23.227.60.140,2087,TRUE,LAX,North America,Los Angeles,205,9.38 
-159.246.55.216,2087,TRUE,LAX,North America,Los Angeles,195,9.37 
-188.244.122.238,2083,TRUE,LAX,North America,Los Angeles,184,14.01 
-185.238.228.12,2083,TRUE,LAX,North America,Los Angeles,194,13.69 
-192.200.160.96,2083,TRUE,LAX,North America,Los Angeles,186,13.68 
-193.227.99.189,2083,TRUE,LAX,North America,Los Angeles,191,13.66 
-185.221.160.168,2083,TRUE,LAX,North America,Los Angeles,198,13.53 
-198.62.62.190,2083,TRUE,LAX,North America,Los Angeles,204,13.15 
-192.65.217.8,2083,TRUE,LAX,North America,Los Angeles,211,12.73 
-194.36.55.143,2083,TRUE,LAX,North America,Los Angeles,192,12.67 
-199.181.197.134,2053,TRUE,LAX,North America,Los Angeles,192,13.75 
-205.233.181.89,2053,TRUE,LAX,North America,Los Angeles,194,11.74 
-194.76.18.239,2053,TRUE,LAX,North America,Los Angeles,186,11.71 
-212.183.88.108,2053,TRUE,LAX,North America,Los Angeles,189,11.65 
-216.24.57.104,2053,TRUE,LAX,North America,Los Angeles,203,11.49 
-194.87.59.207,2053,TRUE,LAX,North America,Los Angeles,205,8.78 
+8.222.204.128,443,TRUE,SIN,Asia Pacific,Singapore,64,25.63 
+47.242.157.96,2087,TRUE,HKG,Asia Pacific,Hong Kong,68,25.53 
+8.219.0.162,2083,TRUE,SIN,Asia Pacific,Singapore,69,24.66 
+47.242.157.96,8443,TRUE,HKG,Asia Pacific,Hong Kong,67,24.44 
+47.243.169.63,8443,TRUE,HKG,Asia Pacific,Hong Kong,67,24.25 
+47.242.157.96,2096,TRUE,HKG,Asia Pacific,Hong Kong,66,21.67 
+47.243.243.14,8443,TRUE,HKG,Asia Pacific,Hong Kong,59,21.44 
+47.242.174.27,8443,TRUE,HKG,Asia Pacific,Hong Kong,68,20.52 
+8.217.232.246,2087,TRUE,HKG,Asia Pacific,Hong Kong,68,20.41 
+8.219.42.72,2096,TRUE,SIN,Asia Pacific,Singapore,83,20.34 
+47.243.206.150,8443,TRUE,HKG,Asia Pacific,Hong Kong,69,19.91 
+8.210.48.107,2096,TRUE,HKG,Asia Pacific,Hong Kong,66,19.49 
+8.210.48.107,2053,TRUE,HKG,Asia Pacific,Hong Kong,70,19.42 
+47.243.169.63,2096,TRUE,HKG,Asia Pacific,Hong Kong,68,18.99 
+47.243.206.150,2083,TRUE,HKG,Asia Pacific,Hong Kong,66,17.95 
+47.243.243.14,2096,TRUE,HKG,Asia Pacific,Hong Kong,65,17.67 
+47.242.174.27,2053,TRUE,HKG,Asia Pacific,Hong Kong,68,17.20 
+8.219.0.162,2096,TRUE,SIN,Asia Pacific,Singapore,75,16.41 
+47.243.26.83,8443,TRUE,HKG,Asia Pacific,Hong Kong,64,15.83 
+8.217.147.230,2096,TRUE,HKG,Asia Pacific,Hong Kong,62,15.13 
+8.210.48.107,2083,TRUE,HKG,Asia Pacific,Hong Kong,63,15.11 
+8.219.42.72,2083,TRUE,SIN,Asia Pacific,Singapore,82,14.93 
+8.219.42.72,2053,TRUE,SIN,Asia Pacific,Singapore,87,14.61 
+47.242.157.96,2053,TRUE,HKG,Asia Pacific,Hong Kong,66,14.59 
+140.238.12.52,8443,TRUE,ICN,Asia Pacific,Seoul,102,14.49 
+8.210.48.107,2087,TRUE,HKG,Asia Pacific,Hong Kong,64,14.47 
+8.217.85.14,8443,TRUE,HKG,Asia Pacific,Hong Kong,63,14.39 
+8.219.98.13,2087,TRUE,SIN,Asia Pacific,Singapore,866,14.35 
+8.219.0.162,2087,TRUE,SIN,Asia Pacific,Singapore,145,14.07 
+8.219.98.13,2083,TRUE,SIN,Asia Pacific,Singapore,73,13.81 
+158.180.68.56,443,TRUE,NRT,Asia Pacific,Tokyo,87,13.70 
+47.243.169.63,2087,TRUE,HKG,Asia Pacific,Hong Kong,71,13.69 
+47.243.169.63,2053,TRUE,HKG,Asia Pacific,Hong Kong,64,13.65 
+144.24.80.56,443,TRUE,NRT,Asia Pacific,Tokyo,55,13.65 
+8.217.232.246,2083,TRUE,HKG,Asia Pacific,Hong Kong,62,13.52 
+47.242.174.27,2096,TRUE,HKG,Asia Pacific,Hong Kong,66,13.08 
+47.243.243.14,2053,TRUE,HKG,Asia Pacific,Hong Kong,66,12.93 
+8.219.0.162,2053,TRUE,SIN,Asia Pacific,Singapore,72,12.80 
+47.242.79.71,8443,TRUE,HKG,Asia Pacific,Hong Kong,153,12.76 
+47.242.174.27,2083,TRUE,HKG,Asia Pacific,Hong Kong,67,12.49 
+47.242.174.27,2087,TRUE,HKG,Asia Pacific,Hong Kong,64,12.45 
+8.210.21.65,8443,TRUE,HKG,Asia Pacific,Hong Kong,196,11.43 
+47.243.169.63,2083,TRUE,HKG,Asia Pacific,Hong Kong,68,11.43 
+143.47.243.144,2053,TRUE,LHR,Europe,London,182,11.01 
+47.243.206.150,2053,TRUE,HKG,Asia Pacific,Hong Kong,66,10.92 
+8.210.21.65,2083,TRUE,HKG,Asia Pacific,Hong Kong,65,10.80 
+8.210.65.1,2053,TRUE,HKG,Asia Pacific,Hong Kong,393,10.14 
+47.242.79.71,2096,TRUE,HKG,Asia Pacific,Hong Kong,71,9.94 
+150.230.34.116,443,TRUE,SJC,North America,San Jose,189,9.93 
+47.243.26.83,2087,TRUE,HKG,Asia Pacific,Hong Kong,73,9.75 
+155.248.202.141,443,TRUE,SJC,North America,San Jose,176,9.65 
+141.145.205.115,8443,TRUE,CDG,Europe,Paris,208,9.48 
+47.242.79.71,2053,TRUE,HKG,Asia Pacific,Hong Kong,66,9.38 
+150.230.47.17,443,TRUE,SJC,North America,San Jose,167,9.18 
+144.24.176.86,443,TRUE,FRA,Europe,Frankfurt,166,9.17 
+144.21.52.100,443,TRUE,FRA,Europe,Frankfurt,201,8.85 
+141.147.6.91,443,TRUE,FRA,Europe,Frankfurt,172,8.82 
+141.148.229.204,443,TRUE,FRA,Europe,Frankfurt,186,8.81 
+8.210.156.6,2053,TRUE,HKG,Asia Pacific,Hong Kong,69,8.69 
+141.147.92.143,8443,TRUE,LHR,Europe,London,211,8.68 
+47.242.59.216,2053,TRUE,HKG,Asia Pacific,Hong Kong,519,8.68 
+130.162.234.78,443,TRUE,FRA,Europe,Frankfurt,181,8.63 
+152.67.232.185,8443,TRUE,SJC,North America,San Jose,214,8.63 
+152.70.123.225,8443,TRUE,SJC,North America,San Jose,211,8.61 
+8.210.21.65,2087,TRUE,HKG,Asia Pacific,Hong Kong,71,8.58 
+192.9.246.112,8443,TRUE,SJC,North America,San Jose,195,8.56 
+8.210.192.93,2053,TRUE,HKG,Asia Pacific,Hong Kong,398,8.55 
+130.61.12.94,443,TRUE,FRA,Europe,Frankfurt,193,8.45 
+155.248.196.123,443,TRUE,YVR,North America,Vancouver,187,8.43 
+132.145.54.84,2053,TRUE,LHR,Europe,London,200,8.28 
+47.242.79.71,2087,TRUE,HKG,Asia Pacific,Hong Kong,58,8.11 
+141.148.245.255,443,TRUE,FRA,Europe,Frankfurt,183,8.02 
+152.70.56.126,443,TRUE,FRA,Europe,Frankfurt,165,8.02 
+130.162.177.85,443,TRUE,FRA,Europe,Frankfurt,200,8.00 
+8.217.85.14,2087,TRUE,HKG,Asia Pacific,Hong Kong,470,7.98 
+8.210.156.6,2087,TRUE,HKG,Asia Pacific,Hong Kong,84,7.89 
+47.242.157.96,2083,TRUE,HKG,Asia Pacific,Hong Kong,68,7.84 
+150.230.20.156,2053,TRUE,AMS,Europe,Amsterdam,242,7.75 
+130.61.23.77,443,TRUE,FRA,Europe,Frankfurt,239,7.71 
+144.24.161.142,8443,TRUE,FRA,Europe,Frankfurt,252,7.64 
+138.2.18.184,443,TRUE,NRT,Asia Pacific,Tokyo,191,7.58 
+130.61.107.238,8443,TRUE,FRA,Europe,Frankfurt,257,7.57 
+47.243.206.150,2096,TRUE,HKG,Asia Pacific,Hong Kong,70,7.42 
+144.24.173.250,2053,TRUE,FRA,Europe,Frankfurt,252,7.40 
+193.123.61.142,8443,TRUE,AMS,Europe,Amsterdam,253,7.36 
+141.148.225.142,443,TRUE,AMS,Europe,Amsterdam,251,7.35 
+8.218.143.10,2053,TRUE,HKG,Asia Pacific,Hong Kong,65,7.30 
+193.123.61.142,2053,TRUE,AMS,Europe,Amsterdam,254,7.28 
+47.242.59.216,2083,TRUE,HKG,Asia Pacific,Hong Kong,58,7.27 
+146.56.44.85,443,TRUE,NRT,Asia Pacific,Tokyo,92,7.23 
+130.61.203.115,2053,TRUE,FRA,Europe,Frankfurt,249,7.19 
+140.238.15.251,443,TRUE,MAA,Asia Pacific,Chennai,93,7.17 
+150.230.20.156,8443,TRUE,AMS,Europe,Amsterdam,245,7.12 
+140.238.158.238,443,TRUE,YYZ,North America,Toronto,239,7.10 
+158.101.175.51,2053,TRUE,FRA,Europe,Frankfurt,241,7.10 
+143.47.225.68,443,TRUE,FRA,Europe,Frankfurt,227,7.09 
+130.61.109.6,2096,TRUE,FRA,Europe,Frankfurt,264,7.07 
+152.70.59.90,8443,TRUE,AMS,Europe,Amsterdam,255,7.05 
+158.101.175.51,8443,TRUE,FRA,Europe,Frankfurt,253,7.02 
+158.101.169.13,2053,TRUE,FRA,Europe,Frankfurt,230,7.00 
+158.101.169.13,8443,TRUE,FRA,Europe,Frankfurt,255,7.00 
+130.61.109.6,8443,TRUE,FRA,Europe,Frankfurt,269,6.99 
+150.230.115.239,443,TRUE,FRA,Europe,Frankfurt,216,6.98 
+130.61.203.115,8443,TRUE,FRA,Europe,Frankfurt,249,6.98 
+204.216.218.114,443,TRUE,CDG,Europe,Paris,197,6.97 
+130.61.239.203,2053,TRUE,FRA,Europe,Frankfurt,241,6.91 
+144.24.173.250,8443,TRUE,FRA,Europe,Frankfurt,258,6.86 
+8.210.21.65,2053,TRUE,HKG,Asia Pacific,Hong Kong,66,6.83 
+144.24.173.250,2096,TRUE,FRA,Europe,Frankfurt,258,6.82 
+144.24.189.21,443,TRUE,FRA,Europe,Frankfurt,251,6.75 
+8.217.147.230,2087,TRUE,HKG,Asia Pacific,Hong Kong,63,6.69 
+130.61.239.203,443,TRUE,FRA,Europe,Frankfurt,260,6.67 
+47.242.79.71,2083,TRUE,HKG,Asia Pacific,Hong Kong,63,6.64 
+144.24.169.81,2053,TRUE,FRA,Europe,Frankfurt,264,6.61 
+47.254.154.100,443,TRUE,FRA,Europe,Frankfurt,269,6.51 
+130.61.176.29,443,TRUE,FRA,Europe,Frankfurt,269,6.48 
+8.217.164.10,2053,TRUE,HKG,Asia Pacific,Hong Kong,61,6.45 
+141.147.47.32,8443,TRUE,FRA,Europe,Frankfurt,287,6.43 
+144.24.169.81,8443,TRUE,FRA,Europe,Frankfurt,267,6.42 
+150.230.149.208,443,TRUE,FRA,Europe,Frankfurt,274,6.37 
+130.61.109.6,2053,TRUE,FRA,Europe,Frankfurt,264,6.34 
+8.209.96.4,443,TRUE,FRA,Europe,Frankfurt,253,6.33 
+138.3.254.39,443,TRUE,FRA,Europe,Frankfurt,265,6.29 
+143.47.242.195,443,TRUE,LHR,Europe,London,219,6.26 
+47.90.141.204,443,TRUE,LAX,North America,Los Angeles,248,6.24 
+47.243.42.219,8443,TRUE,HKG,Asia Pacific,Hong Kong,781,6.22 
+8.217.85.14,2083,TRUE,HKG,Asia Pacific,Hong Kong,569,6.20 
+8.211.4.203,443,TRUE,FRA,Europe,Frankfurt,242,6.20 
+8.217.164.10,8443,TRUE,HKG,Asia Pacific,Hong Kong,129,6.17 
+8.217.164.10,2083,TRUE,HKG,Asia Pacific,Hong Kong,69,6.17 
+47.242.59.216,2096,TRUE,HKG,Asia Pacific,Hong Kong,70,6.03 
+193.122.101.68,2083,TRUE,MAA,Asia Pacific,Chennai,84,6.02 
+8.217.85.14,2096,TRUE,HKG,Asia Pacific,Hong Kong,97,6.01 
+8.210.174.156,2087,TRUE,HKG,Asia Pacific,Hong Kong,68,5.94 
+8.211.7.120,443,TRUE,FRA,Europe,Frankfurt,258,5.87 
+204.216.105.106,8443,TRUE,YYZ,North America,Toronto,274,5.86 
+152.67.65.201,443,TRUE,ZRH,Europe,Zurich,189,5.84 
+129.146.137.89,2096,TRUE,LAX,North America,Los Angeles,228,5.84 
+47.242.59.216,2087,TRUE,HKG,Asia Pacific,Hong Kong,65,5.79 
+8.218.207.169,2053,TRUE,HKG,Asia Pacific,Hong Kong,573,5.71 
+47.243.42.219,2096,TRUE,HKG,Asia Pacific,Hong Kong,85,5.61 
+129.159.83.88,8443,TRUE,IAD,North America,Ashburn,250,5.41 
+132.145.54.84,8443,TRUE,LHR,Europe,London,189,5.36 
+144.24.243.207,443,TRUE,ZRH,Europe,Zurich,177,5.26 
+8.219.98.13,443,TRUE,SIN,Asia Pacific,Singapore,641,5.20 
+47.253.86.6,443,TRUE,IAD,North America,Ashburn,222,5.19 
+132.226.163.224,2053,TRUE,GRU,South America,S?o Paulo,347,5.07 
+152.67.44.30,443,TRUE,GIG,South America,Rio de Janeiro,336,5.04 
+141.147.186.227,443,TRUE,NRT,Asia Pacific,Tokyo,156,5.03 
+138.2.157.236,443,TRUE,FRA,Europe,Frankfurt,354,4.94 
+8.210.21.65,2096,TRUE,HKG,Asia Pacific,Hong Kong,519,4.93 
+8.210.192.93,2083,TRUE,HKG,Asia Pacific,Hong Kong,633,4.77 
+192.9.180.162,443,TRUE,SYD,Oceania,Sydney,363,4.76 
+8.217.85.14,2053,TRUE,HKG,Asia Pacific,Hong Kong,311,4.76 
+8.210.192.93,2087,TRUE,HKG,Asia Pacific,Hong Kong,587,4.67 
+193.123.250.209,2087,TRUE,ICN,Asia Pacific,Seoul,76,4.67 
+192.9.159.65,443,TRUE,SJC,North America,San Jose,213,4.59 
+47.243.42.219,2087,TRUE,HKG,Asia Pacific,Hong Kong,489,4.57 
+47.243.243.14,2087,TRUE,HKG,Asia Pacific,Hong Kong,65,4.51 
+8.210.107.246,8443,TRUE,HKG,Asia Pacific,Hong Kong,334,4.48 
+64.110.104.30,443,TRUE,KIX,Asia Pacific,Osaka,289,4.46 
+8.210.107.246,2096,TRUE,HKG,Asia Pacific,Hong Kong,500,4.45 
+8.210.174.156,2083,TRUE,HKG,Asia Pacific,Hong Kong,603,4.38 
+138.2.72.153,443,TRUE,SIN,Asia Pacific,Singapore,208,4.16 
+168.138.46.67,443,TRUE,KIX,Asia Pacific,Osaka,294,4.01 
+8.210.192.93,2096,TRUE,HKG,Asia Pacific,Hong Kong,190,3.96 
+141.147.61.116,2053,TRUE,FRA,Europe,Frankfurt,314,3.91 
+8.210.65.1,2083,TRUE,HKG,Asia Pacific,Hong Kong,56,3.78 
+8.210.65.1,8443,TRUE,HKG,Asia Pacific,Hong Kong,61,3.74 
+192.9.250.241,443,TRUE,SJC,North America,San Jose,196,3.73 
+8.210.174.156,8443,TRUE,HKG,Asia Pacific,Hong Kong,737,3.73 
+47.243.26.83,2053,TRUE,HKG,Asia Pacific,Hong Kong,69,3.68 
+164.152.17.14,443,TRUE,ORD,North America,Chicago,263,3.59 
+8.210.42.171,2083,TRUE,HKG,Asia Pacific,Hong Kong,70,3.53 
+132.226.163.224,8443,TRUE,GRU,South America,S?o Paulo,342,3.50 
+47.242.171.94,2083,TRUE,HKG,Asia Pacific,Hong Kong,349,3.15 
+8.210.107.246,2083,TRUE,HKG,Asia Pacific,Hong Kong,197,3.00 
+47.243.42.219,2083,TRUE,HKG,Asia Pacific,Hong Kong,525,2.94 
+47.243.206.150,2087,TRUE,HKG,Asia Pacific,Hong Kong,64,2.91 
+129.159.84.71,443,TRUE,IAD,North America,Ashburn,262,2.78 
+8.217.164.10,2096,TRUE,HKG,Asia Pacific,Hong Kong,60,2.76 
+8.210.48.107,8443,TRUE,HKG,Asia Pacific,Hong Kong,64,2.74 
+47.242.59.216,8443,TRUE,HKG,Asia Pacific,Hong Kong,163,2.60 
+158.180.231.216,443,TRUE,MRS,Europe,Marseille,202,2.55 
+47.243.26.83,2083,TRUE,HKG,Asia Pacific,Hong Kong,65,2.41 
+8.210.65.1,2087,TRUE,HKG,Asia Pacific,Hong Kong,579,2.41 
+8.210.174.156,2053,TRUE,HKG,Asia Pacific,Hong Kong,136,2.19 
+8.217.232.246,2096,TRUE,HKG,Asia Pacific,Hong Kong,69,2.05 
+8.218.143.10,2096,TRUE,HKG,Asia Pacific,Hong Kong,65,2.03 
+130.162.184.173,443,TRUE,LHR,Europe,London,195,2.01 
+47.243.42.219,2053,TRUE,HKG,Asia Pacific,Hong Kong,298,1.91 
+8.210.192.93,8443,TRUE,HKG,Asia Pacific,Hong Kong,75,1.77 
+141.147.61.116,8443,TRUE,FRA,Europe,Frankfurt,306,1.67 
+8.217.147.230,2083,TRUE,HKG,Asia Pacific,Hong Kong,66,1.58 
+8.210.107.246,2053,TRUE,HKG,Asia Pacific,Hong Kong,820,1.50 
+8.210.174.156,2096,TRUE,HKG,Asia Pacific,Hong Kong,649,1.47 
+8.210.107.246,2087,TRUE,HKG,Asia Pacific,Hong Kong,637,1.40 
+8.218.3.12,2083,TRUE,HKG,Asia Pacific,Hong Kong,63,1.19 
+8.218.3.12,2096,TRUE,HKG,Asia Pacific,Hong Kong,57,1.16 
+144.24.85.158,443,TRUE,ICN,Asia Pacific,Seoul,54,1.03 
+8.217.147.230,2053,TRUE,HKG,Asia Pacific,Hong Kong,65,0.99 
+47.242.171.94,2087,TRUE,HKG,Asia Pacific,Hong Kong,314,0.73 
+140.238.58.181,2053,TRUE,NRT,Asia Pacific,Tokyo,165,0.65 
+8.217.147.230,8443,TRUE,HKG,Asia Pacific,Hong Kong,59,0.63 
+8.218.143.10,8443,TRUE,HKG,Asia Pacific,Hong Kong,59,0.50 
+8.210.156.6,2096,TRUE,HKG,Asia Pacific,Hong Kong,76,0.47 
+143.47.243.144,8443,TRUE,LHR,Europe,London,188,0.37 
+168.138.197.97,8443,TRUE,NRT,Asia Pacific,Tokyo,181,0.36 
+8.218.3.12,2087,TRUE,HKG,Asia Pacific,Hong Kong,67,0.29 
+8.210.156.6,2083,TRUE,HKG,Asia Pacific,Hong Kong,196,0.21 
+8.218.3.12,2053,TRUE,HKG,Asia Pacific,Hong Kong,59,0.20 
+140.83.86.166,443,TRUE,KIX,Asia Pacific,Osaka,280,0.18 
+168.138.71.220,443,TRUE,YYZ,North America,Toronto,255,0.15 
+129.146.242.24,2053,TRUE,LAX,North America,Los Angeles,217,0.11 
+168.138.66.11,443,TRUE,YYZ,North America,Toronto,256,0.10 
+132.145.127.203,2053,TRUE,NRT,Asia Pacific,Tokyo,163,0.09 
+132.145.127.203,8443,TRUE,NRT,Asia Pacific,Tokyo,170,0.08 
+47.243.169.90,2053,TRUE,HKG,Asia Pacific,Hong Kong,48,0.03 
+8.210.126.88,2096,TRUE,HKG,Asia Pacific,Hong Kong,57,0.03 
+47.243.169.90,2087,TRUE,HKG,Asia Pacific,Hong Kong,58,0.03 
+8.210.126.88,2053,TRUE,HKG,Asia Pacific,Hong Kong,58,0.03 
+8.210.126.88,2087,TRUE,HKG,Asia Pacific,Hong Kong,64,0.03 
+47.243.120.239,2053,TRUE,HKG,Asia Pacific,Hong Kong,70,0.03 
+47.243.198.198,8443,TRUE,HKG,Asia Pacific,Hong Kong,71,0.03 
+8.210.126.88,8443,TRUE,HKG,Asia Pacific,Hong Kong,67,0.03 
+8.219.208.104,2053,TRUE,SIN,Asia Pacific,Singapore,68,0.03 
+8.219.208.104,2083,TRUE,SIN,Asia Pacific,Singapore,65,0.03 
+47.243.120.239,2087,TRUE,HKG,Asia Pacific,Hong Kong,79,0.03 
+8.219.208.104,2096,TRUE,SIN,Asia Pacific,Singapore,69,0.03 
+8.219.110.248,2083,TRUE,SIN,Asia Pacific,Singapore,69,0.03 
+47.243.120.239,8443,TRUE,HKG,Asia Pacific,Hong Kong,73,0.03 
+8.222.145.43,2087,TRUE,SIN,Asia Pacific,Singapore,78,0.03 
+8.219.123.11,2087,TRUE,SIN,Asia Pacific,Singapore,82,0.03 
+8.219.110.248,2087,TRUE,SIN,Asia Pacific,Singapore,79,0.03 
+47.243.169.90,2096,TRUE,HKG,Asia Pacific,Hong Kong,56,0.02 
+8.219.123.11,2083,TRUE,SIN,Asia Pacific,Singapore,69,0.02 
+8.219.110.248,2053,TRUE,SIN,Asia Pacific,Singapore,74,0.02 
+8.219.239.79,2096,TRUE,SIN,Asia Pacific,Singapore,75,0.02 
+8.219.208.104,2087,TRUE,SIN,Asia Pacific,Singapore,77,0.02 
+8.219.123.11,2053,TRUE,SIN,Asia Pacific,Singapore,76,0.02 
+47.243.120.239,2096,TRUE,HKG,Asia Pacific,Hong Kong,77,0.02 
+8.222.145.43,2083,TRUE,SIN,Asia Pacific,Singapore,77,0.02 
+8.219.239.79,2083,TRUE,SIN,Asia Pacific,Singapore,79,0.02 
+8.222.145.43,2096,TRUE,SIN,Asia Pacific,Singapore,81,0.02 
+8.222.145.43,8443,TRUE,SIN,Asia Pacific,Singapore,84,0.02 
+47.243.198.198,2087,TRUE,HKG,Asia Pacific,Hong Kong,64,0.02 
+8.219.123.11,2096,TRUE,SIN,Asia Pacific,Singapore,81,0.02 
+8.210.126.88,2083,TRUE,HKG,Asia Pacific,Hong Kong,58,0.02 
+8.219.110.248,2096,TRUE,SIN,Asia Pacific,Singapore,84,0.02 
+47.243.120.239,2083,TRUE,HKG,Asia Pacific,Hong Kong,73,0.02 
+8.219.110.248,8443,TRUE,SIN,Asia Pacific,Singapore,73,0.02 
+47.243.169.90,2083,TRUE,HKG,Asia Pacific,Hong Kong,60,0.02 
+47.243.169.90,8443,TRUE,HKG,Asia Pacific,Hong Kong,58,0.01 
+47.243.198.198,2096,TRUE,HKG,Asia Pacific,Hong Kong,74,0.00 
+47.243.198.198,2083,TRUE,HKG,Asia Pacific,Hong Kong,62,0.00 
+132.145.81.117,443,TRUE,ICN,Asia Pacific,Seoul,92,0.00 
+8.217.164.10,2087,TRUE,HKG,Asia Pacific,Hong Kong,57,0.00 
+47.243.90.180,2083,TRUE,HKG,Asia Pacific,Hong Kong,63,0.00 
+47.243.90.180,2053,TRUE,HKG,Asia Pacific,Hong Kong,65,0.00 
+47.243.198.198,2053,TRUE,HKG,Asia Pacific,Hong Kong,65,0.00 
+8.218.98.75,8443,TRUE,HKG,Asia Pacific,Hong Kong,76,0.00 
+129.154.60.48,443,TRUE,NRT,Asia Pacific,Tokyo,79,0.00 
+8.210.42.171,2053,TRUE,HKG,Asia Pacific,Hong Kong,81,0.00 
+132.226.1.227,443,TRUE,NRT,Asia Pacific,Tokyo,158,0.00 
+192.18.143.199,443,TRUE,SJC,North America,San Jose,167,0.00 
+168.138.201.0,443,TRUE,NRT,Asia Pacific,Tokyo,175,0.00 
+155.248.206.110,443,TRUE,SJC,North America,San Jose,196,0.00 
+152.69.219.32,443,TRUE,SIN,Asia Pacific,Singapore,203,0.00 
+150.230.44.131,8443,TRUE,SJC,North America,San Jose,210,0.00 
+129.146.243.241,443,TRUE,LAX,North America,Los Angeles,216,0.00 
+150.136.61.148,443,TRUE,IAD,North America,Ashburn,265,0.00 
+168.138.185.234,443,TRUE,SIN,Asia Pacific,Singapore,292,0.00 
+64.110.105.190,443,TRUE,NRT,Asia Pacific,Tokyo,305,0.00 
+152.67.190.105,443,TRUE,HYD,Asia Pacific,Hyderabad,313,0.00 
+168.138.15.75,443,TRUE,MEL,Oceania,Melbourne,383,0.00 
+140.238.201.118,443,TRUE,SYD,Oceania,Sydney,427,0.00 
