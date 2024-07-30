@@ -1,0 +1,9 @@
+vless://20ac0aab-3637-4ee9-b34f-ec8853e5662f@download.yunzhongzhuan.com:443?encryption=none&security=tls&sni=serv001.jianmin.eu.org&type=ws&host=serv001.jianmin.eu.org&path=%2F#PL
+vless://20ac0aab-3637-4ee9-b34f-ec8853e5662f@whatismyipaddress.com:443?encryption=none&security=tls&sni=serv001.jianmin.eu.org&type=ws&host=serv001.jianmin.eu.org&path=%2F#PL
+vless://20ac0aab-3637-4ee9-b34f-ec8853e5662f@www.gco.gov.qa:443?encryption=none&security=tls&sni=serv001.jianmin.eu.org&type=ws&host=serv001.jianmin.eu.org&path=%2F#PL
+vless://3a7ea549-f5de-4cf6-9721-3471bd9ca831@download.yunzhongzhuan.com:8443?encryption=none&security=tls&sni=an2.jianmin.eu.org&type=ws&host=an2.jianmin.eu.org&path=%2Fvless%3Fed%3D2048#IN
+vless://3a7ea549-f5de-4cf6-9721-3471bd9ca831@whatismyipaddress.com:8443?encryption=none&security=tls&sni=an2.jianmin.eu.org&type=ws&host=an2.jianmin.eu.org&path=%2Fvless%3Fed%3D2048#IN
+vless://3a7ea549-f5de-4cf6-9721-3471bd9ca831@www.gco.gov.qa:8443?encryption=none&security=tls&sni=an2.jianmin.eu.org&type=ws&host=an2.jianmin.eu.org&path=%2Fvless%3Fed%3D2048#IN
+vless://8e76c8d1-f8a5-4748-b4e4-48f84012f7b4@download.yunzhongzhuan.com:8443?encryption=none&security=tls&sni=an1.jianmin.eu.org&type=ws&host=an1.jianmin.eu.org&path=%2Fvless%3Fed%3D2048#IN
+vless://8e76c8d1-f8a5-4748-b4e4-48f84012f7b4@whatismyipaddress.com:8443?encryption=none&security=tls&sni=an1.jianmin.eu.org&type=ws&host=an1.jianmin.eu.org&path=%2Fvless%3Fed%3D2048#IN
+vless://8e76c8d1-f8a5-4748-b4e4-48f84012f7b4@www.gco.gov.qa:8443?encryption=none&security=tls&sni=an1.jianmin.eu.org&type=ws&host=an1.jianmin.eu.org&path=%2Fvless%3Fed%3D2048#IN
