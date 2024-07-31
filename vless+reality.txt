@@ -1,4 +1,0 @@
-vless+reality
-教程: https://v2rayssr.com/reality.html
-TLS1.3/H2/OCSP Stapling的网站: www.sembcorp.com
-http:/[2a12:bec0:16e:75b::]:63510/JcDuVjCOK8/
