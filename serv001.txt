@@ -1,4 +1,9 @@
-cd domains/serv001.jianmin.eu.org && npm install ws && screen node index.js
+cd domains/srv1.jianmin.eu.org && npm install ws && screen node index.js
+a54bf419-b532-43b9-9ac3-e1f20a6c061b
+24839
+cd domains/srv2.jianmin.eu.org && npm install ws && screen node index.js
+6e2a01c5-512f-4f68-a717-8970c5dc68c2
+63197
 
 Serv00.com - account Jianmin12 is ready
 
