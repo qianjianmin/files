@@ -1,3 +1,3 @@
 tuic://c02b802f-8c78-4e35-a1a5-4ab9570fcb28:c02b802f-8c78-4e35-a1a5-4ab9570fcb28@ca.qjm001.us.kg:36955?congestion_control=bbr&alpn=h3&sni=ca.qjm001.us.kg&udp_relay_mode=native#CA
 tuic://398de5ab-179e-4203-ba46-8ad9943b0675:398de5ab-179e-4203-ba46-8ad9943b0675@sg.qjm1.cloudns.ch:37455?congestion_control=bbr&alpn=h3&sni=sg.qjm1.cloudns.ch&udp_relay_mode=native#SG
-vless://5e7d5ffc-47fc-be21-7d59-8fef6b853954@www.visa.com:443?security=tls&sni=serv00.jianmin.eu.org&type=ws&path=/qjm%3D1024&host=serv00.jianmin.eu.org&encryption=none#PL
+vless://e6756a2e-9cf0-423a-b215-a93630e259f4@www.visa.com:443?security=tls&sni=pl.jianmin.eu.org&type=ws&path=/&host=pl.jianmin.eu.org&encryption=none#PL
