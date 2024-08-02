@@ -1,0 +1,17 @@
+https://gh.qjm01.dynv6.net/qianjianmin/Private-Library/main/jiedian?token=qjm123
+
+bl.jianmin.eu.org
+uuid"5e7d5ffc-47fc-be21-7d59-8fef6b853954"
+tcp"60139"
+cd domains/bl.jianmin.eu.org && npm install ws && screen node index.js
+
+sg.qjm1.cloudns.ch
+
+ca.qjm001.us.kg
+
+Cloudflare的Global API Key "a349f958f3a5212901b52723803a876a5ec81"
+
+bash <(curl -Ls https://gitlab.com/rwkgyg/sing-box-yg/raw/main/sb.sh)
+
+tuic://c02b802f-8c78-4e35-a1a5-4ab9570fcb28:c02b802f-8c78-4e35-a1a5-4ab9570fcb28@ca.qjm001.us.kg:36955?congestion_control=bbr&alpn=h3&sni=ca.qjm001.us.kg&udp_relay_mode=native#CA
+tuic://398de5ab-179e-4203-ba46-8ad9943b0675:398de5ab-179e-4203-ba46-8ad9943b0675@sg.qjm1.cloudns.ch:37455?congestion_control=bbr&alpn=h3&sni=sg.qjm1.cloudns.ch&udp_relay_mode=native#SG
