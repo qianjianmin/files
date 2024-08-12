@@ -287,9 +287,9 @@ proxy-groups:
   - { name: 其他, <<: *pr }
 
   # 分隔,下面是地区分组
-  - { name: 加拿大, <<: *use, tolerance: 2, type: load-balance, filter: "(?i)CA|加拿大" }
-  - { name: 波兰, <<: *use, tolerance: 2, type: load-balance, filter: "(?i)PL|波兰" }
-  - { name: 新加坡, <<: *use, tolerance: 2, type: load-balance, filter: "(?i)(SG|新加坡)" }
+  - { name: 加拿大, <<: *use, tolerance: 2, type: url-test, filter: "(?i)CA|加拿大" }
+  - { name: 波兰, <<: *use, tolerance: 2, type: url-test, filter: "(?i)PL|波兰" }
+  - { name: 新加坡, <<: *use, tolerance: 2, type: url-test, filter: "(?i)(SG|新加坡)" }
   - { name: 全部节点, <<: *use }
 
 rules:
