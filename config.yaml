@@ -22,7 +22,6 @@ pr:
       [
         节点选择,
         加拿大,
-        波兰,
         新加坡,
         全部节点,
         DIRECT,
@@ -207,10 +206,10 @@ dns:
 #     port: 12991
 #     proxy: 加拿大
 
-#   - name: pl
+#   - name: **
 #     type: mixed
 #     port: 12992
-#     proxy: 波兰
+#     proxy: **
 
 #   - name: sg
 #     type: mixed
@@ -241,7 +240,7 @@ proxy-groups:
       name: 节点选择,
       type: select,
       proxies:
-        [全部节点, 加拿大, 波兰, 新加坡, DIRECT],
+        [全部节点, 加拿大, 新加坡, DIRECT],
     }
   # 这里的 dns 指海外解析 dns 走的节点，一般跟随节点选择即可
   - { name: dns, <<: *pr }
@@ -276,7 +275,6 @@ proxy-groups:
           DIRECT,
           节点选择,
           加拿大,
-          波兰,
           新加坡,
           全部节点,
         ],
@@ -288,7 +286,6 @@ proxy-groups:
 
   # 分隔,下面是地区分组
   - { name: 加拿大, <<: *use, tolerance: 2, type: url-test, filter: "(?i)CA|加拿大" }
-  - { name: 波兰, <<: *use, tolerance: 2, type: url-test, filter: "(?i)PL|波兰" }
   - { name: 新加坡, <<: *use, tolerance: 2, type: url-test, filter: "(?i)(SG|新加坡)" }
   - { name: 全部节点, <<: *use }
 
