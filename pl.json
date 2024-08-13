@@ -18,7 +18,9 @@
       "headers": {
         "Host": "s2.jianmin.eu.org"
       },
-      "path": "/serv00-vmess?ed=2560"
+      "path": "/serv00-vmess",
+      "early_data_header_name": "Sec-WebSocket-Protocol",
+      "max_early_data": 2560
     }
   },
   {
@@ -40,7 +42,9 @@
       "headers": {
         "Host": "s2.jianmin.eu.org"
       },
-      "path": "/serv00-vmess?ed=2560"
+      "path": "/serv00-vmess",
+      "early_data_header_name": "Sec-WebSocket-Protocol",
+      "max_early_data": 2560
     }
   },
   {
@@ -62,7 +66,9 @@
       "headers": {
         "Host": "s2.jianmin.eu.org"
       },
-      "path": "/serv00-vmess?ed=2560"
+      "path": "/serv00-vmess",
+      "early_data_header_name": "Sec-WebSocket-Protocol",
+      "max_early_data": 2560
     }
   },
   {
@@ -84,7 +90,9 @@
       "headers": {
         "Host": "s2.jianmin.eu.org"
       },
-      "path": "/serv00-vmess?ed=2560"
+      "path": "/serv00-vmess",
+      "early_data_header_name": "Sec-WebSocket-Protocol",
+      "max_early_data": 2560
     }
   },
   {
@@ -106,7 +114,9 @@
       "headers": {
         "Host": "s2.jianmin.eu.org"
       },
-      "path": "/serv00-vmess?ed=2560"
+      "path": "/serv00-vmess",
+      "early_data_header_name": "Sec-WebSocket-Protocol",
+      "max_early_data": 2560
     }
   },
   {
@@ -128,7 +138,9 @@
       "headers": {
         "Host": "s2.jianmin.eu.org"
       },
-      "path": "/serv00-vmess?ed=2560"
+      "path": "/serv00-vmess",
+      "early_data_header_name": "Sec-WebSocket-Protocol",
+      "max_early_data": 2560
     }
   }
 ]
