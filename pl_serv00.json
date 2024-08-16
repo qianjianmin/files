@@ -108,15 +108,14 @@
             "server": "85.194.244.91",
             "server_port": 4423,
             "tag": "PL-1",
-            "packet_encoding": "packetaddr",
             "transport": {
                 "path": "/vmess?ed=2048",
                 "type": "ws"
-            },
+                               },
             "type": "vmess",
             "security": "none",
             "uuid": "bc97f674-c578-4940-9234-0a1da46041b9"
-        },
+},
 {
             "server": "www.visa.pl",
             "server_port": 443,
@@ -124,27 +123,20 @@
             "tls": {
                 "enabled": true,
                 "server_name": "argo.jianmin.eu.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "packet_encoding": "packetaddr",
+                "insecure": false
+                    },
             "transport": {
                 "headers": {
-                    "Host": [
-                        "argo.jianmin.eu.org"
-                    ]
-                },
+                    "Host": "argo.jianmin.eu.org"
+                                 },
                 "path": "/vmess?ed=2048",
                 "type": "ws"
-            },
+                               },
             "type": "vmess",
             "security": "none",
             "uuid": "bc97f674-c578-4940-9234-0a1da46041b9"
-        },
-    {
+},
+{
         "type": "hysteria2",
         "tag": "PL-3",
         "server": "85.194.244.91",
@@ -158,8 +150,8 @@
                 "h3"
             ]
         }
-    },
-        {
+},
+{
             "type":"tuic",
             "tag": "PL-4",
             "server": "85.194.244.91",
@@ -175,7 +167,7 @@
                     "h3"
                 ]
             }
-        },
+},
     {
       "tag": "direct",
       "type": "direct"
