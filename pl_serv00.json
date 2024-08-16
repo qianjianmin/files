@@ -104,74 +104,78 @@
         "PL-4"
       ]
     },
+{
+            "server": "85.194.244.91",
+            "server_port": 4423,
+            "tag": "PL-1",
+            "packet_encoding": "packetaddr",
+            "transport": {
+                "path": "/vmess?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "none",
+            "uuid": "bc97f674-c578-4940-9234-0a1da46041b9"
+        },
+{
+            "server": "www.visa.pl",
+            "server_port": 443,
+            "tag": "PL-2",
+            "tls": {
+                "enabled": true,
+                "server_name": "argo.jianmin.eu.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "packet_encoding": "packetaddr",
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "argo.jianmin.eu.org"
+                    ]
+                },
+                "path": "/vmess?ed=2048",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "none",
+            "uuid": "bc97f674-c578-4940-9234-0a1da46041b9"
+        },
     {
-      "type": "vmess",
-      "tag": "PL-1",
-      "server": "85.194.244.91",
-      "server_port": 4423,
-      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "security": "none",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/vmess?ed=2048"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "PL-2",
-      "server": "www.visa.pl",
-      "server_port": 443,
-      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "security": "none",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "argo.jianmin.eu.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess?ed=2048",
-        "headers": {
-          "Host": "argo.jianmin.eu.org"
+        "type": "hysteria2",
+        "tag": "PL-3",
+        "server": "85.194.244.91",
+        "server_port": 19282,
+        "password": "bc97f674-c578-4940-9234-0a1da46041b9",
+        "tls": {
+            "enabled": true,
+            "server_name": "www.bing.com",
+            "insecure": true,
+            "alpn": [
+                "h3"
+            ]
         }
-      }
     },
-    {
-      "type": "hysteria2",
-      "tag": "PL-3",
-      "server": "85.194.244.91",
-      "server_port": 19282,
-      "up_mbps": 100,
-      "down_mbps": 100,
-      "password": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "type": "tuic",
-      "tag": "PL-4",
-      "server": "85.194.244.91",
-      "server_port": 45397,
-      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
-      "password": "admin123",
-      "congestion_control": "bbr",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
+        {
+            "type":"tuic",
+            "tag": "PL-4",
+            "server": "85.194.244.91",
+            "server_port": 45397,
+            "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+            "password": "admin123",
+            "congestion_control": "bbr",
+            "tls":{
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
     {
       "tag": "direct",
       "type": "direct"
