@@ -175,7 +175,7 @@
         "tls": {
             "enabled": true,
             "server_name": "duckyci.jianmin.eu.org",
-            "insecure": false,
+            "insecure": true,
             "alpn": [
                 "h3"
             ]
@@ -196,7 +196,7 @@
             "tls":{
                 "enabled": true,
                 "server_name": "duckyci.jianmin.eu.org",
-                "insecure": false,
+                "insecure": true,
                 "alpn": [
                     "h3"
                 ]
@@ -399,7 +399,7 @@
         "tls": {
             "enabled": true,
             "server_name": "bytevirt.qjm001.us.kg",
-            "insecure": false,
+            "insecure": true,
             "alpn": [
                 "h3"
             ]
@@ -420,7 +420,7 @@
             "tls":{
                 "enabled": true,
                 "server_name": "bytevirt.qjm001.us.kg",
-                "insecure": false,
+                "insecure": true,
                 "alpn": [
                     "h3"
                 ]
