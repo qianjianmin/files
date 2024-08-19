@@ -460,8 +460,8 @@
         "🇸🇬 SG 4"
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
-      "tolerance": 50,
+      "interval": "10m",
+      "tolerance": 10,
       "interrupt_exist_connections": false
     }
   ],
