@@ -98,15 +98,15 @@
       "default": "auto",
       "outbounds": [
         "auto",
-        "vless-dci-78621",
-        "vmess-dci-78621",
-        "hy2-dci-78621",
-        "tuic5-dci-78621"
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4"
       ]
     },
     {
       "type": "vless",
-      "tag": "vless-dci-78621",
+      "tag": "🇨🇦 CA 1",
       "server": "155.248.223.52",
       "server_port": 61402,
       "uuid": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
@@ -129,7 +129,7 @@
 {
             "server": "duckyci.jianmin.eu.org",
             "server_port": 61403,
-            "tag": "vmess-dci-78621",
+            "tag": "🇨🇦 CA 2",
             "tls": {
                 "enabled": true,
                 "server_name": "duckyci.jianmin.eu.org",
@@ -156,7 +156,7 @@
 
     {
         "type": "hysteria2",
-        "tag": "hy2-dci-78621",
+        "tag": "🇨🇦 CA 3",
         "server": "duckyci.jianmin.eu.org",
         "server_port": 61404,
         "password": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
@@ -171,7 +171,7 @@
     },
         {
             "type":"tuic",
-            "tag": "tuic5-dci-78621",
+            "tag": "🇨🇦 CA 4",
             "server": "duckyci.jianmin.eu.org",
             "server_port": 61405,
             "uuid": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
@@ -206,10 +206,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-dci-78621",
-        "vmess-dci-78621",
-        "hy2-dci-78621",
-        "tuic5-dci-78621"
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
