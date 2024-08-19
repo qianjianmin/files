@@ -98,14 +98,14 @@
       "default": "auto",
       "outbounds": [
         "auto",
-        "DE-1",
-        "DE-2",
-        "DE-3",
-        "DE-4"
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
       ]
     },
   {
-    "tag": "DE-1",
+    "tag": "🇩🇪 DE 1",
     "type": "vmess",
     "server": "136.243.156.104",
     "server_port": 47159,
@@ -123,7 +123,7 @@
     }
   },
   {
-    "tag": "DE-2",
+    "tag": "D🇩🇪 DE 2",
     "type": "vmess",
     "server": "www.visa.de",
     "server_port": 443,
@@ -146,7 +146,7 @@
     }
   },
   {
-    "tag": "DE-3",
+    "tag": "🇩🇪 DE 3",
     "type": "hysteria2",
     "server": "136.243.156.104",
     "server_port": 24431,
@@ -158,7 +158,7 @@
     }
   },
   {
-    "tag": "DE-4",
+    "tag": "🇩🇪 DE 4",
     "type": "tuic",
     "server": "136.243.156.104",
     "server_port": 41747,
@@ -189,10 +189,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "DE-1",
-        "DE-2",
-        "DE-3",
-        "DE-4"
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
