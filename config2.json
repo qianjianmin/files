@@ -1,0 +1,881 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:20123",
+      "external_ui": "",
+      "secret": "ID_u2ithatt",
+      "external_ui_download_url": "",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": true,
+      "store_rdrc": false
+    }
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "domain_strategy": "ipv4_only",
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "🚀 节点选择",
+      "type": "selector",
+      "outbounds": [
+        "🎈 自动选择",
+        "direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "🎈 自动选择",
+      "type": "urltest",
+      "outbounds": [
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "600s",
+      "tolerance": 100
+    },
+    {
+      "tag": "🎯 全球直连",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "block"
+      ]
+    },
+    {
+      "tag": "🛑 全球拦截",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "🐟 漏网之鱼",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "🎬️ 哔哩哔哩",
+      "type": "selector",
+      "outbounds": [
+        "🎯 全球直连"
+      ]
+    },
+    {
+      "tag": "Ⓜ️ 微软服务",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "🍎 Apple服务",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "📺️ Netflix视频",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "🅾️ OpenAI",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "🛩️ Telegram电报",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "📽️ TikTok",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "📹️ YouTube视频",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "tag": "GLOBAL",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "block",
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🎯 全球直连",
+        "🛑 全球拦截",
+        "🐟 漏网之鱼",
+        "🎬️ 哔哩哔哩",
+        "Ⓜ️ 微软服务",
+        "🍎 Apple服务",
+        "📺️ Netflix视频",
+        "🅾️ OpenAI",
+        "🛩️ Telegram电报",
+        "📽️ TikTok",
+        "📹️ YouTube视频",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4"
+      ]
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 CA 1",
+      "server": "155.248.223.52",
+      "server_port": 61402,
+      "uuid": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.visa.ca",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kAmgcofsKZ8nlbyuV3k-Sf1LSfF6b9954FLlkOnZYnc",
+          "short_id": "319f41d2"
+        }
+      }
+    },
+    {
+      "server": "duckyci.jianmin.eu.org",
+      "server_port": 61403,
+      "tag": "🇨🇦 CA 2",
+      "tls": {
+        "enabled": true,
+        "server_name": "duckyci.jianmin.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "packetaddr",
+      "transport": {
+        "headers": {
+          "Host": [
+            "duckyci.jianmin.eu.org"
+          ]
+        },
+        "path": "142e8641-3748-46e0-ad6c-c82887c5cf6b-vm",
+        "type": "ws"
+      },
+      "type": "vmess",
+      "security": "auto",
+      "uuid": "142e8641-3748-46e0-ad6c-c82887c5cf6b"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇦 CA 3",
+      "server": "duckyci.jianmin.eu.org",
+      "server_port": 61404,
+      "password": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
+      "tls": {
+        "enabled": true,
+        "server_name": "duckyci.jianmin.eu.org",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🇨🇦 CA 4",
+      "server": "duckyci.jianmin.eu.org",
+      "server_port": 61405,
+      "uuid": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
+      "password": "142e8641-3748-46e0-ad6c-c82887c5cf6b",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "udp_over_stream": false,
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "server_name": "duckyci.jianmin.eu.org",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 SG 1",
+      "server": "89.34.227.27",
+      "server_port": 37452,
+      "uuid": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.visa.com.sg",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ZR4Wcy91ZxbkjPo4tj5Rl736nGWd5DryiMbXGwRvA0o",
+          "short_id": "a0b4c9f9"
+        }
+      }
+    },
+    {
+      "server": "bytevirt.qjm001.us.kg",
+      "server_port": 37453,
+      "tag": "🇸🇬 SG 2",
+      "tls": {
+        "enabled": true,
+        "server_name": "bytevirt.qjm001.us.kg",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "packetaddr",
+      "transport": {
+        "headers": {
+          "Host": [
+            "bytevirt.qjm001.us.kg"
+          ]
+        },
+        "path": "82abdc83-8238-49d2-9224-f9ea7b63a03e-vm",
+        "type": "ws"
+      },
+      "type": "vmess",
+      "security": "auto",
+      "uuid": "82abdc83-8238-49d2-9224-f9ea7b63a03e"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇬 SG 3",
+      "server": "bytevirt.qjm001.us.kg",
+      "server_port": 37454,
+      "password": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
+      "tls": {
+        "enabled": true,
+        "server_name": "bytevirt.qjm001.us.kg",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "tuic",
+      "tag": "🇸🇬 SG 4",
+      "server": "bytevirt.qjm001.us.kg",
+      "server_port": 37455,
+      "uuid": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
+      "password": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "udp_over_stream": false,
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "server_name": "bytevirt.qjm001.us.kg",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 1",
+      "type": "vmess",
+      "server": "85.194.244.91",
+      "server_port": 4423,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "security": "none",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "undefined"
+        },
+        "path": "/vmess",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 2",
+      "type": "vmess",
+      "server": "www.visa.pl",
+      "server_port": 443,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "security": "none",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "argo.jianmin.eu.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "argo.jianmin.eu.org"
+        },
+        "path": "/vmess",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 3",
+      "type": "hysteria2",
+      "server": "85.194.244.91",
+      "server_port": 19282,
+      "password": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 4",
+      "type": "tuic",
+      "server": "85.194.244.91",
+      "server_port": 45397,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "password": "admin123",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇩🇪 DE 1",
+      "type": "vmess",
+      "server": "136.243.156.104",
+      "server_port": 47159,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "security": "none",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "undefined"
+        },
+        "path": "/vmess",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "🇩🇪 DE 2",
+      "type": "vmess",
+      "server": "www.visa.de",
+      "server_port": 443,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "security": "none",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "ct8.jianmin.eu.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "ct8.jianmin.eu.org"
+        },
+        "path": "/vmess",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "🇩🇪 DE 3",
+      "type": "hysteria2",
+      "server": "136.243.156.104",
+      "server_port": 24431,
+      "password": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 DE 4",
+      "type": "tuic",
+      "server": "136.243.156.104",
+      "server_port": 41747,
+      "uuid": "bc97f674-c578-4940-9234-0a1da46041b9",
+      "password": "admin123",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rule_set": [
+      {
+        "tag": "🎬️ 哔哩哔哩",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "Ⓜ️ 微软服务",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "🍎 Apple服务",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "📺️ Netflix视频",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/netflix.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "🅾️ OpenAI",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/openai.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "🛩️ Telegram电报",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/telegram.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "📽️ TikTok",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "📹️ YouTube视频",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "CATEGORY-ADS",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOIP-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOSITE-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOLOCATION-!CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "🎯 全球直连"
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": "🎬️ 哔哩哔哩",
+        "outbound": "🎬️ 哔哩哔哩"
+      },
+      {
+        "rule_set": "Ⓜ️ 微软服务",
+        "outbound": "Ⓜ️ 微软服务"
+      },
+      {
+        "rule_set": "🍎 Apple服务",
+        "outbound": "🍎 Apple服务"
+      },
+      {
+        "rule_set": "📺️ Netflix视频",
+        "outbound": "📺️ Netflix视频"
+      },
+      {
+        "rule_set": "🅾️ OpenAI",
+        "outbound": "🅾️ OpenAI"
+      },
+      {
+        "rule_set": "🛩️ Telegram电报",
+        "outbound": "🛩️ Telegram电报"
+      },
+      {
+        "rule_set": "📽️ TikTok",
+        "outbound": "📽️ TikTok"
+      },
+      {
+        "rule_set": "📹️ YouTube视频",
+        "outbound": "📹️ YouTube视频"
+      },
+      {
+        "protocol": "dns",
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "GLOBAL"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "🛑 全球拦截"
+      },
+      {
+        "rule_set": "CATEGORY-ADS",
+        "outbound": "🛑 全球拦截"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOIP-CN",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOSITE-CN",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOLOCATION-!CN",
+        "outbound": "🚀 节点选择"
+      }
+    ],
+    "final": "🐟 漏网之鱼",
+    "auto_detect_interface": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "remote-dns",
+        "address": "tls://8.8.8.8",
+        "address_resolver": "remote-resolver-dns",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "local-dns",
+        "address": "https://223.5.5.5/dns-query",
+        "address_resolver": "resolver-dns",
+        "detour": "🎯 全球直连"
+      },
+      {
+        "tag": "resolver-dns",
+        "address": "223.5.5.5",
+        "detour": "🎯 全球直连"
+      },
+      {
+        "tag": "remote-resolver-dns",
+        "address": "8.8.8.8",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      }
+    ],
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "rules": [
+      {
+        "outbound": "any",
+        "disable_cache": true,
+        "server": "local-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "local-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "remote-dns"
+      },
+      {
+        "rule_set": "GEOSITE-CN",
+        "server": "local-dns"
+      },
+      {
+        "rule_set": "GEOLOCATION-!CN",
+        "server": "remote-dns"
+      }
+    ],
+    "fakeip": {
+      "enabled": false,
+      "inet4_range": "198.18.0.1/16",
+      "inet6_range": "fc00::/18"
+    },
+    "final": "remote-dns",
+    "strategy": "ipv4_only"
+  }
+}
