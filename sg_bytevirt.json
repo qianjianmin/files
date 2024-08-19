@@ -98,15 +98,15 @@
       "default": "auto",
       "outbounds": [
         "auto",
-        "vless-1404cb1343",
-        "vmess-1404cb1343",
-        "hy2-1404cb1343",
-        "tuic5-1404cb1343"
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
       ]
     },
     {
       "type": "vless",
-      "tag": "vless-1404cb1343",
+      "tag": "🇸🇬 SG 1",
       "server": "89.34.227.27",
       "server_port": 37452,
       "uuid": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
@@ -129,7 +129,7 @@
 {
             "server": "bytevirt.qjm001.us.kg",
             "server_port": 37453,
-            "tag": "vmess-1404cb1343",
+            "tag": "🇸🇬 SG 2",
             "tls": {
                 "enabled": true,
                 "server_name": "bytevirt.qjm001.us.kg",
@@ -156,14 +156,14 @@
 
     {
         "type": "hysteria2",
-        "tag": "hy2-1404cb1343",
+        "tag": "🇸🇬 SG 3",
         "server": "bytevirt.qjm001.us.kg",
         "server_port": 37454,
         "password": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
         "tls": {
             "enabled": true,
             "server_name": "bytevirt.qjm001.us.kg",
-            "insecure": false,
+            "insecure": true,
             "alpn": [
                 "h3"
             ]
@@ -171,7 +171,7 @@
     },
         {
             "type":"tuic",
-            "tag": "tuic5-1404cb1343",
+            "tag": "🇸🇬 SG 4",
             "server": "bytevirt.qjm001.us.kg",
             "server_port": 37455,
             "uuid": "82abdc83-8238-49d2-9224-f9ea7b63a03e",
@@ -184,7 +184,7 @@
             "tls":{
                 "enabled": true,
                 "server_name": "bytevirt.qjm001.us.kg",
-                "insecure": false,
+                "insecure": true,
                 "alpn": [
                     "h3"
                 ]
@@ -206,10 +206,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-1404cb1343",
-        "vmess-1404cb1343",
-        "hy2-1404cb1343",
-        "tuic5-1404cb1343"
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
