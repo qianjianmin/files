@@ -467,6 +467,7 @@
     {
       "tag": "apple",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -491,6 +492,7 @@
     {
       "tag": "bilibili",
       "type": "selector",
+      "default": "🎯 全球直连",
       "outbounds": [
         "🎯 全球直连",
         "auto",
@@ -515,6 +517,7 @@
     {
       "tag": "google",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -539,6 +542,7 @@
     {
       "tag": "microsoft",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -563,6 +567,7 @@
     {
       "tag": "netflix",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -587,6 +592,7 @@
     {
       "tag": "openai",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -611,6 +617,7 @@
     {
       "tag": "telegram",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -635,6 +642,7 @@
     {
       "tag": "tiktok",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -659,6 +667,7 @@
     {
       "tag": "youtube",
       "type": "selector",
+      "default": "auto",
       "outbounds": [
         "auto",
         "🎯 全球直连",
@@ -682,6 +691,7 @@
     },
     {
       "tag": "🎯 全球直连",
+      "default": "direct",
       "type": "selector",
       "outbounds": [
         "direct",
@@ -691,64 +701,10 @@
     {
       "tag": "🛑 全球拦截",
       "type": "selector",
+      "default": "block",
       "outbounds": [
         "block",
         "direct"
-      ]
-    },
-    {
-      "tag": "🐟 漏网之鱼",
-      "type": "selector",
-      "outbounds": [
-        "select",
-        "auto",
-        "🎯 全球直连",
-        "🛑 全球拦截",
-        "🇨🇦 CA 1",
-        "🇨🇦 CA 2",
-        "🇨🇦 CA 3",
-        "🇨🇦 CA 4",
-        "🇩🇪 DE 1",
-        "🇩🇪 DE 2",
-        "🇩🇪 DE 3",
-        "🇩🇪 DE 4",
-        "🇵🇱 PL 1",
-        "🇵🇱 PL 2",
-        "🇵🇱 PL 3",
-        "🇵🇱 PL 4",
-        "🇸🇬 SG 1",
-        "🇸🇬 SG 2",
-        "🇸🇬 SG 3",
-        "🇸🇬 SG 4"
-      ]
-    },
-    {
-      "tag": "GLOBAL",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "block",
-        "select",
-        "auto",
-        "🎯 全球直连",
-        "🛑 全球拦截",
-        "🐟 漏网之鱼",
-        "🇨🇦 CA 1",
-        "🇨🇦 CA 2",
-        "🇨🇦 CA 3",
-        "🇨🇦 CA 4",
-        "🇩🇪 DE 1",
-        "🇩🇪 DE 2",
-        "🇩🇪 DE 3",
-        "🇩🇪 DE 4",
-        "🇵🇱 PL 1",
-        "🇵🇱 PL 2",
-        "🇵🇱 PL 3",
-        "🇵🇱 PL 4",
-        "🇸🇬 SG 1",
-        "🇸🇬 SG 2",
-        "🇸🇬 SG 3",
-        "🇸🇬 SG 4"
       ]
     }
   ],
@@ -860,7 +816,7 @@
       }
         ],
     "auto_detect_interface": true,
-    "final": "🐟 漏网之鱼",
+    "final": "select",
     "rules": [
       {
         "outbound": "dns-out",
@@ -872,15 +828,15 @@
       },
       {
         "clash_mode": "Global",
-        "outbound": "GLOBAL"
+        "outbound": "select"
       },
       {
         "rule_set": "geoip-cn",
-        "outbound": "🎯 全球直连"
+        "outbound": "direct"
       },
       {
         "rule_set": "geosite-cn",
-        "outbound": "🎯 全球直连"
+        "outbound": "direct"
       },
       {
       "ip_is_private": true,
@@ -892,7 +848,7 @@
       },
       {
         "rule_set": "category-ads-all",
-        "outbound": "🛑 全球拦截"
+        "outbound": "block"
       },
       {
         "rule_set": "youtube",
