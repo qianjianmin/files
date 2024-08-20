@@ -98,7 +98,7 @@
             "default": "automate",
             "outbounds": [
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -426,7 +426,7 @@
             }
         },
         {
-            "tag": "direct",
+            "tag": "direct-connect",
             "type": "selector",
             "outbounds": [
               "direct",
@@ -434,7 +434,7 @@
            ]
         },
         {
-            "tag": "block",
+            "tag": "block-ads",
             "type": "selector",
             "outbounds": [
               "block",
@@ -474,7 +474,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -496,9 +496,9 @@
         {
             "tag": "bilibili",
             "type": "selector",
-            "default": "direct",
+            "default": "direct-connect",
             "outbounds": [
-                "direct",
+                "direct-connect",
                 "select",
                 "automate",
                 "🇨🇦 CA 1",
@@ -526,7 +526,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -552,7 +552,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -578,7 +578,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -604,7 +604,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -630,7 +630,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -656,7 +656,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -682,7 +682,7 @@
             "outbounds": [
                 "select",
                 "automate",
-                "direct",
+                "direct-connect",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -822,11 +822,11 @@
             },
             {
                 "rule_set": "geoip-cn",
-                "outbound": "direct"
+                "outbound": "direct-connect"
             },
             {
                 "rule_set": "geosite-cn",
-                "outbound": "direct"
+                "outbound": "direct-connect"
             },
             {
                 "ip_is_private": true,
@@ -838,7 +838,7 @@
             },
             {
                 "rule_set": "category-ads-all",
-                "outbound": "block"
+                "outbound": "block-ads"
             },
             {
                 "rule_set": "youtube",
