@@ -511,6 +511,14 @@
                 "update_interval": "1d"
             },
             {
+                "tag": "AdGuardSDNSFilter",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/xmdhs/sing-box-ruleset/rule-set/AdGuardSDNSFilter.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
                 "tag": "category-ads-all",
                 "type": "remote",
                 "format": "binary",
@@ -629,6 +637,10 @@
       {
         "rule_set": "geosite-cn",
         "outbound": "🎯 direct"
+      },
+      {
+        "rule_set": "AdGuardSDNSFilter",
+        "outbound": "🛑 block"
       },
       {
         "rule_set": "category-ads-all",
