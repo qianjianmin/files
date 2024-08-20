@@ -98,6 +98,7 @@
             "default": "automate",
             "outbounds": [
                 "automate",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -468,7 +469,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -495,7 +496,7 @@
             "outbounds": [
                 "direct",
                 "select",
-                "auto",
+                "automate",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -520,7 +521,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -546,7 +547,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -572,7 +573,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -598,7 +599,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -624,7 +625,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -650,7 +651,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -676,7 +677,7 @@
             "default": "select",
             "outbounds": [
                 "select",
-                "auto",
+                "automate",
                 "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
