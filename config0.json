@@ -427,15 +427,19 @@
         },
         {
             "tag": "direct",
-            "type": "direct"
+            "type": "selector",
+            "outbounds": [
+              "direct",
+              "block"
+           ]
         },
         {
             "tag": "block",
-            "type": "block"
-        },
-        {
-            "tag": "dns-out",
-            "type": "dns"
+            "type": "selector",
+            "outbounds": [
+              "block",
+              "direct"
+           ]
         },
         {
             "tag": "automate",
@@ -808,10 +812,6 @@
         "auto_detect_interface": true,
         "final": "select",
         "rules": [
-            {
-                "outbound": "dns-out",
-                "protocol": "dns"
-            },
             {
                 "clash_mode": "Direct",
                 "outbound": "direct"
