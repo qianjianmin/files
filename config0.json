@@ -467,7 +467,8 @@
     },
     {
       "tag": "🎯 direct",
-      "type": "urltest",
+      "type": "selector",
+      "default": "direct",
       "outbounds": [
         "direct",
         "block"
@@ -475,7 +476,8 @@
     },
     {
       "tag": "🛑 block",
-      "type": "urltest",
+      "type": "selector",
+      "default": "block",
       "outbounds": [
         "block",
         "direct"
