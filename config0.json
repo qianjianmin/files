@@ -441,6 +441,14 @@
               "direct"
            ]
         },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
         {
             "tag": "automate",
             "type": "urltest",
