@@ -95,9 +95,9 @@
         {
             "tag": "select",
             "type": "selector",
-            "default": "auto",
+            "default": "automate",
             "outbounds": [
-                "auto",
+                "automate",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -437,7 +437,7 @@
             "type": "dns"
         },
         {
-            "tag": "auto",
+            "tag": "automate",
             "type": "urltest",
             "outbounds": [
                 "🇨🇦 CA 1",
@@ -465,10 +465,11 @@
         {
             "tag": "apple",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -490,9 +491,10 @@
         {
             "tag": "bilibili",
             "type": "selector",
-            "default": "🎯 全球直连",
+            "default": "direct",
             "outbounds": [
-                "🎯 全球直连",
+                "direct",
+                "select",
                 "auto",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
@@ -515,10 +517,11 @@
         {
             "tag": "google",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -540,10 +543,11 @@
         {
             "tag": "microsoft",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -565,10 +569,11 @@
         {
             "tag": "netflix",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -590,10 +595,11 @@
         {
             "tag": "openai",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -615,10 +621,11 @@
         {
             "tag": "telegram",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -640,10 +647,11 @@
         {
             "tag": "tiktok",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -665,10 +673,11 @@
         {
             "tag": "youtube",
             "type": "selector",
-            "default": "auto",
+            "default": "select",
             "outbounds": [
+                "select",
                 "auto",
-                "🎯 全球直连",
+                "direct",
                 "🇨🇦 CA 1",
                 "🇨🇦 CA 2",
                 "🇨🇦 CA 3",
@@ -685,24 +694,6 @@
                 "🇸🇬 SG 2",
                 "🇸🇬 SG 3",
                 "🇸🇬 SG 4"
-            ]
-        },
-        {
-            "tag": "🎯 全球直连",
-            "default": "direct",
-            "type": "selector",
-            "outbounds": [
-                "direct",
-                "block"
-            ]
-        },
-        {
-            "tag": "🛑 全球拦截",
-            "type": "selector",
-            "default": "block",
-            "outbounds": [
-                "block",
-                "direct"
             ]
         }
     ],
