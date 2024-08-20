@@ -98,6 +98,7 @@
       "default": "🎈 auto",
       "outbounds": [
         "🎈 auto",
+        "🎯 direct",
         "🇨🇦 CA 1",
         "🇨🇦 CA 2",
         "🇨🇦 CA 3",
@@ -113,8 +114,7 @@
         "🇸🇬 SG 1",
         "🇸🇬 SG 2",
         "🇸🇬 SG 3",
-        "🇸🇬 SG 4",
-        "🎯 direct"
+        "🇸🇬 SG 4"
       ]
     },
     {
@@ -482,6 +482,240 @@
         "block",
         "direct"
       ]
+    },
+    {
+      "tag": "🍎 apple",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "📺 bilibili",
+      "type": "selector",
+      "default": "🎯 direct",
+      "outbounds": [
+        "🎯 direct",
+        "🚀 select",
+        "🎈 auto",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "📢 google",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "Ⓜ️ microsoft",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "🎥 netflix",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "💬 openai",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "📲 telegram",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "🎵 tiktok",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
+    },
+    {
+      "tag": "📹 youtube",
+      "type": "selector",
+      "default": "🚀 select",
+      "outbounds": [
+        "🚀 select",
+        "🎈 auto",
+        "🎯 direct",
+        "🇨🇦 CA 1",
+        "🇨🇦 CA 2",
+        "🇨🇦 CA 3",
+        "🇨🇦 CA 4",
+        "🇩🇪 DE 1",
+        "🇩🇪 DE 2",
+        "🇩🇪 DE 3",
+        "🇩🇪 DE 4",
+        "🇵🇱 PL 1",
+        "🇵🇱 PL 2",
+        "🇵🇱 PL 3",
+        "🇵🇱 PL 4",
+        "🇸🇬 SG 1",
+        "🇸🇬 SG 2",
+        "🇸🇬 SG 3",
+        "🇸🇬 SG 4"
+      ]
     }
   ],
   "route": {
@@ -515,6 +749,78 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "apple",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "bilibili",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "google",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "microsoft",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "netflix",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/netflix.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "openai",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/openai.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "telegram",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/telegram.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "tiktok",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
+                "download_detour": "🚀 select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "youtube",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
                 "download_detour": "🚀 select",
                 "update_interval": "1d"
             }
@@ -561,6 +867,42 @@
       {
         "rule_set": "category-ads-all",
         "outbound": "🛑 block"
+      },
+      {
+        "rule_set": "apple",
+        "outbound": "🍎 apple"
+      },
+      {
+        "rule_set": "bilibili",
+        "outbound": "📺 bilibili"
+      },
+      {
+        "rule_set": "google",
+        "outbound": "📢 google"
+      },
+      {
+        "rule_set": "microsoft",
+        "outbound": "Ⓜ️ microsoft"
+      },
+      {
+        "rule_set": "netflix",
+        "outbound": "🎥 netflix"
+      },
+      {
+        "rule_set": "openai",
+        "outbound": "💬 openai"
+      },
+      {
+        "rule_set": "telegram",
+        "outbound": "📲 telegram"
+      },
+      {
+        "rule_set": "tiktok",
+        "outbound": "🎵 tiktok"
+      },
+      {
+        "rule_set": "youtube",
+        "outbound": "📹 youtube"
       }
     ]
   },
