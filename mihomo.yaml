@@ -1,54 +1,5 @@
-- type: vless
-  name: 🇨🇦 CA 1
-  server: duckyci.jianmin.eu.org
-  port: 61402
-  uuid: 142e8641-3748-46e0-ad6c-c82887c5cf6b
-  tls: true
-  sni: www.visa.ca
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  reality-opts:
-    public-key: kAmgcofsKZ8nlbyuV3k-Sf1LSfF6b9954FLlkOnZYnc
-    short-id: 319f41d2
-  network: tcp
-- type: vless
-  name: 🇩🇪 DE 1
-  server: ct8.jianmin.eu.org
-  port: 24441
-  uuid: bc97f674-c578-4940-9234-0a1da46041b9
-  tls: true
-  sni: www.ups.com
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  reality-opts:
-    public-key: ndQyaUFGbUUr5QnY1j-R90mybxbdZqdbFHuVXVRvqlM
-  network: tcp
-- type: vless
-  name: 🇵🇱 PL 1
-  server: serv00.qjm001.us.kg
-  port: 1473
-  uuid: bc97f674-c578-4940-9234-0a1da46041b9
-  tls: true
-  sni: www.ups.com
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  reality-opts:
-    public-key: VejEdocmfv9AzkSHGWdskVDz91SC7QiT5xY8bOQQczM
-  network: tcp
-- type: vless
-  name: 🇸🇬 SG 1
-  server: bytevirt.qjm001.us.kg
-  port: 37452
-  uuid: 82abdc83-8238-49d2-9224-f9ea7b63a03e
-  tls: true
-  sni: www.visa.com.sg
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  reality-opts:
-    public-key: ZR4Wcy91ZxbkjPo4tj5Rl736nGWd5DryiMbXGwRvA0o
-    short-id: a0b4c9f9
-  network: tcp
+proxies:
+  - {name: 🇨🇦 CA 1, server: duckyci.jianmin.eu.org, port: 61402, reality-opts: {public-key: kAmgcofsKZ8nlbyuV3k-Sf1LSfF6b9954FLlkOnZYnc, short-id: 319f41d2}, client-fingerprint: chrome, type: vless, uuid: 142e8641-3748-46e0-ad6c-c82887c5cf6b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.visa.ca, network: tcp}
+  - {name: 🇩🇪 DE 1, server: ct8.jianmin.eu.org, port: 24441, reality-opts: {public-key: ndQyaUFGbUUr5QnY1j-R90mybxbdZqdbFHuVXVRvqlM}, client-fingerprint: chrome, type: vless, uuid: bc97f674-c578-4940-9234-0a1da46041b9, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.ups.com, network: tcp}
+  - {name: 🇵🇱 PL 1, server: serv00.qjm001.us.kg, port: 1473, reality-opts: {public-key: VejEdocmfv9AzkSHGWdskVDz91SC7QiT5xY8bOQQczM}, client-fingerprint: chrome, type: vless, uuid: bc97f674-c578-4940-9234-0a1da46041b9, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.ups.com, network: tcp}
+  - {name: 🇸🇬 SG 1, server: bytevirt.qjm001.us.kg, port: 37452, reality-opts: {public-key: ZR4Wcy91ZxbkjPo4tj5Rl736nGWd5DryiMbXGwRvA0o, short-id: a0b4c9f9}, client-fingerprint: chrome, type: vless, uuid: 82abdc83-8238-49d2-9224-f9ea7b63a03e, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.visa.com.sg, network: tcp}
