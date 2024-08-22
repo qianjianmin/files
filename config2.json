@@ -91,26 +91,35 @@
             "domain_strategy": "prefer_ipv4"
         }
     ],
-  "providers": [
+  "outbound_providers": [
     {
       "tag": "机场1",
-      "url": "http://dishujichang.xyz/api/v1/client/subscribe?token=a7c71e0e6a9df1b30fead9ee42ba7945",
-      "interval": "6h",
-      "cache_file": "机场1.txt",
+      "type": "http",
+      "download_url": "http://dishujichang.xyz/api/v1/client/subscribe?token=a7c71e0e6a9df1b30fead9ee42ba7945",
+      "download_interval": "6h",
+      "path": "机场1.txt",
+      "healthcheck_interval": "1h",
+      "download_ua": "v2ray",
       "download_detour": "🎯 全球直连"
     },
     {
       "tag": "机场2",
-      "url": "http://103.196.20.127/api/v1/client/subscribe?token=0bd36cf534163606d1fa81e062907fe3",
-      "interval": "6h",
-      "cache_file": "机场2.txt",
+      "type": "http",
+      "download_url": "http://103.196.20.127/api/v1/client/subscribe?token=0bd36cf534163606d1fa81e062907fe3",
+      "download_interval": "6h",
+      "path": "机场2.txt",
+      "healthcheck_interval": "1h",
+      "download_ua": "v2ray",
       "download_detour": "🎯 全球直连"
     },
     {
       "tag": "机场3",
-      "url": "https://api.layer4.shop/api/v1/client/subscribe?token=5231394c295be6174a1c834a01eee1b2",
-      "interval": "6h",
-      "cache_file": "机场3.txt",
+      "type": "http",
+      "download_url": "https://api.layer4.shop/api/v1/client/subscribe?token=5231394c295be6174a1c834a01eee1b2",
+      "download_interval": "6h",
+      "path": "机场3.txt",
+      "healthcheck_interval": "1h",
+      "download_ua": "v2ray",
       "download_detour": "🎯 全球直连"
     }
   ],
