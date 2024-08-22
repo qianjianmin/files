@@ -91,15 +91,27 @@
             "domain_strategy": "prefer_ipv4"
         }
     ],
-  "outbound_providers": [
+  "providers": [
     {
       "tag": "机场1",
       "url": "http://dishujichang.xyz/api/v1/client/subscribe?token=a7c71e0e6a9df1b30fead9ee42ba7945",
-      "headers": {
-        "User-Agent": "sing-box,clash.meta,v2ray"
-      },
-      "update_interval": "6h",
-      "detour": "🎯 全球直连"
+      "interval": "6h",
+      "cache_file": "机场1.txt",
+      "download_detour": "🎯 全球直连"
+    },
+    {
+      "tag": "机场2",
+      "url": "http://103.196.20.127/api/v1/client/subscribe?token=0bd36cf534163606d1fa81e062907fe3",
+      "interval": "6h",
+      "cache_file": "机场2.txt",
+      "download_detour": "🎯 全球直连"
+    },
+    {
+      "tag": "机场",
+      "url": "https://api.layer4.shop/api/v1/client/subscribe?token=5231394c295be6174a1c834a01eee1b2",
+      "interval": "6h",
+      "cache_file": "机场3.txt",
+      "download_detour": "🎯 全球直连"
     }
   ],
     "outbounds": [
@@ -108,16 +120,22 @@
             "type": "selector",
             "outbounds": [
                 "🎈 自动选择",
-                "🎯 全球直连",
-                "机场1"
-            ]
+                "🎯 全球直连"
+            ],
+            "providers": [
+                "机场1",
+                "机场2",
+                "机场3"
+      ]
         },
         {
             "tag": "🎈 自动选择",
             "type": "urltest",
-            "outbounds": [
-                "机场1"
-            ],
+            "providers": [
+                "机场1",
+                "机场2",
+                "机场3"
+      ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "10m",
             "tolerance": 10
@@ -145,8 +163,12 @@
                 "🚀 节点选择",
                 "🎯 全球直连",
                 "🎈 自动选择",
-                "机场1"
-            ]
+            ],
+            "providers": [
+                "机场1",
+                "机场2",
+                "机场3"
+      ]
         },
         {
             "tag": "GLOBAL",
@@ -159,8 +181,12 @@
                 "🎯 全球直连",
                 "🛑 全球拦截",
                 "🐟 漏网之鱼",
-                "机场1"
-            ]
+            ],
+            "providers": [
+                "机场1",
+                "机场2",
+                "机场3"
+      ]
         },
         {
             "type": "direct",
