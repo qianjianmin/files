@@ -107,7 +107,7 @@
       "download_detour": "🎯 全球直连"
     },
     {
-      "tag": "机场",
+      "tag": "机场3",
       "url": "https://api.layer4.shop/api/v1/client/subscribe?token=5231394c295be6174a1c834a01eee1b2",
       "interval": "6h",
       "cache_file": "机场3.txt",
