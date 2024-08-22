@@ -1,0 +1,3 @@
+http://dishujichang.xyz/api/v1/client/subscribe?token=a7c71e0e6a9df1b30fead9ee42ba7945
+http://103.196.20.127/api/v1/client/subscribe?token=0bd36cf534163606d1fa81e062907fe3
+https://api.layer4.shop/api/v1/client/subscribe?token=5231394c295be6174a1c834a01eee1b2
