@@ -21,7 +21,7 @@ pr:
     proxies:
       [
         节点选择,
-        全部节点,
+        手动选择,
         自动选择,
         DIRECT,
       ],
@@ -250,12 +250,12 @@ proxies:
 
 proxy-groups:
   # 使用 WARP 的用户需要手动在下方的 proxies 字段内添加 WARP
-  # 例如 [WARP, 全部节点, 自动选择, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, DIRECT],
+  # 例如 [WARP, 手动选择, 自动选择, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, DIRECT],
   - {
       name: 节点选择,
       type: select,
       proxies:
-        [全部节点, 自动选择, DIRECT],
+        [自动选择, 手动选择, DIRECT],
     }
   # 这里的 dns 指海外解析 dns 走的节点，一般跟随节点选择即可
   - { name: dns, <<: *pr }
@@ -289,8 +289,8 @@ proxy-groups:
         [
           DIRECT,
           节点选择,
-          全部节点,
           自动选择,
+          手动选择,
         ],
     }
   # 其他就是所有规则没匹配到的
@@ -299,8 +299,8 @@ proxy-groups:
   - { name: 其他, <<: *pr }
 
   # 分隔,下面是地区分组
-  - { name: 全部节点, <<: *use }
   - { name: 自动选择, <<: *use, tolerance: 2, type: url-test }
+  - { name: 手动选择, <<: *use, type: select }
 
 rules:
   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
