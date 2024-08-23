@@ -22,7 +22,6 @@ pr:
       [
         节点选择,
         自动选择,
-        手动选择,
         DIRECT,
       ],
   }
@@ -30,52 +29,52 @@ pr:
 p: &p
   type: http
   # 自动更新订阅时间，单位为秒
-  interval: 3600
+  interval: 7200
   health-check:
     enable: true
     url: https://cp.cloudflare.com
     # 节点连通性检测时间，单位为秒
-    interval: 600
+    interval: 1800
     # 节点超时延迟，单位为毫秒
-    timeout: 6000
+    timeout: 3000
     # 节点自动切换差值，单位为毫秒
-    tolerance: 10
+    tolerance: 3
 
 # 订阅名，记得修改成自己的
 # 添删订阅在这里和下方订阅链接依葫芦画瓢就行
 use: &use
   # 如果不希望自动切换请将下面两行注释对调
-  # type: select
-  type: url-test
+  type: select
+  # type: url-test
   use:
-    - 订阅一
-    - 订阅二
-    - 订阅三
-    - 订阅四
+    - sub1
+    - sub2
+    - sub3
+    - sub4
     # - 本地配置
 
 # 订阅链接
 # 对于订阅来说，path 为选填项，但建议启用
 # 本地配置可以只填 path
 proxy-providers:
-  订阅一:
+  sub1:
     <<: *p
-    # path: ./proxy_provider/订阅一.yaml
+    # path: ./proxy_provider/sub1.yaml
     url: "https://gh.qjm01.dynv6.net/qianjianmin/Private-Library/main/自建节点?token=qjm123"
 
-  订阅二:
+  sub2:
     <<: *p
-    # path: ./proxy_provider/订阅二.yaml
+    # path: ./proxy_provider/sub2.yaml
     url: "http://dishujichang.xyz/api/v1/client/subscribe?token=a7c71e0e6a9df1b30fead9ee42ba7945"
 
-  订阅三:
+  sub3:
     <<: *p
-    # path: ./proxy_provider/订阅三.yaml
+    # path: ./proxy_provider/sub3.yaml
     url: "http://103.196.20.127/api/v1/client/subscribe?token=0bd36cf534163606d1fa81e062907fe3"
 
-  订阅四:
+  sub4:
     <<: *p
-    # path: ./proxy_provider/订阅四.yaml
+    # path: ./proxy_provider/sub4.yaml
     url: "https://api.layer4.shop/api/v1/client/subscribe?token=5231394c295be6174a1c834a01eee1b2"
 
   # 本地配置:
@@ -251,56 +250,37 @@ proxies:
 proxy-groups:
   # 使用 WARP 的用户需要手动在下方的 proxies 字段内添加 WARP
   # 例如 [WARP, 手动选择, 自动选择, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, DIRECT],
-  - {
-      name: 节点选择,
-      type: select,
-      proxies:
-        [自动选择, 手动选择, DIRECT],
-    }
-  # 这里的 dns 指海外解析 dns 走的节点，一般跟随节点选择即可
-  - { name: dns, <<: *pr }
-  # WARP 配置链式出站
-  # - { name: WARP前置, <<: *pr, exclude-type: "wireguard" }
-
-  - { name: 广告拦截, type: select, proxies: [REJECT, DIRECT, 节点选择] }
-  - { name: OpenAI, <<: *pr }
+  - { name: 节点选择, type: select, proxies: [自动选择, DIRECT], <<: *use }
+  - { name: 自动选择, <<: *use, tolerance: 3, interval: 1800, type: url-test, url: 'https://cp.cloudflare.com' }
   # Apple 推荐走全局直连
   - { name: Apple, <<: *pr }
+  # 这里的 dns 指海外解析 dns 走的节点，一般跟随节点选择即可
+  - { name: dns, <<: *pr }
+  - { name: ehentai, <<: *pr }
+  - { name: Github, <<: *pr }
   - { name: Google, <<: *pr }
+  - { name: NETFLIX, <<: *pr }
+  - { name: OneDrive, <<: *pr }
+  - { name: OpenAI, <<: *pr }
+  - { name: Pixiv, <<: *pr }
+  - { name: Spotify, <<: *pr }
+  - { name: Steam, <<: *pr }
   - { name: Telegram, <<: *pr }
   - { name: Twitter, <<: *pr }
-  - { name: Pixiv, <<: *pr }
-  - { name: ehentai, <<: *pr }
+  # WARP 配置链式出站
+  # - { name: WARP前置, <<: *pr, exclude-type: "wireguard" }
+  - { name: YouTube, <<: *pr }
   # 下面两个看需求启用，打开之后会代理全站流量，可能导致部分版权视频反而无法播放或视频播放速度缓慢
   # 下面 rules 两条也要启用
 # - {name: 哔哩哔哩, <<: *pr}
 # - {name: 哔哩东南亚, <<: *pr}
   - { name: 巴哈姆特, <<: *pr }
-  - { name: YouTube, <<: *pr }
-  - { name: NETFLIX, <<: *pr }
-  - { name: Spotify, <<: *pr }
-  - { name: Github, <<: *pr }
-  - { name: Steam, <<: *pr }
-  - { name: OneDrive, <<: *pr }
-  - {
-      name: 国内,
-      type: select,
-      proxies:
-        [
-          DIRECT,
-          节点选择,
-          自动选择,
-          手动选择,
-        ],
-    }
   # 其他就是所有规则没匹配到的
   # 可以理解为 ACL4SSR 配置里的 漏网之鱼
   # 换言之，其他走代理就是绕过中国大陆地址，不走就是 GFWList 模式
   - { name: 其他, <<: *pr }
-
-  # 分隔,下面是地区分组
-  - { name: 自动选择, <<: *use, tolerance: 2, type: url-test }
-  - { name: 手动选择, <<: *use, type: select }
+  - { name: 国内, type: select, proxies: [DIRECT, REJECT, 节点选择] }
+  - { name: 广告拦截, type: select, proxies: [REJECT, DIRECT, 节点选择] }
 
 rules:
   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
@@ -325,7 +305,7 @@ rules:
   # OpenAI 跟踪域名
   - DOMAIN-SUFFIX,o33249.ingest.sentry.io,广告拦截
   - DOMAIN-SUFFIX,openaicom.imgix.net,广告拦截
-  
+
   - GEOSITE,apple,Apple
   - GEOSITE,apple-cn,Apple
   - GEOSITE,ehentai,ehentai
