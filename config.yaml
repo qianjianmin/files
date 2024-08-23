@@ -173,7 +173,24 @@ proxy-groups:
   - proxy
   - DIRECT
 
+rule-providers:
+  anti-AD:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rule_provider/anti-AD.yaml
+    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    interval: 86400
+  anti-AD-white:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rule_provider/anti-AD-white.yaml
+    url: "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml"
+    interval: 86400
+
 rules:
+- AND,((RULE-SET,anti-AD),(NOT,((RULE-SET,anti-AD-white)))),ads
 - GEOSITE,category-ads-all,ads
 - GEOSITE,apple,apple
 - GEOSITE,bilibili,bilibili
