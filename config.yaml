@@ -82,7 +82,7 @@ dns:
     - 3.机场
     - 4.机场
     - 5.机场
-    
+    - 6.机场
 proxy-providers:
   1.自建:
     <<: *p
@@ -104,6 +104,10 @@ proxy-providers:
     <<: *p
     url: "https://getinfo.bigbigwatermelon.com/api/v1/client/subscribe?token=c6693e91e1c99790f38e80fefcca2c81"
     path: ./proxy_providers/subscribe5.yaml
+  6.机场:
+    <<: *p
+    url: "https://bujidao.cc/sub?key=18Dz31ohsvHEjKJYCQa3TGtXP0T0ma9A&type=clash_verge"
+    path: ./proxy_providers/subscribe6.yaml
 
 proxies:
   - {name: 🌎 全球直连, type: direct, udp: true}
