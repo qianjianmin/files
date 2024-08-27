@@ -16,7 +16,7 @@ log-level: silent
 find-process-mode: strict
 global-client-fingerprint: chrome
 external-controller: 0.0.0.0:9090
-external-ui: /mihomo/ui
+external-ui: /etc/mihomo/ui
 secret: ""
 
 profile:
