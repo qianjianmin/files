@@ -1,3 +1,3 @@
-hysteria2://61e2caa3-93d3-4d97-bef1-9def7ead3ee3@89.34.227.27:37454?&alpn=h3&insecure=1&mport=37454,37456-37465&sni=www.bing.com#IT
-hysteria2://61e2caa3-93d3-4d97-bef1-9def7ead3ee3@89.34.227.27:37454?&alpn=h3&insecure=1&mport=37454,37456-37465&sni=www.bing.com#SG
-vless://bc97f674-c578-4940-9234-0a1da46041b9@web7.serv00.com:1473?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.ups.com&fp=chrome&pbk=5OsZ8MxtunHQX4f62Puz81vzDLntMUOQRwlRphFAATM&type=tcp&headerType=none#PL-1473
+hysteria2://ca61eb06-742d-4ff8-baa1-256abfac660d@89.168.22.111:65154/?sni=www.bing.com&alpn=h3&insecure=1#IT
+hysteria2://bc97f674-c578-4940-9234-0a1da46041b9@85.194.244.91:3398/?sni=www.bing.com&alpn=h3&insecure=1#PL
+hysteria2://61e2caa3-93d3-4d97-bef1-9def7ead3ee3@89.34.227.27:37454/?sni=www.bing.com&alpn=h3&insecure=1#SG
