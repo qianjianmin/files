@@ -1,7 +1,7 @@
 mixed-port: 7890
 redir-port: 7891
 tproxy-port: 1536
-mode: rule
+mode: Rule
 allow-lan: true
 geodata-mode: true
 geo-auto-update: true
@@ -13,7 +13,7 @@ unified-delay: true
 tcp-concurrent: true
 enable-process: true
 log-level: silent
-find-process-mode: strict
+find-process-mode: always
 global-client-fingerprint: chrome
 external-controller: 0.0.0.0:9090
 external-ui: /data/adb/box_bll/panel/Meta/
@@ -39,7 +39,7 @@ sniffer:
   force-domain:
     - "+.v2ex.com"
   skip-domain:
-    - "Mijia"
+    - "Mijia Cloud"
 
 tun:
   enable: false
@@ -64,25 +64,28 @@ dns:
   prefer-h3: true
   ipv6: true
   listen: 0.0.0.0:1053
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.0/15
+  fake-ip-filter:
+    - "*"
+    - "+.lan"
+    - "connect.rom.miui.com"
+    - "localhost.ptlogin2.qq.com"
   nameserver:
     - tls://223.5.5.5
     - tls://223.6.6.6
     - tls://1.12.12.12
     - tls://120.53.53.53
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  
+
   p: &p
-    {type: http, interval: 86400, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
+    {type: http, interval: 86400, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 900}}
   u: &u
     use:
     - 1.自建
     - 2.机场
     - 3.机场
     - 4.机场
-    - 5.机场
-    - 6.机场
+
 proxy-providers:
   1.自建:
     <<: *p
@@ -94,24 +97,17 @@ proxy-providers:
     path: ./proxy_providers/subscribe2.yaml
   3.机场:
     <<: *p
-    url: "https://sus.alicenetwork.cloud/api/v1/client/subscribe?token=3a85383d76b657e1861cd4770505b212"
+    url: "https://bujidao.cc/sub?key=18Dz31ohsvHEjKJYCQa3TGtXP0T0ma9A"
     path: ./proxy_providers/subscribe3.yaml  
   4.机场:
     <<: *p
-    url: "https://link1.db-sub.xyz/link/EskICQI2yRQbxDkW?sub=3"
+    url: "https://mydy.xlm.plus/api/v1/client/subscribe?token=265ef8608d516ef9656316fca51c4cab"
     path: ./proxy_providers/subscribe4.yaml    
-  5.机场:
-    <<: *p
-    url: "https://getinfo.bigbigwatermelon.com/api/v1/client/subscribe?token=c6693e91e1c99790f38e80fefcca2c81"
-    path: ./proxy_providers/subscribe5.yaml
-  6.机场:
-    <<: *p
-    url: "https://bujidao.cc/sub?key=18Dz31ohsvHEjKJYCQa3TGtXP0T0ma9A&type=clash_verge"
-    path: ./proxy_providers/subscribe6.yaml
 
 proxies:
   - {name: 🌎 全球直连, type: direct, udp: true}
   - {name: DNS_Hijack, type: dns}
+
 proxy-groups:
   - {name: 🎯 总模式, type: select, proxies: [🚀 节点选择,♻️ 延迟最低,♻️ 故障转移,♻️ 负载均衡,♻️ 手动切换1,♻️ 手动切换2,♻️ 手动切换3,🌎 全球直连]}
   - {name: 🚀 节点选择, type: select, proxies: [♻️ 延迟最低,🌎 全球直连], <<: *u}
@@ -135,6 +131,7 @@ proxy-groups:
   - {name: 🎹 网易音乐「进程匹配」, type: select, proxies: [🌎 全球直连,🎯 总模式,♻️ 延迟最低,♻️ 故障转移,♻️ 负载均衡,♻️ 手动切换1,♻️ 手动切换2,♻️ 手动切换3]}
   - {name: 🛑 广告拦截, type: select, proxies: [REJECT,🌎 全球直连]}
   - {name: 🐋 漏网之鱼, type: select, proxies: [🎯 总模式,🌎 全球直连]}
+
 rule-providers:
   TikTok:
     type: http
@@ -206,6 +203,7 @@ rule-providers:
     path: ./rule/Discord.yaml
     url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/discord.yaml"
     interval: 86400
+
 rules:
   - DST-PORT,53,DNS_Hijack
   - AND,((PROCESS-NAME,mihomo),(NOT,((IN-TYPE,inner)))),REJECT
