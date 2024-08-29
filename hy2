@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "IT",
+    "type": "hysteria2",
+    "server": "89.168.22.111",
+    "server_port": 65154,
+    "password": "ca61eb06-742d-4ff8-baa1-256abfac660d",
+    "tls": {
+      "enabled": true,
+      "server_name": "www.bing.com",
+      "insecure": true
+    }
+  },
+  {
+    "tag": "PL",
+    "type": "hysteria2",
+    "server": "85.194.244.91",
+    "server_port": 3398,
+    "password": "bc97f674-c578-4940-9234-0a1da46041b9",
+    "tls": {
+      "enabled": true,
+      "server_name": "www.bing.com",
+      "insecure": true
+    }
+  },
+  {
+    "tag": "SG",
+    "type": "hysteria2",
+    "server": "89.34.227.27",
+    "server_port": 37454,
+    "password": "61e2caa3-93d3-4d97-bef1-9def7ead3ee3",
+    "tls": {
+      "enabled": true,
+      "server_name": "www.bing.com",
+      "insecure": true
+    }
+  }
+]
