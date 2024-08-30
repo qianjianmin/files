@@ -16,8 +16,8 @@ log-level: silent
 find-process-mode: always
 global-client-fingerprint: chrome
 external-controller: 0.0.0.0:9090
-external-ui: /data/adb/box_bll/panel/Meta/
-secret: "qjm123"
+external-ui: 
+secret: ""
 
 profile:
   store-selected: true
@@ -44,7 +44,7 @@ sniffer:
 tun:
   enable: false
   device: tun0
-  stack: mixed
+  stack: system
   dns-hijack:
     - any:53
     - tcp://any:53
@@ -78,13 +78,12 @@ dns:
     - tls://120.53.53.53
 
   p: &p
-    {type: http, interval: 86400, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 900}}
+    {type: http, interval: 86400, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 1800}}
   u: &u
     use:
     - 1.自建
     - 2.机场
     - 3.机场
-    - 4.机场
 
 proxy-providers:
   1.自建:
@@ -97,12 +96,8 @@ proxy-providers:
     path: ./proxy_providers/subscribe2.yaml
   3.机场:
     <<: *p
-    url: "https://bujidao.cc/sub?key=18Dz31ohsvHEjKJYCQa3TGtXP0T0ma9A"
-    path: ./proxy_providers/subscribe3.yaml  
-  4.机场:
-    <<: *p
     url: "https://mydy.xlm.plus/api/v1/client/subscribe?token=265ef8608d516ef9656316fca51c4cab"
-    path: ./proxy_providers/subscribe4.yaml    
+    path: ./proxy_providers/subscribe3.yaml    
 
 proxies:
   - {name: 🌎 全球直连, type: direct, udp: true}
