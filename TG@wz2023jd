@@ -11,9 +11,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560",
             }
         },
         {
@@ -27,9 +25,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -43,9 +39,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -59,9 +53,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -75,9 +67,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -91,9 +81,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -107,9 +95,7 @@
                 "headers": {
                     "Host": "831tg.na15iwpb.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -123,9 +109,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -139,9 +123,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -155,9 +137,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -171,9 +151,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -187,9 +165,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -203,9 +179,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         },
         {
@@ -219,9 +193,7 @@
                 "headers": {
                     "Host": "820tg.adwf54p4.workers.dev"
                 },
-                "path": "/",
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
+                "path": "/?ed=2560"
             }
         }
     ]
