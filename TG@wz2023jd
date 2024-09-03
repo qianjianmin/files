@@ -1,226 +1,228 @@
-[
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm00.cloudflare.182682.xyz",
-    "server_port": 80,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm01.cloudflare.182682.xyz",
-    "server_port": 2052,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm02.cloudflare.182682.xyz",
-    "server_port": 2082,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm03.cloudflare.182682.xyz",
-    "server_port": 2086,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm04.cloudflare.182682.xyz",
-    "server_port": 2095,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm05.cloudflare.182682.xyz",
-    "server_port": 8080,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm06.cloudflare.182682.xyz",
-    "server_port": 8880,
-    "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "831tg.na15iwpb.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm07.cloudflare.182682.xyz",
-    "server_port": 80,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm08.cloudflare.182682.xyz",
-    "server_port": 2052,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm09.cloudflare.182682.xyz",
-    "server_port": 2082,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm10.cloudflare.182682.xyz",
-    "server_port": 2086,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm11.cloudflare.182682.xyz",
-    "server_port": 2095,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm12.cloudflare.182682.xyz",
-    "server_port": 8080,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  },
-  {
-    "tag": "【长期有效】TG@wz2023jd",
-    "type": "vless",
-    "server": "qjm13.cloudflare.182682.xyz",
-    "server_port": 8880,
-    "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
-    "transport": {
-      "type": "ws",
-      "headers": {
-        "Host": "820tg.adwf54p4.workers.dev"
-      },
-      "path": "/",
-      "early_data_header_name": "Sec-WebSocket-Protocol",
-      "max_early_data": 2560
-    }
-  }
-]
+{
+    "outbounds": [
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm00.cloudflare.182682.xyz",
+            "server_port": 80,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm01.cloudflare.182682.xyz",
+            "server_port": 2052,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm02.cloudflare.182682.xyz",
+            "server_port": 2082,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm03.cloudflare.182682.xyz",
+            "server_port": 2086,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm04.cloudflare.182682.xyz",
+            "server_port": 2095,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm05.cloudflare.182682.xyz",
+            "server_port": 8080,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm06.cloudflare.182682.xyz",
+            "server_port": 8880,
+            "uuid": "4e4fe94d-d9f2-4679-879a-b06fbb28ddf1",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "831tg.na15iwpb.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm07.cloudflare.182682.xyz",
+            "server_port": 80,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm08.cloudflare.182682.xyz",
+            "server_port": 2052,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm09.cloudflare.182682.xyz",
+            "server_port": 2082,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm10.cloudflare.182682.xyz",
+            "server_port": 2086,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm11.cloudflare.182682.xyz",
+            "server_port": 2095,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm12.cloudflare.182682.xyz",
+            "server_port": 8080,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        },
+        {
+            "tag": "【长期有效】TG@wz2023jd",
+            "type": "vless",
+            "server": "qjm13.cloudflare.182682.xyz",
+            "server_port": 8880,
+            "uuid": "8b8b93cf-ad82-4163-9cf3-3e609bed4e6f",
+            "transport": {
+                "type": "ws",
+                "headers": {
+                    "Host": "820tg.adwf54p4.workers.dev"
+                },
+                "path": "/",
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }
+    ]
+}
