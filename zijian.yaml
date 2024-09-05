@@ -179,3 +179,183 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
+- type: vless
+  name: SG_DC_01
+  server: qjm41.cloudflare.182682.xyz
+  port: 80
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_02
+  server: qjm41.cloudflare.182682.xyz
+  port: 8080
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_03
+  server: qjm41.cloudflare.182682.xyz
+  port: 8880
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_04
+  server: qjm41.cloudflare.182682.xyz
+  port: 2052
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_05
+  server: qjm41.cloudflare.182682.xyz
+  port: 2082
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_06
+  server: qjm41.cloudflare.182682.xyz
+  port: 2086
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_07
+  server: qjm41.cloudflare.182682.xyz
+  port: 2095
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_08
+  server: qjm42.cloudflare.182682.xyz
+  port: 443
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: true
+  sni: vps.qjm3.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_09
+  server: qjm42.cloudflare.182682.xyz
+  port: 8443
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: true
+  sni: vps.qjm3.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_10
+  server: qjm42.cloudflare.182682.xyz
+  port: 2053
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: true
+  sni: vps.qjm3.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_11
+  server: qjm42.cloudflare.182682.xyz
+  port: 2083
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: true
+  sni: vps.qjm3.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_12
+  server: qjm42.cloudflare.182682.xyz
+  port: 2087
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: true
+  sni: vps.qjm3.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
+- type: vless
+  name: SG_DC_13
+  server: qjm42.cloudflare.182682.xyz
+  port: 2096
+  uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+  tls: true
+  sni: vps.qjm3.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm3.us.kg
+    path: /1024
