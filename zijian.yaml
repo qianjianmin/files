@@ -1,7 +1,6 @@
 proxies:
-
 - type: vless
-  name: SG_BV
+  name: SG_BV_01
   server: qjm39.cloudflare.182682.xyz
   port: 80
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -12,9 +11,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_02
   server: qjm39.cloudflare.182682.xyz
   port: 8080
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -25,9 +23,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_03
   server: qjm39.cloudflare.182682.xyz
   port: 8880
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -38,9 +35,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_04
   server: qjm39.cloudflare.182682.xyz
   port: 2052
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -51,9 +47,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_05
   server: qjm39.cloudflare.182682.xyz
   port: 2082
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -64,9 +59,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_06
   server: qjm39.cloudflare.182682.xyz
   port: 2086
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -77,9 +71,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_07
   server: qjm39.cloudflare.182682.xyz
   port: 2095
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -90,9 +83,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_08
   server: qjm40.cloudflare.182682.xyz
   port: 443
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -107,9 +99,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_09
   server: qjm40.cloudflare.182682.xyz
   port: 8443
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -124,9 +115,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_10
   server: qjm40.cloudflare.182682.xyz
   port: 2053
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -141,9 +131,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_11
   server: qjm40.cloudflare.182682.xyz
   port: 2083
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -158,9 +147,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_12
   server: qjm40.cloudflare.182682.xyz
   port: 2087
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
@@ -175,9 +163,8 @@ proxies:
     headers:
       Host: vps.qjm2.us.kg
     path: /1024
-    
 - type: vless
-  name: SG_BV
+  name: SG_BV_13
   server: qjm40.cloudflare.182682.xyz
   port: 2096
   uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
