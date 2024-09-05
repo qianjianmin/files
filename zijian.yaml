@@ -1,112 +1,181 @@
 proxies:
-- name: vless-reality-vision-dci-82297               
-  type: vless
-  server: 128.199.92.227                           
-  port: 50052                                
-  uuid: 16fe6c76-ebac-4ba4-a280-03ce40897aee   
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com                 
-  reality-opts: 
-    public-key: BPmwkzvSQAmfhUcDTCOtffeSH6o0BAYQIXlTvZWWsSQ    
-    short-id: '49e2f287'                    
-  client-fingerprint: chrome                  
-
-- name: vmess-ws-dci-82297                         
-  type: vmess
-  server: 128.199.92.227                        
-  port: 50053                                     
-  uuid: 16fe6c76-ebac-4ba4-a280-03ce40897aee       
-  alterId: 0
-  cipher: auto
-  udp: true
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 80
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
   tls: false
+  skip-cert-verify: false
   network: ws
-  servername: www.bing.com                    
   ws-opts:
-    path: "16fe6c76-ebac-4ba4-a280-03ce40897aee-vm"                             
     headers:
-      Host: www.bing.com                     
-
-- name: hysteria2-dci-82297                            
-  type: hysteria2                                      
-  server: 128.199.92.227                               
-  port: 50054                                
-  password: 16fe6c76-ebac-4ba4-a280-03ce40897aee                          
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 8080
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 8880
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 2052
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 2082
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 2086
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm39.cloudflare.182682.xyz
+  port: 2095
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm40.cloudflare.182682.xyz
+  port: 443
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: true
+  sni: vps.qjm2.us.kg
+  client-fingerprint: firefox
   alpn:
     - h3
-  sni: www.bing.com                               
   skip-cert-verify: true
-  fast-open: true
-
-- name: tuic5-dci-82297                            
-  server: 128.199.92.227                      
-  port: 50055                                    
-  type: tuic
-  uuid: 16fe6c76-ebac-4ba4-a280-03ce40897aee       
-  password: 16fe6c76-ebac-4ba4-a280-03ce40897aee   
-  alpn: [h3]
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-  sni: www.bing.com                                
-  skip-cert-verify: true
-
-- name: vless-reality-vision-1404cb1343               
-  type: vless
-  server: 89.34.227.27                           
-  port: 37452                                
-  uuid: 61e2caa3-93d3-4d97-bef1-9def7ead3ee3   
-  network: tcp
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com                 
-  reality-opts: 
-    public-key: Ib_H_MIMVVNJyiB5B1KJmYwtu_8yVuPGoQagZn5LAmY    
-    short-id: 'ffb38b4f'                    
-  client-fingerprint: chrome                  
-
-- name: vmess-ws-1404cb1343                         
-  type: vmess
-  server: 89.34.227.27                        
-  port: 37453                                     
-  uuid: 61e2caa3-93d3-4d97-bef1-9def7ead3ee3       
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
   network: ws
-  servername: www.bing.com                    
   ws-opts:
-    path: "61e2caa3-93d3-4d97-bef1-9def7ead3ee3-vm"                             
     headers:
-      Host: www.bing.com                     
-
-- name: hysteria2-1404cb1343                            
-  type: hysteria2                                      
-  server: 89.34.227.27                               
-  port: 37454                                
-  password: 61e2caa3-93d3-4d97-bef1-9def7ead3ee3                          
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm40.cloudflare.182682.xyz
+  port: 8443
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: true
+  sni: vps.qjm2.us.kg
+  client-fingerprint: firefox
   alpn:
     - h3
-  sni: www.bing.com                               
   skip-cert-verify: true
-  fast-open: true
-
-- name: tuic5-1404cb1343                            
-  server: 89.34.227.27                      
-  port: 37455                                    
-  type: tuic
-  uuid: 61e2caa3-93d3-4d97-bef1-9def7ead3ee3       
-  password: 61e2caa3-93d3-4d97-bef1-9def7ead3ee3   
-  alpn: [h3]
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-  sni: www.bing.com                                
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm40.cloudflare.182682.xyz
+  port: 2053
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: true
+  sni: vps.qjm2.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm40.cloudflare.182682.xyz
+  port: 2083
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: true
+  sni: vps.qjm2.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm40.cloudflare.182682.xyz
+  port: 2087
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: true
+  sni: vps.qjm2.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
+- type: vless
+  name: SG_BV
+  server: qjm40.cloudflare.182682.xyz
+  port: 2096
+  uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+  tls: true
+  sni: vps.qjm2.us.kg
+  client-fingerprint: firefox
+  alpn:
+    - h3
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: vps.qjm2.us.kg
+    path: /1024
