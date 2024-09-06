@@ -1,6 +1,6 @@
 proxies:
 - type: vless
-  name: "00"
+  name: beiyong_notls_00
   server: notls.cloudflare.182682.xyz
   port: 80
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -14,7 +14,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "01"
+  name: beiyong_notls_01
   server: notls.cloudflare.182682.xyz
   port: 2052
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -28,7 +28,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "02"
+  name: beiyong_notls_02
   server: notls.cloudflare.182682.xyz
   port: 2082
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -42,7 +42,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "03"
+  name: beiyong_notls_03
   server: notls.cloudflare.182682.xyz
   port: 2086
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -56,7 +56,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "04"
+  name: beiyong_notls_04
   server: notls.cloudflare.182682.xyz
   port: 2095
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -70,7 +70,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "05"
+  name: beiyong_notls_05
   server: notls.cloudflare.182682.xyz
   port: 8080
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -84,7 +84,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "06"
+  name: beiyong_notls_06
   server: notls.cloudflare.182682.xyz
   port: 8880
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
@@ -98,7 +98,7 @@ proxies:
       Host: 831tg.na15iwpb.workers.dev
     path: /1024
 - type: vless
-  name: "07"
+  name: beiyong_notls_07
   server: notls.cloudflare.182682.xyz
   port: 80
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -112,7 +112,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "08"
+  name: beiyong_notls_08
   server: notls.cloudflare.182682.xyz
   port: 2052
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -126,7 +126,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "09"
+  name: beiyong_notls_09
   server: notls.cloudflare.182682.xyz
   port: 2082
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -140,7 +140,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "10"
+  name: beiyong_notls_10
   server: notls.cloudflare.182682.xyz
   port: 2086
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -154,7 +154,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "11"
+  name: beiyong_notls_11
   server: notls.cloudflare.182682.xyz
   port: 2095
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -168,7 +168,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "12"
+  name: beiyong_notls_12
   server: notls.cloudflare.182682.xyz
   port: 8080
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -182,7 +182,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "13"
+  name: beiyong_notls_13
   server: notls.cloudflare.182682.xyz
   port: 8880
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
@@ -196,7 +196,7 @@ proxies:
       Host: 820tg.adwf54p4.workers.dev
     path: /1024
 - type: vless
-  name: "14"
+  name: beiyong_notls_14
   server: notls.cloudflare.182682.xyz
   port: 80
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -209,7 +209,7 @@ proxies:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
 - type: vless
-  name: "15"
+  name: beiyong_notls_15
   server: notls.cloudflare.182682.xyz
   port: 2052
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -222,7 +222,7 @@ proxies:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
 - type: vless
-  name: "16"
+  name: beiyong_notls_16
   server: notls.cloudflare.182682.xyz
   port: 2082
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -235,7 +235,7 @@ proxies:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
 - type: vless
-  name: "17"
+  name: beiyong_notls_17
   server: notls.cloudflare.182682.xyz
   port: 2086
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -248,7 +248,7 @@ proxies:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
 - type: vless
-  name: "18"
+  name: beiyong_notls_18
   server: notls.cloudflare.182682.xyz
   port: 2095
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -261,7 +261,7 @@ proxies:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
 - type: vless
-  name: "19"
+  name: beiyong_notls_19
   server: notls.cloudflare.182682.xyz
   port: 8080
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -274,7 +274,7 @@ proxies:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
 - type: vless
-  name: "20"
+  name: beiyong_notls_20
   server: notls.cloudflare.182682.xyz
   port: 8880
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
@@ -285,310 +285,4 @@ proxies:
   ws-opts:
     headers:
       Host: cs.pmlwzm94.workers.dev
-    path: /1024
-- type: vless
-  name: "21"
-  server: tls.cloudflare.182682.xyz
-  port: 443
-  uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
-  tls: true
-  udp: true
-  sni: tg-aon.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: tg-aon.pages.dev
-    path: /1024
-- type: vless
-  name: "22"
-  server: tls.cloudflare.182682.xyz
-  port: 2053
-  uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
-  tls: true
-  udp: true
-  sni: tg-aon.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: tg-aon.pages.dev
-    path: /1024
-- type: vless
-  name: "23"
-  server: tls.cloudflare.182682.xyz
-  port: 2083
-  uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
-  tls: true
-  udp: true
-  sni: tg-aon.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: tg-aon.pages.dev
-    path: /1024
-- type: vless
-  name: "24"
-  server: tls.cloudflare.182682.xyz
-  port: 2087
-  uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
-  tls: true
-  udp: true
-  sni: tg-aon.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: tg-aon.pages.dev
-    path: /1024
-- type: vless
-  name: "25"
-  server: tls.cloudflare.182682.xyz
-  port: 2096
-  uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
-  tls: true
-  udp: true
-  sni: tg-aon.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: tg-aon.pages.dev
-    path: /1024
-- type: vless
-  name: "26"
-  server: tls.cloudflare.182682.xyz
-  port: 8443
-  uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
-  tls: true
-  udp: true
-  sni: tg-aon.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: tg-aon.pages.dev
-    path: /1024
-- type: vless
-  name: "27"
-  server: tls.cloudflare.182682.xyz
-  port: 443
-  uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
-  tls: true
-  udp: true
-  sni: cs-5n2.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: cs-5n2.pages.dev
-    path: /1024
-- type: vless
-  name: "28"
-  server: tls.cloudflare.182682.xyz
-  port: 2053
-  uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
-  tls: true
-  udp: true
-  sni: cs-5n2.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: cs-5n2.pages.dev
-    path: /1024
-- type: vless
-  name: "29"
-  server: tls.cloudflare.182682.xyz
-  port: 2083
-  uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
-  tls: true
-  udp: true
-  sni: cs-5n2.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: cs-5n2.pages.dev
-    path: /1024
-- type: vless
-  name: "30"
-  server: tls.cloudflare.182682.xyz
-  port: 2087
-  uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
-  tls: true
-  udp: true
-  sni: cs-5n2.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: cs-5n2.pages.dev
-    path: /1024
-- type: vless
-  name: "31"
-  server: tls.cloudflare.182682.xyz
-  port: 2096
-  uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
-  tls: true
-  udp: true
-  sni: cs-5n2.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: cs-5n2.pages.dev
-    path: /1024
-- type: vless
-  name: "32"
-  server: tls.cloudflare.182682.xyz
-  port: 8443
-  uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
-  tls: true
-  udp: true
-  sni: cs-5n2.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: cs-5n2.pages.dev
-    path: /1024
-- type: vless
-  name: "33"
-  server: tls.cloudflare.182682.xyz
-  port: 443
-  uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
-  tls: true
-  udp: true
-  sni: 666666-dhi.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: 666666-dhi.pages.dev
-    path: /1024
-- type: vless
-  name: "34"
-  server: tls.cloudflare.182682.xyz
-  port: 2053
-  uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
-  tls: true
-  udp: true
-  sni: 666666-dhi.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: 666666-dhi.pages.dev
-    path: /1024
-- type: vless
-  name: "35"
-  server: tls.cloudflare.182682.xyz
-  port: 2083
-  uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
-  tls: true
-  udp: true
-  sni: 666666-dhi.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: 666666-dhi.pages.dev
-    path: /1024
-- type: vless
-  name: "36"
-  server: tls.cloudflare.182682.xyz
-  port: 2087
-  uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
-  tls: true
-  udp: true
-  sni: 666666-dhi.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: 666666-dhi.pages.dev
-    path: /1024
-- type: vless
-  name: "37"
-  server: tls.cloudflare.182682.xyz
-  port: 2096
-  uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
-  tls: true
-  udp: true
-  sni: 666666-dhi.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: 666666-dhi.pages.dev
-    path: /1024
-- type: vless
-  name: "38"
-  server: tls.cloudflare.182682.xyz
-  port: 8443
-  uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
-  tls: true
-  udp: true
-  sni: 666666-dhi.pages.dev
-  client-fingerprint: firefox
-  alpn:
-    - h3
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: 666666-dhi.pages.dev
     path: /1024
