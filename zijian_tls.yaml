@@ -1,1 +1,205 @@
-
+proxies:
+  - type: vless
+    name: sg_bv_tls_00
+    server: tls.cloudflare.182682.xyz
+    port: 443
+    uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+    tls: true
+    udp: true
+    sni: vps.qjm2.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm2.us.kg
+      path: /1024
+  - type: vless
+    name: sg_bv_tls_01
+    server: tls.cloudflare.182682.xyz
+    port: 8443
+    uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+    tls: true
+    udp: true
+    sni: vps.qjm2.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm2.us.kg
+      path: /1024
+  - type: vless
+    name: sg_bv_tls_02
+    server: tls.cloudflare.182682.xyz
+    port: 2053
+    uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+    tls: true
+    udp: true
+    sni: vps.qjm2.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm2.us.kg
+      path: /1024
+  - type: vless
+    name: sg_bv_tls_03
+    server: tls.cloudflare.182682.xyz
+    port: 2083
+    uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+    tls: true
+    udp: true
+    sni: vps.qjm2.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm2.us.kg
+      path: /1024
+  - type: vless
+    name: sg_bv_tls_04
+    server: tls.cloudflare.182682.xyz
+    port: 2087
+    uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+    tls: true
+    udp: true
+    sni: vps.qjm2.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm2.us.kg
+      path: /1024
+  - type: vless
+    name: sg_bv_tls_05
+    server: tls.cloudflare.182682.xyz
+    port: 2096
+    uuid: 0bd41eb0-a548-42b1-e128-5a669ee1a12e
+    tls: true
+    udp: true
+    sni: vps.qjm2.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm2.us.kg
+      path: /1024
+  - type: vless
+    name: sg_dc_tls_00
+    server: tls.cloudflare.182682.xyz
+    port: 443
+    uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+    tls: true
+    udp: true
+    sni: vps.qjm3.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm3.us.kg
+      path: /1024
+  - type: vless
+    name: sg_dc_tls_01
+    server: tls.cloudflare.182682.xyz
+    port: 8443
+    uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+    tls: true
+    udp: true
+    sni: vps.qjm3.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm3.us.kg
+      path: /1024
+  - type: vless
+    name: sg_dc_tls_02
+    server: tls.cloudflare.182682.xyz
+    port: 2053
+    uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+    tls: true
+    udp: true
+    sni: vps.qjm3.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm3.us.kg
+      path: /1024
+  - type: vless
+    name: sg_dc_tls_03
+    server: tls.cloudflare.182682.xyz
+    port: 2083
+    uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+    tls: true
+    udp: true
+    sni: vps.qjm3.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm3.us.kg
+      path: /1024
+  - type: vless
+    name: sg_dc_tls_04
+    server: tls.cloudflare.182682.xyz
+    port: 2087
+    uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+    tls: true
+    udp: true
+    sni: vps.qjm3.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm3.us.kg
+      path: /1024
+  - type: vless
+    name: sg_dc_tls_05
+    server: tls.cloudflare.182682.xyz
+    port: 2096
+    uuid: ed18aabe-4b62-4e95-b1f5-24ffbda63579
+    tls: true
+    udp: true
+    sni: vps.qjm3.us.kg
+    client-fingerprint: firefox
+    alpn:
+      - h3
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      headers:
+        Host: vps.qjm3.us.kg
+      path: /1024
