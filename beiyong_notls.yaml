@@ -6,7 +6,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -20,7 +19,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -34,7 +32,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -48,7 +45,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -62,7 +58,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -76,7 +71,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -90,7 +84,6 @@ proxies:
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -104,7 +97,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -118,7 +110,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -132,7 +123,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -146,7 +136,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -160,7 +149,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -174,7 +162,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -188,7 +175,6 @@ proxies:
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -293,7 +279,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -307,7 +292,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -321,7 +305,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -335,7 +318,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -349,7 +331,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -363,7 +344,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
@@ -377,7 +357,6 @@ proxies:
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
     udp: true
-    client-fingerprint: randomized
     skip-cert-verify: false
     network: ws
     ws-opts:
