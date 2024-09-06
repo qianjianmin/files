@@ -286,3 +286,101 @@ proxies:
     headers:
       Host: cs.pmlwzm94.workers.dev
     path: /1024
+- type: vless
+  name: beiyong_notls_21
+  server: notls.cloudflare.182682.xyz
+  port: 8880
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
+- type: vless
+  name: beiyong_notls_22
+  server: notls.cloudflare.182682.xyz
+  port: 2086
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
+- type: vless
+  name: beiyong_notls_23
+  server: notls.cloudflare.182682.xyz
+  port: 2095
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
+- type: vless
+  name: beiyong_notls_24
+  server: notls.cloudflare.182682.xyz
+  port: 8080
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
+- type: vless
+  name: beiyong_notls_25
+  server: notls.cloudflare.182682.xyz
+  port: 2052
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
+- type: vless
+  name: beiyong_notls_26
+  server: notls.cloudflare.182682.xyz
+  port: 80
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
+- type: vless
+  name: beiyong_notls_27
+  server: notls.cloudflare.182682.xyz
+  port: 2082
+  uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+  tls: false
+  udp: true
+  client-fingerprint: randomized
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: 95tg.n82w8t3d.workers.dev
+    path: /1024
