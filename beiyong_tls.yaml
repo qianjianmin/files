@@ -1,7 +1,7 @@
 proxies:
 - type: vless
   name: "00"
-  server: qjm00.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 80
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -15,7 +15,7 @@ proxies:
     path: /1024
 - type: vless
   name: "01"
-  server: qjm01.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2052
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -29,7 +29,7 @@ proxies:
     path: /1024
 - type: vless
   name: "02"
-  server: qjm02.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2082
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -43,7 +43,7 @@ proxies:
     path: /1024
 - type: vless
   name: "03"
-  server: qjm03.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2086
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -57,7 +57,7 @@ proxies:
     path: /1024
 - type: vless
   name: "04"
-  server: qjm04.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2095
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -71,7 +71,7 @@ proxies:
     path: /1024
 - type: vless
   name: "05"
-  server: qjm05.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 8080
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -85,7 +85,7 @@ proxies:
     path: /1024
 - type: vless
   name: "06"
-  server: qjm06.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 8880
   uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
   tls: false
@@ -99,7 +99,7 @@ proxies:
     path: /1024
 - type: vless
   name: "07"
-  server: qjm07.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 80
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -113,7 +113,7 @@ proxies:
     path: /1024
 - type: vless
   name: "08"
-  server: qjm08.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2052
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -127,7 +127,7 @@ proxies:
     path: /1024
 - type: vless
   name: "09"
-  server: qjm09.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2082
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -141,7 +141,7 @@ proxies:
     path: /1024
 - type: vless
   name: "10"
-  server: qjm10.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2086
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -155,7 +155,7 @@ proxies:
     path: /1024
 - type: vless
   name: "11"
-  server: qjm11.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2095
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -169,7 +169,7 @@ proxies:
     path: /1024
 - type: vless
   name: "12"
-  server: qjm12.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 8080
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -183,7 +183,7 @@ proxies:
     path: /1024
 - type: vless
   name: "13"
-  server: qjm13.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 8880
   uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
   tls: false
@@ -197,7 +197,7 @@ proxies:
     path: /1024
 - type: vless
   name: "14"
-  server: qjm14.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 80
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -210,7 +210,7 @@ proxies:
     path: /1024
 - type: vless
   name: "15"
-  server: qjm15.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2052
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -223,7 +223,7 @@ proxies:
     path: /1024
 - type: vless
   name: "16"
-  server: qjm16.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2082
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -236,7 +236,7 @@ proxies:
     path: /1024
 - type: vless
   name: "17"
-  server: qjm17.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2086
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -249,7 +249,7 @@ proxies:
     path: /1024
 - type: vless
   name: "18"
-  server: qjm18.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 2095
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -262,7 +262,7 @@ proxies:
     path: /1024
 - type: vless
   name: "19"
-  server: qjm19.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 8080
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -275,7 +275,7 @@ proxies:
     path: /1024
 - type: vless
   name: "20"
-  server: qjm20.cloudflare.182682.xyz
+  server: notls.cloudflare.182682.xyz
   port: 8880
   uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
   tls: false
@@ -288,7 +288,7 @@ proxies:
     path: /1024
 - type: vless
   name: "21"
-  server: qjm21.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 443
   uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
   tls: true
@@ -305,7 +305,7 @@ proxies:
     path: /1024
 - type: vless
   name: "22"
-  server: qjm22.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2053
   uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
   tls: true
@@ -322,7 +322,7 @@ proxies:
     path: /1024
 - type: vless
   name: "23"
-  server: qjm23.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2083
   uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
   tls: true
@@ -339,7 +339,7 @@ proxies:
     path: /1024
 - type: vless
   name: "24"
-  server: qjm24.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2087
   uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
   tls: true
@@ -356,7 +356,7 @@ proxies:
     path: /1024
 - type: vless
   name: "25"
-  server: qjm25.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2096
   uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
   tls: true
@@ -373,7 +373,7 @@ proxies:
     path: /1024
 - type: vless
   name: "26"
-  server: qjm26.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 8443
   uuid: 485744bc-3b52-4819-9d63-617e5c1cc479
   tls: true
@@ -390,7 +390,7 @@ proxies:
     path: /1024
 - type: vless
   name: "27"
-  server: qjm27.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 443
   uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
   tls: true
@@ -407,7 +407,7 @@ proxies:
     path: /1024
 - type: vless
   name: "28"
-  server: qjm28.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2053
   uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
   tls: true
@@ -424,7 +424,7 @@ proxies:
     path: /1024
 - type: vless
   name: "29"
-  server: qjm29.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2083
   uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
   tls: true
@@ -441,7 +441,7 @@ proxies:
     path: /1024
 - type: vless
   name: "30"
-  server: qjm30.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2087
   uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
   tls: true
@@ -458,7 +458,7 @@ proxies:
     path: /1024
 - type: vless
   name: "31"
-  server: qjm31.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2096
   uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
   tls: true
@@ -475,7 +475,7 @@ proxies:
     path: /1024
 - type: vless
   name: "32"
-  server: qjm32.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 8443
   uuid: b32a84fe-129f-4ff7-8c5e-c4fbf93e51df
   tls: true
@@ -492,7 +492,7 @@ proxies:
     path: /1024
 - type: vless
   name: "33"
-  server: qjm33.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 443
   uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
   tls: true
@@ -509,7 +509,7 @@ proxies:
     path: /1024
 - type: vless
   name: "34"
-  server: qjm34.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2053
   uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
   tls: true
@@ -526,7 +526,7 @@ proxies:
     path: /1024
 - type: vless
   name: "35"
-  server: qjm35.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2083
   uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
   tls: true
@@ -543,7 +543,7 @@ proxies:
     path: /1024
 - type: vless
   name: "36"
-  server: qjm36.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2087
   uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
   tls: true
@@ -560,7 +560,7 @@ proxies:
     path: /1024
 - type: vless
   name: "37"
-  server: qjm37.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 2096
   uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
   tls: true
@@ -577,7 +577,7 @@ proxies:
     path: /1024
 - type: vless
   name: "38"
-  server: qjm38.cloudflare.182682.xyz
+  server: tls.cloudflare.182682.xyz
   port: 8443
   uuid: 3d3f822f-10d8-4bc9-9fa8-5877c559030c
   tls: true
