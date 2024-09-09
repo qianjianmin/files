@@ -1,3 +1,4 @@
+proxies:
 - type: wireguard
   name: wg-1
   server: 162.159.192.255
