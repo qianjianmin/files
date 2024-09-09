@@ -75,6 +75,9 @@ proxy-providers:
   provider4:
     <<: *p
     url: "https://gh.jianmin.eu.org/qianjianmin/Private-Library/main/zijian_tls.yaml?token=qjm123"
+  provider5:
+    <<: *p
+    url: "https://gh.jianmin.eu.org/qianjianmin/Private-Library/main/wg.yaml?token=qjm123" 
 proxies:
   - name: "直连"
     type: direct
@@ -84,7 +87,7 @@ proxies:
 proxy-groups:
   - name: 默认
     type: select
-    proxies: [直连,全部,备用1,备用2,主要1,主要2]
+    proxies: [直连,全部,备用1,备用2,主要1,主要2,WG1]
   - name: 全部
     type: select
     use: 
@@ -92,6 +95,7 @@ proxy-groups:
     - provider2
     - provider3
     - provider4
+    - provider5
   - name: 巴哈姆特
     type: select
     proxies: [默认,直连]
@@ -126,21 +130,25 @@ proxy-groups:
     type: select
     proxies: [默认,直连]
   - name: 备用1
-    type: load-balance
+    type: url-test
     use: 
     - provider1
   - name: 备用2
-    type: load-balance
+    type: url-test
     use: 
     - provider2
   - name: 主要1
-    type: load-balance
+    type: url-test
     use: 
     - provider3
   - name: 主要2
-    type: load-balance
+    type: url-test
     use: 
     - provider4
+  - name: WG1
+    type: url-test
+    use: 
+    - provider5
 rules:
   - DST-PORT,53,DNS_Hijack
   - RULE-SET,cn_domain,国内
