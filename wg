@@ -1,14 +1,196 @@
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@162.159.192.255:7156/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@162.159.192.255:1014/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@162.159.192.255:3476/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@162.159.195.38:1180/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@162.159.195.38:1002/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@188.114.98.21:1701/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://2G0lPsa%2BuM6%2FoWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI%3D@188.114.99.255:7156/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=112%2C228%2C28&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c7e%3A781b%3A73d6%3A3922%3Ab50c%2F128&mtu=1280#wg-1
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@162.159.192.255:7156/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@162.159.192.255:1014/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@162.159.192.255:3476/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@162.159.195.38:1180/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@162.159.195.38:1002/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@188.114.98.21:1701/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
-wireguard://6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I%3D@188.114.99.255:7156/?publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&reserved=108%2C201%2C184&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3c%3Aad45%3Aeaf%3A7fe1%3A5ed%2F128&mtu=1280#wg-2
+- type: wireguard
+  name: wg-1
+  server: 162.159.192.255
+  port: 7156
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-1
+  server: 162.159.192.255
+  port: 1014
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-1
+  server: 162.159.192.255
+  port: 3476
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-1
+  server: 162.159.195.38
+  port: 1180
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-1
+  server: 162.159.195.38
+  port: 1002
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-1
+  server: 188.114.98.21
+  port: 1701
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-1
+  server: 188.114.99.255
+  port: 7156
+  private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 112
+    - 228
+    - 28
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 162.159.192.255
+  port: 7156
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 162.159.192.255
+  port: 1014
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 162.159.192.255
+  port: 3476
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 162.159.195.38
+  port: 1180
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 162.159.195.38
+  port: 1002
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 188.114.98.21
+  port: 1701
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
+- type: wireguard
+  name: wg-2
+  server: 188.114.99.255
+  port: 7156
+  private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
+  udp: true
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+    - 108
+    - 201
+    - 184
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
+  mtu: 1280
