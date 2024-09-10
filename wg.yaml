@@ -1,197 +1,422 @@
-proxies:
-  - type: wireguard
-    name: wg1-1
-    server: 162.159.192.255
-    port: 7156
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg1-2
-    server: 162.159.192.255
-    port: 1014
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg1-3
-    server: 162.159.192.255
-    port: 3476
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg1-4
-    server: 162.159.195.38
-    port: 1180
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg1-5
-    server: 162.159.195.38
-    port: 1002
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg1-6
-    server: 188.114.98.21
-    port: 1701
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg1-7
-    server: 188.114.99.255
-    port: 7156
-    private-key: 2G0lPsa+uM6/oWJJ6HkUsFc4RbGnDdocU6qNMRYFrXI=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 112
-      - 228
-      - 28
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8c7e:781b:73d6:3922:b50c
-    mtu: 1280
-  - type: wireguard
-    name: wg2-1
-    server: 162.159.192.255
-    port: 7156
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
-  - type: wireguard
-    name: wg2-2
-    server: 162.159.192.255
-    port: 1014
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
-  - type: wireguard
-    name: wg2-3
-    server: 162.159.192.255
-    port: 3476
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
-  - type: wireguard
-    name: wg2-4
-    server: 162.159.195.38
-    port: 1180
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
-  - type: wireguard
-    name: wg2-5
-    server: 162.159.195.38
-    port: 1002
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
-  - type: wireguard
-    name: wg2-6
-    server: 188.114.98.21
-    port: 1701
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
-  - type: wireguard
-    name: wg2-7
-    server: 188.114.99.255
-    port: 7156
-    private-key: 6NF7ywpSspq7rwP69wPOovwCh0sBuIh2BgrU1PvVx1I=
-    udp: true
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    reserved:
-      - 108
-      - 201
-      - 184
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e3c:ad45:eaf:7fe1:5ed
-    mtu: 1280
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "8.8.8.8",
+        "address_resolver": "dns-direct",
+        "strategy": "ipv4_only"
+      },
+      {
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "strategy": "ipv4_only",
+        "detour": "direct-fragment"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "223.5.5.5",
+        "address_resolver": "dns-local",
+        "strategy": "ipv4_only",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      },
+      {
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "server": "dns-direct"
+      }
+    ],
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "104.17.147.22",
+        "104.17.148.22",
+        "2606:4700:3030::ac43:d6f6",
+        "2606:4700:3030::6815:533e",
+        "172.67.214.246",
+        "104.21.83.62"
+      ]
+    },
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 12334,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "set_system_proxy": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "127.0.0.1",
+      "listen_port": 16450
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "proxy-1",
+        "proxy-2",
+        "proxy-3",
+        "proxy-4",
+        "proxy-5",
+        "proxy-6",
+        "proxy-7",
+        "proxy-8",
+        "proxy-9",
+        "proxy-10",
+        "proxy-11",
+        "proxy-12",
+        "proxy-13",
+        "proxy-14",
+        "proxy-15"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "proxy-1",
+        "proxy-2",
+        "proxy-3",
+        "proxy-4",
+        "proxy-5",
+        "proxy-6",
+        "proxy-7",
+        "proxy-8",
+        "proxy-9",
+        "proxy-10",
+        "proxy-11",
+        "proxy-12",
+        "proxy-13",
+        "proxy-14",
+        "proxy-15"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "15m0s",
+      "idle_timeout": "2h30m0s"
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-1",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8118:311c:e053:4fa9:825c/128"
+      ],
+      "private_key": "IHT75vdUL4JyiB7Pe0UPVn/3a7OAs8y+48mKXp9w6UU=",
+      "server": "188.114.98.37",
+      "server_port": 8742,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "h8VU",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-2",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8eb2:2d89:b37e:ad49:283b/128"
+      ],
+      "private_key": "UPV8ndNUB7GQxJdrnnMVGge+o6709r3w5H4v6kQ8638=",
+      "server": "188.114.98.37",
+      "server_port": 4233,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "ahaI",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-3",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8626:60c4:5175:6a6d:1069/128"
+      ],
+      "private_key": "iHa3XjgPN3sjjwXiKor6423SuvSMqyYB2UWKvXT3Q3k=",
+      "server": "162.159.195.38",
+      "server_port": 946,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "XlhA",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-4",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8e7e:25c3:5dd9:f53d:7dcf/128"
+      ],
+      "private_key": "qKpiNWktCBMhaC6R6995fPEXdORiprR5TECCPwhaoGQ=",
+      "server": "162.159.195.38",
+      "server_port": 2506,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "k95C",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-5",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:88b5:730d:19a6:71b2:c92d/128"
+      ],
+      "private_key": "qAmmkTFmPsQbTGfDHNr16zypSVaddnO7P6DBHn/hO2U=",
+      "server": "162.159.192.88",
+      "server_port": 854,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "4fMC",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-6",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:81d9:75d0:6075:4012:11d1/128"
+      ],
+      "private_key": "4K2YcImEqZwnFKoKBf8alCr9K1ghkKHiv1WHSRVdt3Q=",
+      "server": "162.159.192.88",
+      "server_port": 955,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "ff9k",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-7",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8f27:7b73:ceb2:849f:eb63/128"
+      ],
+      "private_key": "4HWyewtpOqtSKujfgQ1XDYnPJm9iHuJNOpj9e9MGEnc=",
+      "server": "162.159.195.255",
+      "server_port": 7281,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "dpgk",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-8",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8e9b:3695:2b0c:8a88:6962/128"
+      ],
+      "private_key": "OPvVHuCtLqXXKc3z0k2Nrac4wYrJjw5muD01csMT0Hc=",
+      "server": "188.114.99.200",
+      "server_port": 2408,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "4Al7",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-9",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8daa:abc6:300f:5a9c:6832/128"
+      ],
+      "private_key": "KCpzKINkZD7DeZvZyZFp8RTY0tOAMuKzqhAPXTnXFV4=",
+      "server": "162.159.195.255",
+      "server_port": 880,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "aI1J",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-10",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:85bb:8b1a:95f:e20b:d3ee/128"
+      ],
+      "private_key": "MCfYsuMbv213GSqoDeRMQ+0R7vrvZLLETNsYnVBP2nM=",
+      "server": "162.159.192.255",
+      "server_port": 988,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "KSYe",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-11",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:80c0:d9ee:a1aa:ba03:3c7e/128"
+      ],
+      "private_key": "qDDaymWLc3yGVjHLtzclbC98cqgICOfag6TQUXqngU4=",
+      "server": "162.159.192.88",
+      "server_port": 946,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "QTfF",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-12",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8de4:40a6:e682:14cd:f2bb/128"
+      ],
+      "private_key": "oNyEKKUvBxFFiQcsf1S0KkdlCWc3J66oGKdn543vFlo=",
+      "server": "162.159.192.88",
+      "server_port": 4198,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "9Z5c",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-13",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8f35:d84f:2a64:7b1a:e789/128"
+      ],
+      "private_key": "eGiSxm9uR5qz6i65eE+jox89ZzV5JsPp5vNX+LBxKH0=",
+      "server": "162.159.192.88",
+      "server_port": 3476,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "eX3g",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-14",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:880f:7e58:7d0e:ce16:9817/128"
+      ],
+      "private_key": "uD6ZLGDKJOSf9fvDacIXdyQ7LzeA0FfGL3SU6bsey3M=",
+      "server": "188.114.98.37",
+      "server_port": 1180,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "egDT",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "proxy-15",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:84e5:8288:ff52:fb41:78ee/128"
+      ],
+      "private_key": "2GGjdHGNBknpw3eyJx4kv136E8PvJOYCQa3gJLchY08=",
+      "server": "162.159.192.255",
+      "server_port": 8742,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "EsOz",
+      "mtu": 1280
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "10-30",
+        "sleep": "2-8"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-cn.srs",
+        "update_interval": "120h0m0s"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-cn.srs",
+        "update_interval": "120h0m0s"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:16756",
+      "secret": "9zkuwb-JTNcGQEQ_"
+    }
+  }
+}
