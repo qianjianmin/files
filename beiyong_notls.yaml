@@ -1,7 +1,7 @@
 proxies:
   - type: vless
     name: beiyong_notls_00
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 80
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -14,7 +14,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_01
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2052
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -27,7 +27,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_02
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2082
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -40,7 +40,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_03
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2086
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -53,7 +53,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_04
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2095
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -66,7 +66,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_05
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8080
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -79,7 +79,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_06
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8880
     uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
     tls: false
@@ -92,7 +92,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_07
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 80
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -105,7 +105,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_08
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2052
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -118,7 +118,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_09
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2082
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -131,7 +131,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_10
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2086
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -144,7 +144,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_11
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2095
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -157,7 +157,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_12
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8080
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -170,7 +170,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_13
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8880
     uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
     tls: false
@@ -183,7 +183,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_14
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 80
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -196,7 +196,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_15
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2052
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -209,7 +209,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_16
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2082
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -222,7 +222,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_17
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2086
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -235,7 +235,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_18
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2095
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -248,7 +248,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_19
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8080
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -261,7 +261,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_20
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8880
     uuid: bbc5ebfc-288e-47cd-8e12-77324a0fcdd9
     tls: false
@@ -274,7 +274,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_21
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8880
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
@@ -287,7 +287,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_22
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2086
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
@@ -300,7 +300,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_23
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2095
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
@@ -313,7 +313,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_24
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 8080
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
@@ -326,7 +326,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_25
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2052
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
@@ -339,7 +339,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_26
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 80
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
@@ -352,7 +352,7 @@ proxies:
       path: /1024
   - type: vless
     name: beiyong_notls_27
-    server: notls.cloudflare.182682.xyz
+    server: 115155.xyz
     port: 2082
     uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
     tls: false
