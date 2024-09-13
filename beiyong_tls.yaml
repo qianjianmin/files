@@ -7,10 +7,10 @@ proxies:
     tls: true
     udp: true
     sni: tg-aon.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -24,10 +24,10 @@ proxies:
     tls: true
     udp: true
     sni: tg-aon.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -41,10 +41,10 @@ proxies:
     tls: true
     udp: true
     sni: tg-aon.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -58,10 +58,10 @@ proxies:
     tls: true
     udp: true
     sni: tg-aon.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -75,10 +75,10 @@ proxies:
     tls: true
     udp: true
     sni: tg-aon.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -92,10 +92,10 @@ proxies:
     tls: true
     udp: true
     sni: tg-aon.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -109,10 +109,10 @@ proxies:
     tls: true
     udp: true
     sni: cs-5n2.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -126,10 +126,10 @@ proxies:
     tls: true
     udp: true
     sni: cs-5n2.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -143,10 +143,10 @@ proxies:
     tls: true
     udp: true
     sni: cs-5n2.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -160,10 +160,10 @@ proxies:
     tls: true
     udp: true
     sni: cs-5n2.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -177,10 +177,10 @@ proxies:
     tls: true
     udp: true
     sni: cs-5n2.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -194,10 +194,10 @@ proxies:
     tls: true
     udp: true
     sni: cs-5n2.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -211,10 +211,10 @@ proxies:
     tls: true
     udp: true
     sni: 666666-dhi.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -228,10 +228,10 @@ proxies:
     tls: true
     udp: true
     sni: 666666-dhi.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -245,10 +245,10 @@ proxies:
     tls: true
     udp: true
     sni: 666666-dhi.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -262,10 +262,10 @@ proxies:
     tls: true
     udp: true
     sni: 666666-dhi.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -279,10 +279,10 @@ proxies:
     tls: true
     udp: true
     sni: 666666-dhi.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
@@ -296,10 +296,10 @@ proxies:
     tls: true
     udp: true
     sni: 666666-dhi.pages.dev
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     alpn:
       - h3
-    skip-cert-verify: true
+    skip-cert-verify: false
     network: ws
     ws-opts:
       headers:
