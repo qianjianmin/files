@@ -109,7 +109,7 @@
       "tag": "vless-dci-82297",
       "server": "128.199.92.227",
       "server_port": 50052,
-      "uuid": "bb513bcf-4957-4606-b0cf-e84e351090c1",
+      "uuid": "dfb67c5c-dd28-48d1-8118-5d9e02900eaf",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -121,8 +121,8 @@
         },
       "reality": {
           "enabled": true,
-          "public_key": "PTWIPKU4UnwswIJYflGxleiHmhZjlbhl97yT60F2UzY",
-          "short_id": "5b8a160d"
+          "public_key": "ufoO3TuTjVncWCSY4qc5gAY1RasYPdIsGMUThiTbkFI",
+          "short_id": "839c0c6e"
         }
       }
     },
@@ -146,12 +146,12 @@
                         "www.bing.com"
                     ]
                 },
-                "path": "bb513bcf-4957-4606-b0cf-e84e351090c1-vm",
+                "path": "dfb67c5c-dd28-48d1-8118-5d9e02900eaf-vm",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "bb513bcf-4957-4606-b0cf-e84e351090c1"
+            "uuid": "dfb67c5c-dd28-48d1-8118-5d9e02900eaf"
         },
 
     {
@@ -159,7 +159,7 @@
         "tag": "hy2-dci-82297",
         "server": "128.199.92.227",
         "server_port": 50054,
-        "password": "bb513bcf-4957-4606-b0cf-e84e351090c1",
+        "password": "dfb67c5c-dd28-48d1-8118-5d9e02900eaf",
         "tls": {
             "enabled": true,
             "server_name": "www.bing.com",
@@ -174,8 +174,8 @@
             "tag": "tuic5-dci-82297",
             "server": "128.199.92.227",
             "server_port": 50055,
-            "uuid": "bb513bcf-4957-4606-b0cf-e84e351090c1",
-            "password": "bb513bcf-4957-4606-b0cf-e84e351090c1",
+            "uuid": "dfb67c5c-dd28-48d1-8118-5d9e02900eaf",
+            "password": "dfb67c5c-dd28-48d1-8118-5d9e02900eaf",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "udp_over_stream": false,
