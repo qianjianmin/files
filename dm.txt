@@ -1,0 +1,12 @@
+whatismyipaddress.com:443
+www.glassdoor.com:443
+fbi.gov:443
+www.digitalocean.com:443
+www.okcupid.com:443
+www.udemy.com:443
+download.yunzhongzhuan.com:443
+www.iplocation.net:443
+www.csgo.com:443
+www.ipaddress.my:443
+www.gco.gov.qa:443
+www.wto.org:443
