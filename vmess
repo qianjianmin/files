@@ -1,1 +1,489 @@
-dm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0luaHNiMm93Tnpkelh6RWlMQTBLSUNBaVlXUmtJam9nSW1KMk1TNXhhbTB5TG5WekxtdG5JaXdOQ2lBZ0luQnZjblFpT2lBaU9EQWlMQTBLSUNBaWFXUWlPaUFpWW1FM04yTmtZVGN0WkRJeVlpMDBNbU5pTFdJd1lXRXROalF5WkRFNFpETmlPVFUxSWl3TkNpQWdJbUZwWkNJNklDSXdJaXdOQ2lBZ0luTmplU0k2SUNKaGRYUnZJaXdOQ2lBZ0ltNWxkQ0k2SUNKM2N5SXNEUW9nSUNKMGVYQmxJam9nSW01dmJtVWlMQTBLSUNBaWFHOXpkQ0k2SUNKaWRqRXVjV3B0TWk1MWN5NXJaeUlzRFFvZ0lDSndZWFJvSWpvZ0lpOGlMQTBLSUNBaWRHeHpJam9nSWlJc0RRb2dJQ0p6Ym1raU9pQWlJaXdOQ2lBZ0ltRnNjRzRpT2lBaUlpd05DaUFnSW1ad0lqb2dJaUlOQ24wPQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0luaHNiMm93Tnpkelh6SWlMQTBLSUNBaVlXUmtJam9nSW1KMk1TNXhhbTB5TG5WekxtdG5JaXdOQ2lBZ0luQnZjblFpT2lBaU9EQTRNQ0lzRFFvZ0lDSnBaQ0k2SUNKaVlUYzNZMlJoTnkxa01qSmlMVFF5WTJJdFlqQmhZUzAyTkRKa01UaGtNMkk1TlRVaUxBMEtJQ0FpWVdsa0lqb2dJakFpTEEwS0lDQWljMk41SWpvZ0ltRjFkRzhpTEEwS0lDQWlibVYwSWpvZ0luZHpJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0ltSjJNUzV4YW0weUxuVnpMbXRuSWl3TkNpQWdJbkJoZEdnaU9pQWlMeUlzRFFvZ0lDSjBiSE1pT2lBaUlpd05DaUFnSW5OdWFTSTZJQ0lpTEEwS0lDQWlZV3h3YmlJNklDSWlMQTBLSUNBaVpuQWlPaUFpSWcwS2ZRPT0NCnZtZXNzOi8vZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJbmhzYjJvd056ZHpYek1pTEEwS0lDQWlZV1JrSWpvZ0ltSjJNUzV4YW0weUxuVnpMbXRuSWl3TkNpQWdJbkJ2Y25RaU9pQWlPRGc0TUNJc0RRb2dJQ0pwWkNJNklDSmlZVGMzWTJSaE55MWtNakppTFRReVkySXRZakJoWVMwMk5ESmtNVGhrTTJJNU5UVWlMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJbUoyTVM1eGFtMHlMblZ6TG10bklpd05DaUFnSW5CaGRHZ2lPaUFpTHlJc0RRb2dJQ0owYkhNaU9pQWlJaXdOQ2lBZ0luTnVhU0k2SUNJaUxBMEtJQ0FpWVd4d2JpSTZJQ0lpTEEwS0lDQWlabkFpT2lBaUlnMEtmUT09DQp2bWVzczovL2V3MEtJQ0FpZGlJNklDSXlJaXdOQ2lBZ0luQnpJam9nSW5oc2Iyb3dOemR6WHpRaUxBMEtJQ0FpWVdSa0lqb2dJbUoyTVM1eGFtMHlMblZ6TG10bklpd05DaUFnSW5CdmNuUWlPaUFpTWpBMU1pSXNEUW9nSUNKcFpDSTZJQ0ppWVRjM1kyUmhOeTFrTWpKaUxUUXlZMkl0WWpCaFlTMDJOREprTVRoa00ySTVOVFVpTEEwS0lDQWlZV2xrSWpvZ0lqQWlMQTBLSUNBaWMyTjVJam9nSW1GMWRHOGlMQTBLSUNBaWJtVjBJam9nSW5keklpd05DaUFnSW5SNWNHVWlPaUFpYm05dVpTSXNEUW9nSUNKb2IzTjBJam9nSW1KMk1TNXhhbTB5TG5WekxtdG5JaXdOQ2lBZ0luQmhkR2dpT2lBaUx5SXNEUW9nSUNKMGJITWlPaUFpSWl3TkNpQWdJbk51YVNJNklDSWlMQTBLSUNBaVlXeHdiaUk2SUNJaUxBMEtJQ0FpWm5BaU9pQWlJZzBLZlE9PQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0luaHNiMm93Tnpkelh6VWlMQTBLSUNBaVlXUmtJam9nSW1KMk1TNXhhbTB5TG5WekxtdG5JaXdOQ2lBZ0luQnZjblFpT2lBaU1qQTRNaUlzRFFvZ0lDSnBaQ0k2SUNKaVlUYzNZMlJoTnkxa01qSmlMVFF5WTJJdFlqQmhZUzAyTkRKa01UaGtNMkk1TlRVaUxBMEtJQ0FpWVdsa0lqb2dJakFpTEEwS0lDQWljMk41SWpvZ0ltRjFkRzhpTEEwS0lDQWlibVYwSWpvZ0luZHpJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0ltSjJNUzV4YW0weUxuVnpMbXRuSWl3TkNpQWdJbkJoZEdnaU9pQWlMeUlzRFFvZ0lDSjBiSE1pT2lBaUlpd05DaUFnSW5OdWFTSTZJQ0lpTEEwS0lDQWlZV3h3YmlJNklDSWlMQTBLSUNBaVpuQWlPaUFpSWcwS2ZRPT0NCnZtZXNzOi8vZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJbmhzYjJvd056ZHpYellpTEEwS0lDQWlZV1JrSWpvZ0ltSjJNUzV4YW0weUxuVnpMbXRuSWl3TkNpQWdJbkJ2Y25RaU9pQWlNakE0TmlJc0RRb2dJQ0pwWkNJNklDSmlZVGMzWTJSaE55MWtNakppTFRReVkySXRZakJoWVMwMk5ESmtNVGhrTTJJNU5UVWlMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJbUoyTVM1eGFtMHlMblZ6TG10bklpd05DaUFnSW5CaGRHZ2lPaUFpTHlJc0RRb2dJQ0owYkhNaU9pQWlJaXdOQ2lBZ0luTnVhU0k2SUNJaUxBMEtJQ0FpWVd4d2JpSTZJQ0lpTEEwS0lDQWlabkFpT2lBaUlnMEtmUT09DQp2bWVzczovL2V3MEtJQ0FpZGlJNklDSXlJaXdOQ2lBZ0luQnpJam9nSW5oc2Iyb3dOemR6WHpjaUxBMEtJQ0FpWVdSa0lqb2dJbUoyTVM1eGFtMHlMblZ6TG10bklpd05DaUFnSW5CdmNuUWlPaUFpTWpBNU5TSXNEUW9nSUNKcFpDSTZJQ0ppWVRjM1kyUmhOeTFrTWpKaUxUUXlZMkl0WWpCaFlTMDJOREprTVRoa00ySTVOVFVpTEEwS0lDQWlZV2xrSWpvZ0lqQWlMQTBLSUNBaWMyTjVJam9nSW1GMWRHOGlMQTBLSUNBaWJtVjBJam9nSW5keklpd05DaUFnSW5SNWNHVWlPaUFpYm05dVpTSXNEUW9nSUNKb2IzTjBJam9nSW1KMk1TNXhhbTB5TG5WekxtdG5JaXdOQ2lBZ0luQmhkR2dpT2lBaUx5SXNEUW9nSUNKMGJITWlPaUFpSWl3TkNpQWdJbk51YVNJNklDSWlMQTBLSUNBaVlXeHdiaUk2SUNJaUxBMEtJQ0FpWm5BaU9pQWlJZzBLZlE9PQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0ltUnliRFZ4ZFRneFh6RWlMQTBLSUNBaVlXUmtJam9nSW1Sak1TNXhhbTB4TG5WekxtdG5JaXdOQ2lBZ0luQnZjblFpT2lBaU9EQWlMQTBLSUNBaWFXUWlPaUFpWmpZMFpXVXlNMkl0WmpNMFl5MDBaams0TFdKa01tVXRNRFpqTldKa1lqSmtZbUUySWl3TkNpQWdJbUZwWkNJNklDSXdJaXdOQ2lBZ0luTmplU0k2SUNKaGRYUnZJaXdOQ2lBZ0ltNWxkQ0k2SUNKM2N5SXNEUW9nSUNKMGVYQmxJam9nSW01dmJtVWlMQTBLSUNBaWFHOXpkQ0k2SUNKa1l6RXVjV3B0TVM1MWN5NXJaeUlzRFFvZ0lDSndZWFJvSWpvZ0lpOGlMQTBLSUNBaWRHeHpJam9nSWlJc0RRb2dJQ0p6Ym1raU9pQWlJaXdOQ2lBZ0ltRnNjRzRpT2lBaUlpd05DaUFnSW1ad0lqb2dJaUlOQ24wPQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0ltUnliRFZ4ZFRneFh6SWlMQTBLSUNBaVlXUmtJam9nSW1Sak1TNXhhbTB4TG5WekxtdG5JaXdOQ2lBZ0luQnZjblFpT2lBaU9EQTRNQ0lzRFFvZ0lDSnBaQ0k2SUNKbU5qUmxaVEl6WWkxbU16UmpMVFJtT1RndFltUXlaUzB3Tm1NMVltUmlNbVJpWVRZaUxBMEtJQ0FpWVdsa0lqb2dJakFpTEEwS0lDQWljMk41SWpvZ0ltRjFkRzhpTEEwS0lDQWlibVYwSWpvZ0luZHpJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0ltUmpNUzV4YW0weExuVnpMbXRuSWl3TkNpQWdJbkJoZEdnaU9pQWlMeUlzRFFvZ0lDSjBiSE1pT2lBaUlpd05DaUFnSW5OdWFTSTZJQ0lpTEEwS0lDQWlZV3h3YmlJNklDSWlMQTBLSUNBaVpuQWlPaUFpSWcwS2ZRPT0NCnZtZXNzOi8vZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJbVJ5YkRWeGRUZ3hYek1pTEEwS0lDQWlZV1JrSWpvZ0ltUmpNUzV4YW0weExuVnpMbXRuSWl3TkNpQWdJbkJ2Y25RaU9pQWlPRGc0TUNJc0RRb2dJQ0pwWkNJNklDSm1OalJsWlRJellpMW1NelJqTFRSbU9UZ3RZbVF5WlMwd05tTTFZbVJpTW1SaVlUWWlMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJbVJqTVM1eGFtMHhMblZ6TG10bklpd05DaUFnSW5CaGRHZ2lPaUFpTHlJc0RRb2dJQ0owYkhNaU9pQWlJaXdOQ2lBZ0luTnVhU0k2SUNJaUxBMEtJQ0FpWVd4d2JpSTZJQ0lpTEEwS0lDQWlabkFpT2lBaUlnMEtmUT09DQp2bWVzczovL2V3MEtJQ0FpZGlJNklDSXlJaXdOQ2lBZ0luQnpJam9nSW1SeWJEVnhkVGd4WHpRaUxBMEtJQ0FpWVdSa0lqb2dJbVJqTVM1eGFtMHhMblZ6TG10bklpd05DaUFnSW5CdmNuUWlPaUFpTWpBMU1pSXNEUW9nSUNKcFpDSTZJQ0ptTmpSbFpUSXpZaTFtTXpSakxUUm1PVGd0WW1ReVpTMHdObU0xWW1SaU1tUmlZVFlpTEEwS0lDQWlZV2xrSWpvZ0lqQWlMQTBLSUNBaWMyTjVJam9nSW1GMWRHOGlMQTBLSUNBaWJtVjBJam9nSW5keklpd05DaUFnSW5SNWNHVWlPaUFpYm05dVpTSXNEUW9nSUNKb2IzTjBJam9nSW1Sak1TNXhhbTB4TG5WekxtdG5JaXdOQ2lBZ0luQmhkR2dpT2lBaUx5SXNEUW9nSUNKMGJITWlPaUFpSWl3TkNpQWdJbk51YVNJNklDSWlMQTBLSUNBaVlXeHdiaUk2SUNJaUxBMEtJQ0FpWm5BaU9pQWlJZzBLZlE9PQ0Kdm1lc3M6Ly9ldzBLSUNBaWRpSTZJQ0l5SWl3TkNpQWdJbkJ6SWpvZ0ltUnliRFZ4ZFRneFh6VWlMQTBLSUNBaVlXUmtJam9nSW1Sak1TNXhhbTB4TG5WekxtdG5JaXdOQ2lBZ0luQnZjblFpT2lBaU1qQTRNaUlzRFFvZ0lDSnBaQ0k2SUNKbU5qUmxaVEl6WWkxbU16UmpMVFJtT1RndFltUXlaUzB3Tm1NMVltUmlNbVJpWVRZaUxBMEtJQ0FpWVdsa0lqb2dJakFpTEEwS0lDQWljMk41SWpvZ0ltRjFkRzhpTEEwS0lDQWlibVYwSWpvZ0luZHpJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0ltUmpNUzV4YW0weExuVnpMbXRuSWl3TkNpQWdJbkJoZEdnaU9pQWlMeUlzRFFvZ0lDSjBiSE1pT2lBaUlpd05DaUFnSW5OdWFTSTZJQ0lpTEEwS0lDQWlZV3h3YmlJNklDSWlMQTBLSUNBaVpuQWlPaUFpSWcwS2ZRPT0NCnZtZXNzOi8vZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJbVJ5YkRWeGRUZ3hYellpTEEwS0lDQWlZV1JrSWpvZ0ltUmpNUzV4YW0weExuVnpMbXRuSWl3TkNpQWdJbkJ2Y25RaU9pQWlNakE0TmlJc0RRb2dJQ0pwWkNJNklDSm1OalJsWlRJellpMW1NelJqTFRSbU9UZ3RZbVF5WlMwd05tTTFZbVJpTW1SaVlUWWlMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJbVJqTVM1eGFtMHhMblZ6TG10bklpd05DaUFnSW5CaGRHZ2lPaUFpTHlJc0RRb2dJQ0owYkhNaU9pQWlJaXdOQ2lBZ0luTnVhU0k2SUNJaUxBMEtJQ0FpWVd4d2JpSTZJQ0lpTEEwS0lDQWlabkFpT2lBaUlnMEtmUT09DQp2bWVzczovL2V3MEtJQ0FpZGlJNklDSXlJaXdOQ2lBZ0luQnpJam9nSW1SeWJEVnhkVGd4WHpjaUxBMEtJQ0FpWVdSa0lqb2dJbVJqTVM1eGFtMHhMblZ6TG10bklpd05DaUFnSW5CdmNuUWlPaUFpTWpBNU5TSXNEUW9nSUNKcFpDSTZJQ0ptTmpSbFpUSXpZaTFtTXpSakxUUm1PVGd0WW1ReVpTMHdObU0xWW1SaU1tUmlZVFlpTEEwS0lDQWlZV2xrSWpvZ0lqQWlMQTBLSUNBaWMyTjVJam9nSW1GMWRHOGlMQTBLSUNBaWJtVjBJam9nSW5keklpd05DaUFnSW5SNWNHVWlPaUFpYm05dVpTSXNEUW9nSUNKb2IzTjBJam9nSW1Sak1TNXhhbTB4TG5WekxtdG5JaXdOQ2lBZ0luQmhkR2dpT2lBaUx5SXNEUW9nSUNKMGJITWlPaUFpSWl3TkNpQWdJbk51YVNJNklDSWlMQTBLSUNBaVlXeHdiaUk2SUNJaUxBMEtJQ0FpWm5BaU9pQWlJZzBLZlE9PQ0K
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:20123",
+      "external_ui": "",
+      "secret": "ID_xzkja3l1",
+      "external_ui_download_url": "",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": true,
+      "store_rdrc": false
+    }
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "domain_strategy": "ipv4_only",
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "🚀 节点选择",
+      "type": "selector",
+      "outbounds": [
+        "🎈 自动选择",
+        "xloj077s_1",
+        "xloj077s_2",
+        "xloj077s_3",
+        "xloj077s_4",
+        "xloj077s_5",
+        "xloj077s_6",
+        "xloj077s_7",
+        "drl5qu81_1",
+        "drl5qu81_2",
+        "drl5qu81_3",
+        "drl5qu81_4",
+        "drl5qu81_5",
+        "drl5qu81_6",
+        "drl5qu81_7"
+      ]
+    },
+    {
+      "tag": "🎈 自动选择",
+      "type": "urltest",
+      "outbounds": [
+        "xloj077s_1",
+        "xloj077s_2",
+        "xloj077s_3",
+        "xloj077s_4",
+        "xloj077s_5",
+        "xloj077s_6",
+        "xloj077s_7",
+        "drl5qu81_1",
+        "drl5qu81_2",
+        "drl5qu81_3",
+        "drl5qu81_4",
+        "drl5qu81_5",
+        "drl5qu81_6",
+        "drl5qu81_7"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "300s",
+      "tolerance": 150
+    },
+    {
+      "tag": "🎯 全球直连",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "block"
+      ]
+    },
+    {
+      "tag": "🛑 全球拦截",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "🐟 漏网之鱼",
+      "type": "selector",
+      "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连"
+      ]
+    },
+    {
+      "tag": "GLOBAL",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "block",
+        "🚀 节点选择",
+        "🎈 自动选择",
+        "🎯 全球直连",
+        "🛑 全球拦截",
+        "🐟 漏网之鱼"
+      ]
+    },
+    {
+      "tag": "xloj077s_1",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 80,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "xloj077s_2",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 8080,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "xloj077s_3",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 8880,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "xloj077s_4",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 2052,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "xloj077s_5",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 2082,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "xloj077s_6",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 2086,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "xloj077s_7",
+      "type": "vmess",
+      "server": "bv1.qjm2.us.kg",
+      "server_port": 2095,
+      "uuid": "ba77cda7-d22b-42cb-b0aa-642d18d3b955",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "bv1.qjm2.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_1",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 80,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_2",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 8080,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_3",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 8880,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_4",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 2052,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_5",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 2082,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_6",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 2086,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "tag": "drl5qu81_7",
+      "type": "vmess",
+      "server": "dc1.qjm1.us.kg",
+      "server_port": 2095,
+      "uuid": "f64ee23b-f34c-4f98-bd2e-06c5bdb2dba6",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "dc1.qjm1.us.kg"
+        },
+        "path": "/"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rule_set": [
+      {
+        "tag": "CATEGORY-ADS",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOIP-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOSITE-CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
+        "download_detour": "🎯 全球直连"
+      },
+      {
+        "tag": "GEOLOCATION-!CN",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "🎯 全球直连"
+      }
+    ],
+    "rules": [
+      {
+        "protocol": "dns",
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "GLOBAL"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "🛑 全球拦截"
+      },
+      {
+        "rule_set": "CATEGORY-ADS",
+        "outbound": "🛑 全球拦截"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOIP-CN",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOSITE-CN",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "rule_set": "GEOLOCATION-!CN",
+        "outbound": "🚀 节点选择"
+      }
+    ],
+    "final": "🐟 漏网之鱼",
+    "auto_detect_interface": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "remote-dns",
+        "address": "tls://8.8.8.8",
+        "address_resolver": "remote-resolver-dns",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "local-dns",
+        "address": "https://223.5.5.5/dns-query",
+        "address_resolver": "resolver-dns",
+        "detour": "🎯 全球直连"
+      },
+      {
+        "tag": "resolver-dns",
+        "address": "223.5.5.5",
+        "detour": "🎯 全球直连"
+      },
+      {
+        "tag": "remote-resolver-dns",
+        "address": "8.8.8.8",
+        "detour": "🚀 节点选择"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      }
+    ],
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "rules": [
+      {
+        "outbound": "any",
+        "disable_cache": true,
+        "server": "local-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "local-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "remote-dns"
+      },
+      {
+        "rule_set": "GEOSITE-CN",
+        "server": "local-dns"
+      },
+      {
+        "rule_set": "GEOLOCATION-!CN",
+        "server": "remote-dns"
+      }
+    ],
+    "fakeip": {
+      "enabled": false,
+      "inet4_range": "198.18.0.1/16",
+      "inet6_range": "fc00::/18"
+    },
+    "final": "remote-dns",
+    "strategy": "ipv4_only"
+  }
+}
