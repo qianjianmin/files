@@ -62,7 +62,7 @@ use: &use
   type: url-test
   use:
     - 订阅一
-    #- 订阅二
+    # - 订阅二
     # - 本地配置
 
 # 订阅链接
@@ -74,10 +74,10 @@ proxy-providers:
     # path: ./proxy_provider/订阅一.yaml
     url: "https://vless2.jianmin.eu.org/808279c2-ebc6-42c3-9cf0-1fb83c47649f"
 
-  #订阅二:
-    #<<: *p
-    # path: ./proxy_provider/订阅二.yaml
-    #url: "***"
+# 订阅二:
+  # <<: *p
+   # path: ./proxy_provider/订阅二.yaml
+    # url: "***"
 
   # 本地配置:
     # <<: *p
