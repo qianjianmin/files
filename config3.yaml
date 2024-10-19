@@ -75,7 +75,7 @@ proxy-providers:
     url: "https://bpb.qjm3.us.kg/sub/5ae796e0-9db9-431f-aa2b-a8ed8e54c613"
 
 # 订阅二:
-    #<<: *p
+    # <<: *p
     # path: ./proxy_provider/订阅二.yaml
     # url: "***"
 
