@@ -62,7 +62,7 @@ use: &use
   type: url-test
   use:
     - 订阅一
-    #- 订阅二
+    # - 订阅二
     # - 本地配置
 
 # 订阅链接
@@ -74,10 +74,10 @@ proxy-providers:
     # path: ./proxy_provider/订阅一.yaml
     url: "https://bpb.qjm3.us.kg/sub/5ae796e0-9db9-431f-aa2b-a8ed8e54c613"
 
-  #订阅二:
+# 订阅二:
     #<<: *p
     # path: ./proxy_provider/订阅二.yaml
-    #url: "***"
+    # url: "***"
 
   # 本地配置:
     # <<: *p
