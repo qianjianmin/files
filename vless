@@ -1,2 +1,4 @@
 vless://6521ef15-ba59-45ee-a6ad-4be2ba5817a8@bv1.qjm2.us.kg:8880?encryption=none&security=none&type=ws&host=bv1.qjm2.us.kg&path=%2F%3Fed%3D2560#bv1.qjm2.us.kg
 vless://a67d179a-5fdc-4fc2-acef-81b84a80a0c8@dc1.qjm1.us.kg:8880?encryption=none&security=none&type=ws&host=dc1.qjm1.us.kg&path=%2F%3Fed%3D2560#dc1.qjm1.us.kg
+vless://a67d179a-5fdc-4fc2-acef-81b84a80a0c8@cfn.qjm3.us.kg:443?encryption=none&security=tls&sni=dc1.qjm1.us.kg&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=dc1.qjm1.us.kg&path=%2F%3Fed%3D2560#VLESS_01
+vless://6521ef15-ba59-45ee-a6ad-4be2ba5817a8@cfn.qjm3.us.kg:443?encryption=none&security=tls&sni=bv1.qjm2.us.kg&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=bv1.qjm2.us.kg&path=%2F%3Fed%3D2560#VLESS_02
