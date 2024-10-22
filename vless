@@ -1,5 +1,5 @@
 vless://6521ef15-ba59-45ee-a6ad-4be2ba5817a8@bv1.qjm2.us.kg:443?encryption=none&security=tls&sni=bv1.qjm2.us.kg&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=bv1.qjm2.us.kg&path=%2F%3Fed%3D2560#SG1
-vless://a67d179a-5fdc-4fc2-acef-81b84a80a0c8@dc1.qjm1.us.kg?encryption=none&security=tls&sni=dc1.qjm1.us.kg&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=dc1.qjm1.us.kg&path=%2F%3Fed%3D2560#SG2
+vless://a67d179a-5fdc-4fc2-acef-81b84a80a0c8@dc1.qjm1.us.kg:443?encryption=none&security=tls&sni=dc1.qjm1.us.kg&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=dc1.qjm1.us.kg&path=%2F%3Fed%3D2560#SG2
 vless://ffec741a-3d6c-464b-90b7-af8ca197b16a@104.16.244.190:443?encryption=none&security=tls&sni=vless1.jianmin.eu.org&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=vless1.jianmin.eu.org&path=%2F%3Fed%3D2560#vless1%7CUS1
 vless://ffec741a-3d6c-464b-90b7-af8ca197b16a@104.17.203.150:443?encryption=none&security=tls&sni=vless1.jianmin.eu.org&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=vless1.jianmin.eu.org&path=%2F%3Fed%3D2560#vless1%7CUS2
 vless://ffec741a-3d6c-464b-90b7-af8ca197b16a@104.17.70.23:443?encryption=none&security=tls&sni=vless1.jianmin.eu.org&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random&type=ws&host=vless1.jianmin.eu.org&path=%2F%3Fed%3D2560#vless1%7CUS3
