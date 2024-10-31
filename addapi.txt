@@ -12,7 +12,6 @@ malaysia.com:443#US
 russia.com:443#US
 singapore.com:443#US
 skk.moe:443#US
-time.cloudflare.com:443#US
 time.is:443#US
 whatismyipaddress.com:443#US
 www.4chan.org:443#US
