@@ -1,4 +1,5 @@
-127.0.0.1:1234#aliyun_cfnat
+192.168.194.159:1234#aliyun_cfnat
+192.168.50.128:1234#aliyun_cfnat
 188.114.96.151:443#aliyun
 104.16.48.236:443#aliyun
 104.16.41.73:443#aliyun
@@ -19,7 +20,8 @@
 104.24.39.12:443#aliyun
 104.16.28.72:443#aliyun
 104.24.41.142:443#aliyun
-127.0.0.1:1234#digitalocean_cfnat
+192.168.194.159:1234#digitalocean_cfnat
+192.168.50.128:1234#digitalocean_cfnat
 188.114.96.151:443#digitalocean
 104.16.48.236:443#digitalocean
 104.16.41.73:443#digitalocean
@@ -40,7 +42,8 @@
 104.24.39.12:443#digitalocean
 104.16.28.72:443#digitalocean
 104.24.41.142:443#digitalocean
-127.0.0.1:1234#oracle_cfnat
+192.168.194.159:1234#oracle_cfnat
+192.168.50.128:1234#oracle_cfnat
 188.114.96.151:443#oracle
 104.16.48.236:443#oracle
 104.16.41.73:443#oracle
