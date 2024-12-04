@@ -1,6 +1,6 @@
 100.118.253.7:1234#US_bpb_1
 192.168.50.128:1234#US_bpb_2
-www.visa.com:443#US_bpb_3
+whatismyipaddress.com:443#US_bpb_3
 100.118.253.7:1234#US_ni_1
 192.168.50.128:1234#US_ni_2
-www.visa.com:443#US_ni_3
+whatismyipaddress.com:443#US_ni_3
